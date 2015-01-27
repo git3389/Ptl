@@ -1,0 +1,442 @@
+#include "common.h"
+#include "ptlpack.h"
+#include "client.h"
+
+//global
+struct sockaddr_in server_addr;
+int vpdCount;
+int baseCount;
+
+//static
+static void SndTimer(evutil_socket_t fd,short evs_flags,void *arg);
+static void sig_cb(evutil_socket_t fd,short evs_flags,void *arg);
+
+void sysinit(char *argv[])
+{
+
+	int evrs = 0;
+	struct event_base *main_base;
+	struct event evsig;
+	struct timeval tv = {2,0};
+	pid_t pid;
+	vpdCount = 1;
+	baseCount = (THREAD_MAX % 100)?((THREAD_MAX/100) + 1):(THREAD_MAX/100);
+	vLogErr("total base count %d \n",baseCount);
+	//1 创建请求地址结构
+	memset(&server_addr,0x00,sizeof server_addr);
+	server_addr.sin_family = AF_INET;
+	server_addr.sin_port = htons(atoi(argv[2]));
+	server_addr.sin_addr.s_addr = inet_addr(argv[1]);
+
+	//2 创建event_base事件集合
+	main_base = event_base_new();
+	if(main_base == NULL)
+	{
+		vLogErr("创建main_base集合出错!\n");
+		return;
+	}
+#if 0
+	//启动一个定时器
+	if(evtimer_assign(&timeout,base,evtimer_cb1,&timeout) < 0)
+	{
+		vLogErr(EL_ERR,"定时器事件分配失败!\n");
+		event_base_free(base);
+	}
+	if(event_add(&timeout,&tv) < 0)
+	{
+		vLogErr(EL_ERR,"定时器启动失败!\n");
+		event_base_free(base);
+	}
+#endif
+	if(evsignal_assign(&evsig,main_base,SIGUSR1,sig_cb,NULL) < 0)
+	{
+		vLogErr("信号事件分配失败!\n");
+		event_base_free(main_base);
+	}
+	evsignal_add(&evsig,NULL);
+	pid = fork();
+	if(pid == 0)
+	{
+		baseCount--;
+		createbase();
+	}
+	else if(pid < 0)
+	{
+		vLogErr("create sub process error!");
+		event_base_free(main_base);
+		return;
+	}
+	else
+	{
+		//4 事件处理循环
+		evrs = event_base_dispatch(main_base);
+		if(evrs == -1)
+		{
+			event_base_free(main_base);
+			vLogErr("事件循环退出异常!\n");
+			return;
+		}
+		vLogErr("所有事件处理完成!\n");
+		//5 释放资源
+		event_base_free(main_base);
+		vLogErr("资源释放完成\n");
+	}
+}
+void createbase()
+{
+	struct event_base *base;  
+	struct event timeout;
+	struct timeval tv = {2,0};
+	int evrs;
+	base = event_base_new();
+	if(base == NULL)
+	{
+		vLogErr("创建base集合出错!\n");
+		return;
+	}
+	//启动一个定时器
+	if(evtimer_assign(&timeout,base,evtimer_cb1,&timeout) < 0)
+	{
+		vLogErr("定时器事件分配失败!\n");
+		event_base_free(base);
+	}
+	if(event_add(&timeout,&tv) < 0)
+	{
+		vLogErr("定时器启动失败!\n");
+		event_base_free(base);
+	}
+	//4 事件处理循环
+	evrs = event_base_dispatch(base);
+	if(evrs == -1)
+	{
+		event_base_free(base);
+		vLogErr("事件循环退出异常!\n");
+		return;
+	}
+	vLogErr("所有事件处理完成!\n");
+	//5 释放资源
+	event_base_free(base);
+	vLogErr("资源释放完成\n");
+}
+
+/**
+ *  ################################################
+ *
+ *  Fun:
+ *
+ *  Author:
+ *
+ *  Date: Tue Dec  9 14:52:01 CST 2014
+ *
+ *  Purpose:
+ *          client event init
+ *
+ *  Params: 
+ *			argv - ip and port
+ *  Return:
+ *
+ *  ###################################################
+ */
+void evclient(struct event_base *base)
+{
+	int evrs;
+	pthread_t sndid;
+	PtlDef *strPtlDef;
+	struct event *strSndTimer;
+	struct timeval tvSnd = {2,0};
+	//struct event evSndMsgTimer;
+	//1 创建bufferevent
+	
+	struct bufferevent *bev;
+	bev = bufferevent_socket_new(base,-1,BEV_OPT_CLOSE_ON_FREE);
+	if(bev == NULL)
+	{
+		perror("bufferevent_socket_new error!!!\n");
+		return;
+	}
+	
+	//2 向服务器发起连接
+	
+	evrs = bufferevent_socket_connect(bev,(struct sockaddr *)&server_addr,sizeof server_addr);
+	if(evrs == -1)
+	{
+		bufferevent_free(bev);
+		vLogErr("connect error!\n");
+		return;
+	}
+
+	//3 设置回调	
+	bufferevent_setcb(bev,read_cb,write_cb,event_cb,(void *)base);
+	bufferevent_enable(bev,EV_READ|EV_WRITE);
+	strPtlDef = (PtlDef *)malloc(sizeof(PtlDef));
+	if(strPtlDef == NULL)
+	{
+		bufferevent_free(bev);
+		vLogErr("ptl def malloc error\n");
+		return;
+	}
+	strPtlDef->bev = bev;
+	strPtlDef->sndTimer = strSndTimer;
+	strPtlDef->nSndCount = 10;
+	//4 创建消息发送定时器
+#if 0
+	if(evtimer_assign(&strSndTimer,base,SndTimer,strPtlDef) < 0)
+	{
+		bufferevent_free(bev);
+		vLogErr(EL_ERR,"sndTimer assign error!\n");
+		return;
+	}
+#endif	
+	strSndTimer = evtimer_new(base,SndTimer,strPtlDef);
+	if(strSndTimer == NULL)
+	{
+		bufferevent_free(bev);
+		vLogErr("sndtimer new error!\n");
+		free(strPtlDef);
+		return;
+	}
+	evtimer_add(strSndTimer,&tvSnd);
+#if 0
+	//4 创建write线程	
+	pthread_attr_t strSubAttr;
+	pthread_attr_init(&strSubAttr);
+	pthread_attr_setdetachstate(&strSubAttr,PTHREAD_CREATE_DETACHED);
+	if(pthread_create(&sndid,&strSubAttr,send_msg,(void*)bev) != 0)
+	{
+		vLogErr(EL_ERR,"create send msg thread error!\n");
+		bufferevent_free(bev);
+		pthread_attr_destroy(&strSubAttr);
+		return;
+	}
+	pthread_attr_destroy(&strSubAttr);
+#endif
+}
+
+/**
+ *  ################################################
+ *
+ *  Fun:
+ *
+ *  Author:
+ *
+ *  Date: Tue Dec  9 14:52:42 CST 2014
+ *
+ *  Purpose:
+ *			read callback funtion
+ *
+ *  Params:
+ *
+ *  Return:
+ *
+ *  ###################################################
+ */
+void read_cb(struct bufferevent *bev, void *ctx)
+{
+	struct evbuffer *input = bufferevent_get_input(bev);
+	char buf[1024];
+	size_t len = 0;
+	//为读事件加锁
+	
+	//从输入缓冲区中读取数据
+	memset(buf,0x00,sizeof buf);
+	if(evbuffer_remove(input,buf,4) < 0)
+	{
+		vLogErr("read from input error!\n");
+		return;
+	}
+
+	len = atoi(buf);
+
+	if(len <= 0)
+	{
+		vLogErr("read from input len error!\n");
+		return;
+	}
+	memset(buf,0x00,sizeof buf);
+	evbuffer_remove(input,buf,len);
+//	vLogErr(EL_DEBUG,"recv msg: [%s]\n",buf);
+
+}
+
+/**
+ *  ################################################
+ *
+ *  Fun:
+ *
+ *  Author:
+ *
+ *  Date: Tue Dec  9 14:52:47 CST 2014
+ *
+ *  Purpose:
+ *
+ *
+ *  Params:
+ *
+ *  Return:
+ *
+ *  ###################################################
+ */
+void write_cb(struct bufferevent *bev, void *ctx)
+{
+}
+
+
+/**
+ *  ################################################
+ *
+ *  Fun:
+ *
+ *  Author:
+ *
+ *  Date: Tue Dec  9 14:52:54 CST 2014
+ *
+ *  Purpose:
+ *
+ *
+ *  Params:
+ *
+ *  Return:
+ *
+ *  ###################################################
+ */
+void event_cb(struct bufferevent *bev,short events, void *ctx)
+{
+	if(events & BEV_EVENT_CONNECTED)
+	{
+		vLogErr("connected!\n");
+	}
+	else
+	{
+		if(events & BEV_EVENT_READING )
+		{
+			vLogErr("reading error!\n");
+		}
+		else if(events & BEV_EVENT_WRITING)
+		{
+			vLogErr("writing error!\n");
+		}
+		else if(events & BEV_EVENT_EOF)
+		{
+			vLogErr("eof file!\n");
+		}
+		else if(events & BEV_EVENT_TIMEOUT)
+		{
+			vLogErr("timeout!\n");
+		}
+		else if(events & BEV_EVENT_ERROR)
+		{
+			vLogErr("error!\n");
+		}
+	}
+}
+
+void *send_msg(void *arg)
+{
+	struct bufferevent *sndbev = (struct bufferevent *)arg;
+	int num = 0;
+	int i = 0;
+	MsgBagInf *pMsgBag = NULL;
+	pMsgBag = nMsgPack(SEND_MSG);
+	if(pMsgBag == NULL)
+	{
+		vLogErr("pack error!\n");
+		bufferevent_disable(sndbev,EV_READ|EV_WRITE);
+		bufferevent_free(sndbev);
+		return;
+	}
+	while(1)
+	{
+		if(i>= 10)
+		{
+			break;
+		}
+	//	vLogErr(EL_DEBUG,"snd msg [%s len:%d len1:%d]\n",
+	//					pMsgBag->msg,
+	//					pMsgBag->len,
+	//					strlen(pMsgBag->msg));
+		if(bufferevent_write(sndbev,
+			(void *)(pMsgBag->msg),pMsgBag->len + 4) < 0)
+		{
+			vLogErr("send error!\n");
+		}
+		i++;
+//		sleep(1);
+	}
+	bufferevent_disable(sndbev,EV_READ|EV_WRITE);
+	bufferevent_free(sndbev);
+	nMsgPackFree(pMsgBag);
+	vLogErr("request filish\n");
+}
+
+static void SndTimer(evutil_socket_t fd,short evs_flags,void *arg)
+{
+	vLogErr("snd timer called\n");
+	PtlDef *pPtlDef = arg;
+	struct timeval tvSnd = {1,0};
+	struct event *strSndTimer;
+	struct event_base *base = bufferevent_get_base(pPtlDef->bev);
+	//pack msg
+	MsgBagInf *pMsgBag = NULL;
+	pMsgBag = nMsgPack(SEND_MSG);
+	if(pMsgBag == NULL)
+	{
+		vLogErr("pack error!\n");
+		return;
+	}
+	if(pPtlDef->nSndCount <= 0)
+	{
+		bufferevent_disable(pPtlDef->bev,EV_READ|EV_WRITE);
+		bufferevent_free(pPtlDef->bev);
+		free(pPtlDef);
+		return;	
+	}
+	if(bufferevent_write(pPtlDef->bev,
+		(void *)(pMsgBag->msg),pMsgBag->len + 4) < 0)
+	{
+		vLogErr("send error!\n");
+	}
+	pPtlDef->nSndCount--;
+	nMsgPackFree(pMsgBag);
+	vLogErr("send %d conut!\n",pPtlDef->nSndCount);
+	strSndTimer = evtimer_new(base,SndTimer,pPtlDef);
+	event_add(strSndTimer,&tvSnd);
+}
+
+void evtimer_cb1(evutil_socket_t fd,short evs_flags,void *arg)
+{
+	struct event *timeout = (struct event *)arg;
+	struct timeval sec = {1,0};
+	if(vpdCount > 1000)
+	{
+		kill(getppid(),SIGUSR1);
+		return;
+	}
+	else
+	{
+		//创建虚拟平台设备
+		vLogErr("create %d vpd!\n",vpdCount);	
+		evclient(event_get_base(timeout));
+		vpdCount++;
+	}
+	event_add(timeout,&sec);		
+}
+static void sig_cb(evutil_socket_t fd,short evs_flags,void *arg)
+{
+	if(baseCount <= 0)
+	{
+		vLogErr("create base filish");
+		return;
+	}
+	pid_t pid = fork();
+	if(pid == 0)
+	{
+		vLogErr("creat base %d count\n",baseCount);
+		createbase();
+	}
+	else if(pid < 0)
+	{
+		vLogErr("create sub process error!\n");
+		return;
+	}
+	baseCount--;
+}

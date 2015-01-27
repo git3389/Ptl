@@ -1,0 +1,1670 @@
+[20150127021352] [13365] [ptlipc.c] [130] [_tShmInit] info:Initial main shm ...
+[20150127021352] [13365] [ptlipc.c] [143] [_tShmInit] info:shmat main shm ...
+[20150127021352] [13365] [ptlipc.c] [152] [_tShmInit] info:Initial shm success!
+[20150127021352] [13365] [ptlipc.c] [154] [_tShmInit] info:Get config value ...
+[20150127021352] [13365] [ptlipc.c] [161] [_tShmInit] info:TestConfigName[/home/yl/toolapp/etc/test.json]!
+[20150127021352] [13365] [ptlipc.c] [167] [_tShmInit] info:BaseMaxNum[100000]!
+[20150127021352] [13365] [ptlipc.c] [173] [_tShmInit] info:PhyNum[3000]!
+[20150127021352] [13365] [ptlipc.c] [179] [_tShmInit] info:TermNum[4000]!
+[20150127021352] [13365] [ptlipc.c] [185] [_tShmInit] info:LogicNum[3000]!
+[20150127021352] [13365] [ptlipc.c] [199] [_tShmInit] info:BaseCount[1]!
+[20150127021352] [13365] [ptlipc.c] [201] [_tShmInit] info:Initial msgtype shm....
+[20150127021352] [13365] [ptlipc.c] [217] [_tShmInit] info:Initial base shm....
+[20150127021352] [13365] [ptlipc.c] [232] [_tShmInit] info:Initial all shm filish
+[20150127021352] [13365] [ptlipc.c] [379] [_tSemInit] info:Initial msg sem ...
+[20150127021352] [13365] [ptlipc.c] [400] [_tSemInit] info:Initial base sem ...
+[20150127021352] [13365] [ptlipc.c] [421] [_tSemInit] info:Initial boot sem ...
+[20150127021352] [13365] [ptlipc.c] [442] [_tSemInit] info:Initial all sem filish!
+[20150127021352] [13365] [ptlcm.c] [122] [nLoadParam] info:服务器的ip地址: [172.16.80.109]
+[20150127021352] [13365] [ptlcm.c] [135] [nLoadParam] info:服务器的监听端口: [1727] 
+[20150127021352] [13365] [ptlcm.c] [142] [nLoadParam] info:虚拟终端数: [4000] 
+[20150127021352] [13365] [ptlcm.c] [154] [nLoadParam] info:虚拟物理服务器数: [3000] 
+[20150127021352] [13365] [ptlcm.c] [160] [nLoadParam] info:虚拟逻辑服务器数: [3000] 
+[20150127021352] [13365] [ptlcm.c] [182] [nLoadParam] info:测试时间: [5.0000h] 
+[20150127021352] [13365] [ptlcm.c] [191] [nLoadParam] info:生成连接的间隔时间: [20000s] 
+[20150127021352] [13365] [ptlcm.c] [319] [nMsgInit] info:Test Msg conut is :[4]
+[20150127021352] [13365] [ptlcm.c] [320] [nMsgInit] info:To Test msg add callback fun!!!
+[20150127021352] [13365] [ptlgen.c] [1088] [MsgTimerCBInit] info:msg [3] cb is f7de96a3
+[20150127021352] [13365] [ptlgen.c] [1096] [MsgTimerCBInit] info:msg [15] cb is f7de9bc0
+[20150127021352] [13365] [ptlgen.c] [1092] [MsgTimerCBInit] info:msg [9] cb is f7de9abb
+[20150127021604] [13526] [ptlipc.c] [130] [_tShmInit] info:Initial main shm ...
+[20150127021604] [13526] [ptlipc.c] [143] [_tShmInit] info:shmat main shm ...
+[20150127021604] [13526] [ptlipc.c] [152] [_tShmInit] info:Initial shm success!
+[20150127021604] [13526] [ptlipc.c] [154] [_tShmInit] info:Get config value ...
+[20150127021604] [13526] [ptlipc.c] [161] [_tShmInit] info:TestConfigName[/home/yl/toolapp/etc/test.json]!
+[20150127021604] [13526] [ptlipc.c] [167] [_tShmInit] info:BaseMaxNum[100000]!
+[20150127021604] [13526] [ptlipc.c] [173] [_tShmInit] info:PhyNum[3000]!
+[20150127021604] [13526] [ptlipc.c] [179] [_tShmInit] info:TermNum[4000]!
+[20150127021604] [13526] [ptlipc.c] [185] [_tShmInit] info:LogicNum[3000]!
+[20150127021604] [13526] [ptlipc.c] [199] [_tShmInit] info:BaseCount[1]!
+[20150127021604] [13526] [ptlipc.c] [201] [_tShmInit] info:Initial msgtype shm....
+[20150127021604] [13526] [ptlipc.c] [217] [_tShmInit] info:Initial base shm....
+[20150127021604] [13526] [ptlipc.c] [232] [_tShmInit] info:Initial all shm filish
+[20150127021604] [13526] [ptlipc.c] [379] [_tSemInit] info:Initial msg sem ...
+[20150127021604] [13526] [ptlipc.c] [400] [_tSemInit] info:Initial base sem ...
+[20150127021604] [13526] [ptlipc.c] [421] [_tSemInit] info:Initial boot sem ...
+[20150127021604] [13526] [ptlipc.c] [442] [_tSemInit] info:Initial all sem filish!
+[20150127021604] [13526] [ptlcm.c] [122] [nLoadParam] info:服务器的ip地址: [172.16.80.109]
+[20150127021604] [13526] [ptlcm.c] [135] [nLoadParam] info:服务器的监听端口: [1727] 
+[20150127021604] [13526] [ptlcm.c] [142] [nLoadParam] info:虚拟终端数: [4000] 
+[20150127021604] [13526] [ptlcm.c] [154] [nLoadParam] info:虚拟物理服务器数: [3000] 
+[20150127021604] [13526] [ptlcm.c] [160] [nLoadParam] info:虚拟逻辑服务器数: [3000] 
+[20150127021604] [13526] [ptlcm.c] [182] [nLoadParam] info:测试时间: [5.0000h] 
+[20150127021604] [13526] [ptlcm.c] [191] [nLoadParam] info:生成连接的间隔时间: [20000s] 
+[20150127021604] [13526] [ptlcm.c] [319] [nMsgInit] info:Test Msg conut is :[4]
+[20150127021604] [13526] [ptlcm.c] [320] [nMsgInit] info:To Test msg add callback fun!!!
+[20150127021604] [13526] [ptlgen.c] [1088] [MsgTimerCBInit] info:msg [3] cb is f7de96a3
+[20150127021604] [13526] [ptlgen.c] [1096] [MsgTimerCBInit] info:msg [15] cb is f7de9bc0
+[20150127021604] [13526] [ptlgen.c] [1092] [MsgTimerCBInit] info:msg [9] cb is f7de9abb
+[20150127021757] [13669] [ptlipc.c] [130] [_tShmInit] info:Initial main shm ...
+[20150127021757] [13669] [ptlipc.c] [143] [_tShmInit] info:shmat main shm ...
+[20150127021757] [13669] [ptlipc.c] [152] [_tShmInit] info:Initial shm success!
+[20150127021757] [13669] [ptlipc.c] [154] [_tShmInit] info:Get config value ...
+[20150127021757] [13669] [ptlipc.c] [161] [_tShmInit] info:TestConfigName[/home/yl/toolapp/etc/test.json]!
+[20150127021757] [13669] [ptlipc.c] [167] [_tShmInit] info:BaseMaxNum[100000]!
+[20150127021757] [13669] [ptlipc.c] [173] [_tShmInit] info:PhyNum[3000]!
+[20150127021757] [13669] [ptlipc.c] [179] [_tShmInit] info:TermNum[4000]!
+[20150127021757] [13669] [ptlipc.c] [185] [_tShmInit] info:LogicNum[3000]!
+[20150127021757] [13669] [ptlipc.c] [199] [_tShmInit] info:BaseCount[1]!
+[20150127021757] [13669] [ptlipc.c] [201] [_tShmInit] info:Initial msgtype shm....
+[20150127021757] [13669] [ptlipc.c] [217] [_tShmInit] info:Initial base shm....
+[20150127021757] [13669] [ptlipc.c] [232] [_tShmInit] info:Initial all shm filish
+[20150127021757] [13669] [ptlipc.c] [379] [_tSemInit] info:Initial msg sem ...
+[20150127021757] [13669] [ptlipc.c] [400] [_tSemInit] info:Initial base sem ...
+[20150127021757] [13669] [ptlipc.c] [421] [_tSemInit] info:Initial boot sem ...
+[20150127021757] [13669] [ptlipc.c] [442] [_tSemInit] info:Initial all sem filish!
+[20150127021757] [13669] [ptlcm.c] [122] [nLoadParam] info:服务器的ip地址: [172.16.80.109]
+[20150127021757] [13669] [ptlcm.c] [135] [nLoadParam] info:服务器的监听端口: [1727] 
+[20150127021757] [13669] [ptlcm.c] [142] [nLoadParam] info:虚拟终端数: [4000] 
+[20150127021757] [13669] [ptlcm.c] [154] [nLoadParam] info:虚拟物理服务器数: [3000] 
+[20150127021757] [13669] [ptlcm.c] [160] [nLoadParam] info:虚拟逻辑服务器数: [3000] 
+[20150127021757] [13669] [ptlcm.c] [182] [nLoadParam] info:测试时间: [5.0000h] 
+[20150127021757] [13669] [ptlcm.c] [191] [nLoadParam] info:生成连接的间隔时间: [20000s] 
+[20150127021757] [13669] [ptlcm.c] [319] [nMsgInit] info:Test Msg conut is :[4]
+[20150127021757] [13669] [ptlcm.c] [320] [nMsgInit] info:To Test msg add callback fun!!!
+[20150127021757] [13669] [ptlgen.c] [1088] [MsgTimerCBInit] info:msg [3] cb is 552036a3
+[20150127021757] [13669] [ptlgen.c] [1096] [MsgTimerCBInit] info:msg [15] cb is 55203bc0
+[20150127021757] [13669] [ptlgen.c] [1092] [MsgTimerCBInit] info:msg [9] cb is 55203abb
+[20150127021757] [13669] [ptlipc.c] [479] [_tSemRm] info:remove all sem filish!
+[20150127021757] [13669] [ptlipc.c] [274] [_tShmRm] info:remove all shm success!
+[20150127021903] [13718] [ptlipc.c] [130] [_tShmInit] info:Initial main shm ...
+[20150127021903] [13718] [ptlipc.c] [143] [_tShmInit] info:shmat main shm ...
+[20150127021903] [13718] [ptlipc.c] [152] [_tShmInit] info:Initial shm success!
+[20150127021903] [13718] [ptlipc.c] [154] [_tShmInit] info:Get config value ...
+[20150127021903] [13718] [ptlipc.c] [161] [_tShmInit] info:TestConfigName[/home/yl/toolapp/etc/test.json]!
+[20150127021903] [13718] [ptlipc.c] [167] [_tShmInit] info:BaseMaxNum[100000]!
+[20150127021903] [13718] [ptlipc.c] [173] [_tShmInit] info:PhyNum[3000]!
+[20150127021903] [13718] [ptlipc.c] [179] [_tShmInit] info:TermNum[4000]!
+[20150127021903] [13718] [ptlipc.c] [185] [_tShmInit] info:LogicNum[3000]!
+[20150127021903] [13718] [ptlipc.c] [199] [_tShmInit] info:BaseCount[1]!
+[20150127021903] [13718] [ptlipc.c] [201] [_tShmInit] info:Initial msgtype shm....
+[20150127021903] [13718] [ptlipc.c] [217] [_tShmInit] info:Initial base shm....
+[20150127021903] [13718] [ptlipc.c] [232] [_tShmInit] info:Initial all shm filish
+[20150127021903] [13718] [ptlipc.c] [379] [_tSemInit] info:Initial msg sem ...
+[20150127021903] [13718] [ptlipc.c] [400] [_tSemInit] info:Initial base sem ...
+[20150127021903] [13718] [ptlipc.c] [421] [_tSemInit] info:Initial boot sem ...
+[20150127021903] [13718] [ptlipc.c] [442] [_tSemInit] info:Initial all sem filish!
+[20150127021903] [13718] [ptlcm.c] [122] [nLoadParam] info:服务器的ip地址: [172.16.80.109]
+[20150127021903] [13718] [ptlcm.c] [135] [nLoadParam] info:服务器的监听端口: [1727] 
+[20150127021903] [13718] [ptlcm.c] [142] [nLoadParam] info:虚拟终端数: [4000] 
+[20150127021903] [13718] [ptlcm.c] [154] [nLoadParam] info:虚拟物理服务器数: [3000] 
+[20150127021903] [13718] [ptlcm.c] [160] [nLoadParam] info:虚拟逻辑服务器数: [3000] 
+[20150127021903] [13718] [ptlcm.c] [182] [nLoadParam] info:测试时间: [5.0000h] 
+[20150127021903] [13718] [ptlcm.c] [191] [nLoadParam] info:生成连接的间隔时间: [20000s] 
+[20150127021903] [13718] [ptlcm.c] [319] [nMsgInit] info:Test Msg conut is :[4]
+[20150127021903] [13718] [ptlcm.c] [320] [nMsgInit] info:To Test msg add callback fun!!!
+[20150127021903] [13718] [ptlgen.c] [1088] [MsgTimerCBInit] info:msg [3] cb is ee06d6a3
+[20150127021903] [13718] [ptlgen.c] [1096] [MsgTimerCBInit] info:msg [15] cb is ee06dbc0
+[20150127021903] [13718] [ptlgen.c] [1092] [MsgTimerCBInit] info:msg [9] cb is ee06dabb
+[20150127021903] [13718] [ptlipc.c] [479] [_tSemRm] info:remove all sem filish!
+[20150127021903] [13718] [ptlipc.c] [274] [_tShmRm] info:remove all shm success!
+[20150127021904] [13719] [ptlipc.c] [130] [_tShmInit] info:Initial main shm ...
+[20150127021904] [13719] [ptlipc.c] [143] [_tShmInit] info:shmat main shm ...
+[20150127021904] [13719] [ptlipc.c] [152] [_tShmInit] info:Initial shm success!
+[20150127021904] [13719] [ptlipc.c] [154] [_tShmInit] info:Get config value ...
+[20150127021904] [13719] [ptlipc.c] [161] [_tShmInit] info:TestConfigName[/home/yl/toolapp/etc/test.json]!
+[20150127021904] [13719] [ptlipc.c] [167] [_tShmInit] info:BaseMaxNum[100000]!
+[20150127021904] [13719] [ptlipc.c] [173] [_tShmInit] info:PhyNum[3000]!
+[20150127021904] [13719] [ptlipc.c] [179] [_tShmInit] info:TermNum[4000]!
+[20150127021904] [13719] [ptlipc.c] [185] [_tShmInit] info:LogicNum[3000]!
+[20150127021904] [13719] [ptlipc.c] [199] [_tShmInit] info:BaseCount[1]!
+[20150127021904] [13719] [ptlipc.c] [201] [_tShmInit] info:Initial msgtype shm....
+[20150127021904] [13719] [ptlipc.c] [217] [_tShmInit] info:Initial base shm....
+[20150127021904] [13719] [ptlipc.c] [232] [_tShmInit] info:Initial all shm filish
+[20150127021904] [13719] [ptlipc.c] [379] [_tSemInit] info:Initial msg sem ...
+[20150127021904] [13719] [ptlipc.c] [400] [_tSemInit] info:Initial base sem ...
+[20150127021904] [13719] [ptlipc.c] [421] [_tSemInit] info:Initial boot sem ...
+[20150127021904] [13719] [ptlipc.c] [442] [_tSemInit] info:Initial all sem filish!
+[20150127021904] [13719] [ptlcm.c] [122] [nLoadParam] info:服务器的ip地址: [172.16.80.109]
+[20150127021904] [13719] [ptlcm.c] [135] [nLoadParam] info:服务器的监听端口: [1727] 
+[20150127021904] [13719] [ptlcm.c] [142] [nLoadParam] info:虚拟终端数: [4000] 
+[20150127021904] [13719] [ptlcm.c] [154] [nLoadParam] info:虚拟物理服务器数: [3000] 
+[20150127021904] [13719] [ptlcm.c] [160] [nLoadParam] info:虚拟逻辑服务器数: [3000] 
+[20150127021904] [13719] [ptlcm.c] [182] [nLoadParam] info:测试时间: [5.0000h] 
+[20150127021904] [13719] [ptlcm.c] [191] [nLoadParam] info:生成连接的间隔时间: [20000s] 
+[20150127021904] [13719] [ptlcm.c] [319] [nMsgInit] info:Test Msg conut is :[4]
+[20150127021904] [13719] [ptlcm.c] [320] [nMsgInit] info:To Test msg add callback fun!!!
+[20150127021904] [13719] [ptlgen.c] [1088] [MsgTimerCBInit] info:msg [3] cb is eedb26a3
+[20150127021904] [13719] [ptlgen.c] [1096] [MsgTimerCBInit] info:msg [15] cb is eedb2bc0
+[20150127021904] [13719] [ptlgen.c] [1092] [MsgTimerCBInit] info:msg [9] cb is eedb2abb
+[20150127021904] [13719] [ptlipc.c] [479] [_tSemRm] info:remove all sem filish!
+[20150127021904] [13719] [ptlipc.c] [274] [_tShmRm] info:remove all shm success!
+[20150127021905] [13720] [ptlipc.c] [130] [_tShmInit] info:Initial main shm ...
+[20150127021905] [13720] [ptlipc.c] [143] [_tShmInit] info:shmat main shm ...
+[20150127021905] [13720] [ptlipc.c] [152] [_tShmInit] info:Initial shm success!
+[20150127021905] [13720] [ptlipc.c] [154] [_tShmInit] info:Get config value ...
+[20150127021905] [13720] [ptlipc.c] [161] [_tShmInit] info:TestConfigName[/home/yl/toolapp/etc/test.json]!
+[20150127021905] [13720] [ptlipc.c] [167] [_tShmInit] info:BaseMaxNum[100000]!
+[20150127021905] [13720] [ptlipc.c] [173] [_tShmInit] info:PhyNum[3000]!
+[20150127021905] [13720] [ptlipc.c] [179] [_tShmInit] info:TermNum[4000]!
+[20150127021905] [13720] [ptlipc.c] [185] [_tShmInit] info:LogicNum[3000]!
+[20150127021905] [13720] [ptlipc.c] [199] [_tShmInit] info:BaseCount[1]!
+[20150127021905] [13720] [ptlipc.c] [201] [_tShmInit] info:Initial msgtype shm....
+[20150127021905] [13720] [ptlipc.c] [217] [_tShmInit] info:Initial base shm....
+[20150127021905] [13720] [ptlipc.c] [232] [_tShmInit] info:Initial all shm filish
+[20150127021905] [13720] [ptlipc.c] [379] [_tSemInit] info:Initial msg sem ...
+[20150127021905] [13720] [ptlipc.c] [400] [_tSemInit] info:Initial base sem ...
+[20150127021905] [13720] [ptlipc.c] [421] [_tSemInit] info:Initial boot sem ...
+[20150127021905] [13720] [ptlipc.c] [442] [_tSemInit] info:Initial all sem filish!
+[20150127021905] [13720] [ptlcm.c] [122] [nLoadParam] info:服务器的ip地址: [172.16.80.109]
+[20150127021905] [13720] [ptlcm.c] [135] [nLoadParam] info:服务器的监听端口: [1727] 
+[20150127021905] [13720] [ptlcm.c] [142] [nLoadParam] info:虚拟终端数: [4000] 
+[20150127021905] [13720] [ptlcm.c] [154] [nLoadParam] info:虚拟物理服务器数: [3000] 
+[20150127021905] [13720] [ptlcm.c] [160] [nLoadParam] info:虚拟逻辑服务器数: [3000] 
+[20150127021905] [13720] [ptlcm.c] [182] [nLoadParam] info:测试时间: [5.0000h] 
+[20150127021905] [13720] [ptlcm.c] [191] [nLoadParam] info:生成连接的间隔时间: [20000s] 
+[20150127021905] [13720] [ptlcm.c] [319] [nMsgInit] info:Test Msg conut is :[4]
+[20150127021905] [13720] [ptlcm.c] [320] [nMsgInit] info:To Test msg add callback fun!!!
+[20150127021905] [13720] [ptlgen.c] [1088] [MsgTimerCBInit] info:msg [3] cb is 820fa6a3
+[20150127021905] [13720] [ptlgen.c] [1096] [MsgTimerCBInit] info:msg [15] cb is 820fabc0
+[20150127021905] [13720] [ptlgen.c] [1092] [MsgTimerCBInit] info:msg [9] cb is 820faabb
+[20150127021905] [13720] [ptlipc.c] [479] [_tSemRm] info:remove all sem filish!
+[20150127021905] [13720] [ptlipc.c] [274] [_tShmRm] info:remove all shm success!
+[20150127021906] [13721] [ptlipc.c] [130] [_tShmInit] info:Initial main shm ...
+[20150127021906] [13721] [ptlipc.c] [143] [_tShmInit] info:shmat main shm ...
+[20150127021906] [13721] [ptlipc.c] [152] [_tShmInit] info:Initial shm success!
+[20150127021906] [13721] [ptlipc.c] [154] [_tShmInit] info:Get config value ...
+[20150127021906] [13721] [ptlipc.c] [161] [_tShmInit] info:TestConfigName[/home/yl/toolapp/etc/test.json]!
+[20150127021906] [13721] [ptlipc.c] [167] [_tShmInit] info:BaseMaxNum[100000]!
+[20150127021906] [13721] [ptlipc.c] [173] [_tShmInit] info:PhyNum[3000]!
+[20150127021906] [13721] [ptlipc.c] [179] [_tShmInit] info:TermNum[4000]!
+[20150127021906] [13721] [ptlipc.c] [185] [_tShmInit] info:LogicNum[3000]!
+[20150127021906] [13721] [ptlipc.c] [199] [_tShmInit] info:BaseCount[1]!
+[20150127021906] [13721] [ptlipc.c] [201] [_tShmInit] info:Initial msgtype shm....
+[20150127021906] [13721] [ptlipc.c] [217] [_tShmInit] info:Initial base shm....
+[20150127021906] [13721] [ptlipc.c] [232] [_tShmInit] info:Initial all shm filish
+[20150127021906] [13721] [ptlipc.c] [379] [_tSemInit] info:Initial msg sem ...
+[20150127021906] [13721] [ptlipc.c] [400] [_tSemInit] info:Initial base sem ...
+[20150127021906] [13721] [ptlipc.c] [421] [_tSemInit] info:Initial boot sem ...
+[20150127021906] [13721] [ptlipc.c] [442] [_tSemInit] info:Initial all sem filish!
+[20150127021906] [13721] [ptlcm.c] [122] [nLoadParam] info:服务器的ip地址: [172.16.80.109]
+[20150127021906] [13721] [ptlcm.c] [135] [nLoadParam] info:服务器的监听端口: [1727] 
+[20150127021906] [13721] [ptlcm.c] [142] [nLoadParam] info:虚拟终端数: [4000] 
+[20150127021906] [13721] [ptlcm.c] [154] [nLoadParam] info:虚拟物理服务器数: [3000] 
+[20150127021906] [13721] [ptlcm.c] [160] [nLoadParam] info:虚拟逻辑服务器数: [3000] 
+[20150127021906] [13721] [ptlcm.c] [182] [nLoadParam] info:测试时间: [5.0000h] 
+[20150127021906] [13721] [ptlcm.c] [191] [nLoadParam] info:生成连接的间隔时间: [20000s] 
+[20150127021906] [13721] [ptlcm.c] [319] [nMsgInit] info:Test Msg conut is :[4]
+[20150127021906] [13721] [ptlcm.c] [320] [nMsgInit] info:To Test msg add callback fun!!!
+[20150127021906] [13721] [ptlgen.c] [1088] [MsgTimerCBInit] info:msg [3] cb is b70c56a3
+[20150127021906] [13721] [ptlgen.c] [1096] [MsgTimerCBInit] info:msg [15] cb is b70c5bc0
+[20150127021906] [13721] [ptlgen.c] [1092] [MsgTimerCBInit] info:msg [9] cb is b70c5abb
+[20150127021906] [13721] [ptlipc.c] [479] [_tSemRm] info:remove all sem filish!
+[20150127021906] [13721] [ptlipc.c] [274] [_tShmRm] info:remove all shm success!
+[20150127021906] [13722] [ptlipc.c] [130] [_tShmInit] info:Initial main shm ...
+[20150127021906] [13722] [ptlipc.c] [143] [_tShmInit] info:shmat main shm ...
+[20150127021906] [13722] [ptlipc.c] [152] [_tShmInit] info:Initial shm success!
+[20150127021906] [13722] [ptlipc.c] [154] [_tShmInit] info:Get config value ...
+[20150127021906] [13722] [ptlipc.c] [161] [_tShmInit] info:TestConfigName[/home/yl/toolapp/etc/test.json]!
+[20150127021906] [13722] [ptlipc.c] [167] [_tShmInit] info:BaseMaxNum[100000]!
+[20150127021906] [13722] [ptlipc.c] [173] [_tShmInit] info:PhyNum[3000]!
+[20150127021906] [13722] [ptlipc.c] [179] [_tShmInit] info:TermNum[4000]!
+[20150127021906] [13722] [ptlipc.c] [185] [_tShmInit] info:LogicNum[3000]!
+[20150127021906] [13722] [ptlipc.c] [199] [_tShmInit] info:BaseCount[1]!
+[20150127021906] [13722] [ptlipc.c] [201] [_tShmInit] info:Initial msgtype shm....
+[20150127021906] [13722] [ptlipc.c] [217] [_tShmInit] info:Initial base shm....
+[20150127021906] [13722] [ptlipc.c] [232] [_tShmInit] info:Initial all shm filish
+[20150127021906] [13722] [ptlipc.c] [379] [_tSemInit] info:Initial msg sem ...
+[20150127021906] [13722] [ptlipc.c] [400] [_tSemInit] info:Initial base sem ...
+[20150127021906] [13722] [ptlipc.c] [421] [_tSemInit] info:Initial boot sem ...
+[20150127021906] [13722] [ptlipc.c] [442] [_tSemInit] info:Initial all sem filish!
+[20150127021906] [13722] [ptlcm.c] [122] [nLoadParam] info:服务器的ip地址: [172.16.80.109]
+[20150127021906] [13722] [ptlcm.c] [135] [nLoadParam] info:服务器的监听端口: [1727] 
+[20150127021906] [13722] [ptlcm.c] [142] [nLoadParam] info:虚拟终端数: [4000] 
+[20150127021906] [13722] [ptlcm.c] [154] [nLoadParam] info:虚拟物理服务器数: [3000] 
+[20150127021906] [13722] [ptlcm.c] [160] [nLoadParam] info:虚拟逻辑服务器数: [3000] 
+[20150127021906] [13722] [ptlcm.c] [182] [nLoadParam] info:测试时间: [5.0000h] 
+[20150127021906] [13722] [ptlcm.c] [191] [nLoadParam] info:生成连接的间隔时间: [20000s] 
+[20150127021906] [13722] [ptlcm.c] [319] [nMsgInit] info:Test Msg conut is :[4]
+[20150127021906] [13722] [ptlcm.c] [320] [nMsgInit] info:To Test msg add callback fun!!!
+[20150127021906] [13722] [ptlgen.c] [1088] [MsgTimerCBInit] info:msg [3] cb is 6dd406a3
+[20150127021906] [13722] [ptlgen.c] [1096] [MsgTimerCBInit] info:msg [15] cb is 6dd40bc0
+[20150127021906] [13722] [ptlgen.c] [1092] [MsgTimerCBInit] info:msg [9] cb is 6dd40abb
+[20150127021906] [13722] [ptlipc.c] [479] [_tSemRm] info:remove all sem filish!
+[20150127021906] [13722] [ptlipc.c] [274] [_tShmRm] info:remove all shm success!
+[20150127021907] [13723] [ptlipc.c] [130] [_tShmInit] info:Initial main shm ...
+[20150127021907] [13723] [ptlipc.c] [143] [_tShmInit] info:shmat main shm ...
+[20150127021907] [13723] [ptlipc.c] [152] [_tShmInit] info:Initial shm success!
+[20150127021907] [13723] [ptlipc.c] [154] [_tShmInit] info:Get config value ...
+[20150127021907] [13723] [ptlipc.c] [161] [_tShmInit] info:TestConfigName[/home/yl/toolapp/etc/test.json]!
+[20150127021907] [13723] [ptlipc.c] [167] [_tShmInit] info:BaseMaxNum[100000]!
+[20150127021907] [13723] [ptlipc.c] [173] [_tShmInit] info:PhyNum[3000]!
+[20150127021907] [13723] [ptlipc.c] [179] [_tShmInit] info:TermNum[4000]!
+[20150127021907] [13723] [ptlipc.c] [185] [_tShmInit] info:LogicNum[3000]!
+[20150127021907] [13723] [ptlipc.c] [199] [_tShmInit] info:BaseCount[1]!
+[20150127021907] [13723] [ptlipc.c] [201] [_tShmInit] info:Initial msgtype shm....
+[20150127021907] [13723] [ptlipc.c] [217] [_tShmInit] info:Initial base shm....
+[20150127021907] [13723] [ptlipc.c] [232] [_tShmInit] info:Initial all shm filish
+[20150127021907] [13723] [ptlipc.c] [379] [_tSemInit] info:Initial msg sem ...
+[20150127021907] [13723] [ptlipc.c] [400] [_tSemInit] info:Initial base sem ...
+[20150127021907] [13723] [ptlipc.c] [421] [_tSemInit] info:Initial boot sem ...
+[20150127021907] [13723] [ptlipc.c] [442] [_tSemInit] info:Initial all sem filish!
+[20150127021907] [13723] [ptlcm.c] [122] [nLoadParam] info:服务器的ip地址: [172.16.80.109]
+[20150127021907] [13723] [ptlcm.c] [135] [nLoadParam] info:服务器的监听端口: [1727] 
+[20150127021907] [13723] [ptlcm.c] [142] [nLoadParam] info:虚拟终端数: [4000] 
+[20150127021907] [13723] [ptlcm.c] [154] [nLoadParam] info:虚拟物理服务器数: [3000] 
+[20150127021907] [13723] [ptlcm.c] [160] [nLoadParam] info:虚拟逻辑服务器数: [3000] 
+[20150127021907] [13723] [ptlcm.c] [182] [nLoadParam] info:测试时间: [5.0000h] 
+[20150127021907] [13723] [ptlcm.c] [191] [nLoadParam] info:生成连接的间隔时间: [20000s] 
+[20150127021907] [13723] [ptlcm.c] [319] [nMsgInit] info:Test Msg conut is :[4]
+[20150127021907] [13723] [ptlcm.c] [320] [nMsgInit] info:To Test msg add callback fun!!!
+[20150127021907] [13723] [ptlgen.c] [1088] [MsgTimerCBInit] info:msg [3] cb is 8773a6a3
+[20150127021907] [13723] [ptlgen.c] [1096] [MsgTimerCBInit] info:msg [15] cb is 8773abc0
+[20150127021907] [13723] [ptlgen.c] [1092] [MsgTimerCBInit] info:msg [9] cb is 8773aabb
+[20150127021907] [13723] [ptlipc.c] [479] [_tSemRm] info:remove all sem filish!
+[20150127021907] [13723] [ptlipc.c] [274] [_tShmRm] info:remove all shm success!
+[20150127021907] [13724] [ptlipc.c] [130] [_tShmInit] info:Initial main shm ...
+[20150127021907] [13724] [ptlipc.c] [143] [_tShmInit] info:shmat main shm ...
+[20150127021907] [13724] [ptlipc.c] [152] [_tShmInit] info:Initial shm success!
+[20150127021907] [13724] [ptlipc.c] [154] [_tShmInit] info:Get config value ...
+[20150127021907] [13724] [ptlipc.c] [161] [_tShmInit] info:TestConfigName[/home/yl/toolapp/etc/test.json]!
+[20150127021907] [13724] [ptlipc.c] [167] [_tShmInit] info:BaseMaxNum[100000]!
+[20150127021907] [13724] [ptlipc.c] [173] [_tShmInit] info:PhyNum[3000]!
+[20150127021907] [13724] [ptlipc.c] [179] [_tShmInit] info:TermNum[4000]!
+[20150127021907] [13724] [ptlipc.c] [185] [_tShmInit] info:LogicNum[3000]!
+[20150127021907] [13724] [ptlipc.c] [199] [_tShmInit] info:BaseCount[1]!
+[20150127021907] [13724] [ptlipc.c] [201] [_tShmInit] info:Initial msgtype shm....
+[20150127021907] [13724] [ptlipc.c] [217] [_tShmInit] info:Initial base shm....
+[20150127021907] [13724] [ptlipc.c] [232] [_tShmInit] info:Initial all shm filish
+[20150127021907] [13724] [ptlipc.c] [379] [_tSemInit] info:Initial msg sem ...
+[20150127021907] [13724] [ptlipc.c] [400] [_tSemInit] info:Initial base sem ...
+[20150127021907] [13724] [ptlipc.c] [421] [_tSemInit] info:Initial boot sem ...
+[20150127021907] [13724] [ptlipc.c] [442] [_tSemInit] info:Initial all sem filish!
+[20150127021907] [13724] [ptlcm.c] [122] [nLoadParam] info:服务器的ip地址: [172.16.80.109]
+[20150127021907] [13724] [ptlcm.c] [135] [nLoadParam] info:服务器的监听端口: [1727] 
+[20150127021907] [13724] [ptlcm.c] [142] [nLoadParam] info:虚拟终端数: [4000] 
+[20150127021907] [13724] [ptlcm.c] [154] [nLoadParam] info:虚拟物理服务器数: [3000] 
+[20150127021907] [13724] [ptlcm.c] [160] [nLoadParam] info:虚拟逻辑服务器数: [3000] 
+[20150127021907] [13724] [ptlcm.c] [182] [nLoadParam] info:测试时间: [5.0000h] 
+[20150127021907] [13724] [ptlcm.c] [191] [nLoadParam] info:生成连接的间隔时间: [20000s] 
+[20150127021907] [13724] [ptlcm.c] [319] [nMsgInit] info:Test Msg conut is :[4]
+[20150127021907] [13724] [ptlcm.c] [320] [nMsgInit] info:To Test msg add callback fun!!!
+[20150127021907] [13724] [ptlgen.c] [1088] [MsgTimerCBInit] info:msg [3] cb is 17dad6a3
+[20150127021907] [13724] [ptlgen.c] [1096] [MsgTimerCBInit] info:msg [15] cb is 17dadbc0
+[20150127021907] [13724] [ptlgen.c] [1092] [MsgTimerCBInit] info:msg [9] cb is 17dadabb
+[20150127021907] [13724] [ptlipc.c] [479] [_tSemRm] info:remove all sem filish!
+[20150127021907] [13724] [ptlipc.c] [274] [_tShmRm] info:remove all shm success!
+[20150127021908] [13725] [ptlipc.c] [130] [_tShmInit] info:Initial main shm ...
+[20150127021908] [13725] [ptlipc.c] [143] [_tShmInit] info:shmat main shm ...
+[20150127021908] [13725] [ptlipc.c] [152] [_tShmInit] info:Initial shm success!
+[20150127021908] [13725] [ptlipc.c] [154] [_tShmInit] info:Get config value ...
+[20150127021908] [13725] [ptlipc.c] [161] [_tShmInit] info:TestConfigName[/home/yl/toolapp/etc/test.json]!
+[20150127021908] [13725] [ptlipc.c] [167] [_tShmInit] info:BaseMaxNum[100000]!
+[20150127021908] [13725] [ptlipc.c] [173] [_tShmInit] info:PhyNum[3000]!
+[20150127021908] [13725] [ptlipc.c] [179] [_tShmInit] info:TermNum[4000]!
+[20150127021908] [13725] [ptlipc.c] [185] [_tShmInit] info:LogicNum[3000]!
+[20150127021908] [13725] [ptlipc.c] [199] [_tShmInit] info:BaseCount[1]!
+[20150127021908] [13725] [ptlipc.c] [201] [_tShmInit] info:Initial msgtype shm....
+[20150127021908] [13725] [ptlipc.c] [217] [_tShmInit] info:Initial base shm....
+[20150127021908] [13725] [ptlipc.c] [232] [_tShmInit] info:Initial all shm filish
+[20150127021908] [13725] [ptlipc.c] [379] [_tSemInit] info:Initial msg sem ...
+[20150127021908] [13725] [ptlipc.c] [400] [_tSemInit] info:Initial base sem ...
+[20150127021908] [13725] [ptlipc.c] [421] [_tSemInit] info:Initial boot sem ...
+[20150127021908] [13725] [ptlipc.c] [442] [_tSemInit] info:Initial all sem filish!
+[20150127021908] [13725] [ptlcm.c] [122] [nLoadParam] info:服务器的ip地址: [172.16.80.109]
+[20150127021908] [13725] [ptlcm.c] [135] [nLoadParam] info:服务器的监听端口: [1727] 
+[20150127021908] [13725] [ptlcm.c] [142] [nLoadParam] info:虚拟终端数: [4000] 
+[20150127021908] [13725] [ptlcm.c] [154] [nLoadParam] info:虚拟物理服务器数: [3000] 
+[20150127021908] [13725] [ptlcm.c] [160] [nLoadParam] info:虚拟逻辑服务器数: [3000] 
+[20150127021908] [13725] [ptlcm.c] [182] [nLoadParam] info:测试时间: [5.0000h] 
+[20150127021908] [13725] [ptlcm.c] [191] [nLoadParam] info:生成连接的间隔时间: [20000s] 
+[20150127021908] [13725] [ptlcm.c] [319] [nMsgInit] info:Test Msg conut is :[4]
+[20150127021908] [13725] [ptlcm.c] [320] [nMsgInit] info:To Test msg add callback fun!!!
+[20150127021908] [13725] [ptlgen.c] [1088] [MsgTimerCBInit] info:msg [3] cb is 309916a3
+[20150127021908] [13725] [ptlgen.c] [1096] [MsgTimerCBInit] info:msg [15] cb is 30991bc0
+[20150127021908] [13725] [ptlgen.c] [1092] [MsgTimerCBInit] info:msg [9] cb is 30991abb
+[20150127021908] [13725] [ptlipc.c] [479] [_tSemRm] info:remove all sem filish!
+[20150127021908] [13725] [ptlipc.c] [274] [_tShmRm] info:remove all shm success!
+[20150127021908] [13726] [ptlipc.c] [130] [_tShmInit] info:Initial main shm ...
+[20150127021908] [13726] [ptlipc.c] [143] [_tShmInit] info:shmat main shm ...
+[20150127021908] [13726] [ptlipc.c] [152] [_tShmInit] info:Initial shm success!
+[20150127021908] [13726] [ptlipc.c] [154] [_tShmInit] info:Get config value ...
+[20150127021908] [13726] [ptlipc.c] [161] [_tShmInit] info:TestConfigName[/home/yl/toolapp/etc/test.json]!
+[20150127021908] [13726] [ptlipc.c] [167] [_tShmInit] info:BaseMaxNum[100000]!
+[20150127021908] [13726] [ptlipc.c] [173] [_tShmInit] info:PhyNum[3000]!
+[20150127021908] [13726] [ptlipc.c] [179] [_tShmInit] info:TermNum[4000]!
+[20150127021908] [13726] [ptlipc.c] [185] [_tShmInit] info:LogicNum[3000]!
+[20150127021908] [13726] [ptlipc.c] [199] [_tShmInit] info:BaseCount[1]!
+[20150127021908] [13726] [ptlipc.c] [201] [_tShmInit] info:Initial msgtype shm....
+[20150127021908] [13726] [ptlipc.c] [217] [_tShmInit] info:Initial base shm....
+[20150127021908] [13726] [ptlipc.c] [232] [_tShmInit] info:Initial all shm filish
+[20150127021908] [13726] [ptlipc.c] [379] [_tSemInit] info:Initial msg sem ...
+[20150127021908] [13726] [ptlipc.c] [400] [_tSemInit] info:Initial base sem ...
+[20150127021908] [13726] [ptlipc.c] [421] [_tSemInit] info:Initial boot sem ...
+[20150127021908] [13726] [ptlipc.c] [442] [_tSemInit] info:Initial all sem filish!
+[20150127021908] [13726] [ptlcm.c] [122] [nLoadParam] info:服务器的ip地址: [172.16.80.109]
+[20150127021908] [13726] [ptlcm.c] [135] [nLoadParam] info:服务器的监听端口: [1727] 
+[20150127021908] [13726] [ptlcm.c] [142] [nLoadParam] info:虚拟终端数: [4000] 
+[20150127021908] [13726] [ptlcm.c] [154] [nLoadParam] info:虚拟物理服务器数: [3000] 
+[20150127021908] [13726] [ptlcm.c] [160] [nLoadParam] info:虚拟逻辑服务器数: [3000] 
+[20150127021908] [13726] [ptlcm.c] [182] [nLoadParam] info:测试时间: [5.0000h] 
+[20150127021908] [13726] [ptlcm.c] [191] [nLoadParam] info:生成连接的间隔时间: [20000s] 
+[20150127021908] [13726] [ptlcm.c] [319] [nMsgInit] info:Test Msg conut is :[4]
+[20150127021908] [13726] [ptlcm.c] [320] [nMsgInit] info:To Test msg add callback fun!!!
+[20150127021908] [13726] [ptlgen.c] [1088] [MsgTimerCBInit] info:msg [3] cb is e32636a3
+[20150127021908] [13726] [ptlgen.c] [1096] [MsgTimerCBInit] info:msg [15] cb is e3263bc0
+[20150127021908] [13726] [ptlgen.c] [1092] [MsgTimerCBInit] info:msg [9] cb is e3263abb
+[20150127021908] [13726] [ptlipc.c] [479] [_tSemRm] info:remove all sem filish!
+[20150127021908] [13726] [ptlipc.c] [274] [_tShmRm] info:remove all shm success!
+[20150127021909] [13727] [ptlipc.c] [130] [_tShmInit] info:Initial main shm ...
+[20150127021909] [13727] [ptlipc.c] [143] [_tShmInit] info:shmat main shm ...
+[20150127021909] [13727] [ptlipc.c] [152] [_tShmInit] info:Initial shm success!
+[20150127021909] [13727] [ptlipc.c] [154] [_tShmInit] info:Get config value ...
+[20150127021909] [13727] [ptlipc.c] [161] [_tShmInit] info:TestConfigName[/home/yl/toolapp/etc/test.json]!
+[20150127021909] [13727] [ptlipc.c] [167] [_tShmInit] info:BaseMaxNum[100000]!
+[20150127021909] [13727] [ptlipc.c] [173] [_tShmInit] info:PhyNum[3000]!
+[20150127021909] [13727] [ptlipc.c] [179] [_tShmInit] info:TermNum[4000]!
+[20150127021909] [13727] [ptlipc.c] [185] [_tShmInit] info:LogicNum[3000]!
+[20150127021909] [13727] [ptlipc.c] [199] [_tShmInit] info:BaseCount[1]!
+[20150127021909] [13727] [ptlipc.c] [201] [_tShmInit] info:Initial msgtype shm....
+[20150127021909] [13727] [ptlipc.c] [217] [_tShmInit] info:Initial base shm....
+[20150127021909] [13727] [ptlipc.c] [232] [_tShmInit] info:Initial all shm filish
+[20150127021909] [13727] [ptlipc.c] [379] [_tSemInit] info:Initial msg sem ...
+[20150127021909] [13727] [ptlipc.c] [400] [_tSemInit] info:Initial base sem ...
+[20150127021909] [13727] [ptlipc.c] [421] [_tSemInit] info:Initial boot sem ...
+[20150127021909] [13727] [ptlipc.c] [442] [_tSemInit] info:Initial all sem filish!
+[20150127021909] [13727] [ptlcm.c] [122] [nLoadParam] info:服务器的ip地址: [172.16.80.109]
+[20150127021909] [13727] [ptlcm.c] [135] [nLoadParam] info:服务器的监听端口: [1727] 
+[20150127021909] [13727] [ptlcm.c] [142] [nLoadParam] info:虚拟终端数: [4000] 
+[20150127021909] [13727] [ptlcm.c] [154] [nLoadParam] info:虚拟物理服务器数: [3000] 
+[20150127021909] [13727] [ptlcm.c] [160] [nLoadParam] info:虚拟逻辑服务器数: [3000] 
+[20150127021909] [13727] [ptlcm.c] [182] [nLoadParam] info:测试时间: [5.0000h] 
+[20150127021909] [13727] [ptlcm.c] [191] [nLoadParam] info:生成连接的间隔时间: [20000s] 
+[20150127021909] [13727] [ptlcm.c] [319] [nMsgInit] info:Test Msg conut is :[4]
+[20150127021909] [13727] [ptlcm.c] [320] [nMsgInit] info:To Test msg add callback fun!!!
+[20150127021909] [13727] [ptlgen.c] [1088] [MsgTimerCBInit] info:msg [3] cb is b2bc26a3
+[20150127021909] [13727] [ptlgen.c] [1096] [MsgTimerCBInit] info:msg [15] cb is b2bc2bc0
+[20150127021909] [13727] [ptlgen.c] [1092] [MsgTimerCBInit] info:msg [9] cb is b2bc2abb
+[20150127021909] [13727] [ptlipc.c] [479] [_tSemRm] info:remove all sem filish!
+[20150127021909] [13727] [ptlipc.c] [274] [_tShmRm] info:remove all shm success!
+[20150127021909] [13728] [ptlipc.c] [130] [_tShmInit] info:Initial main shm ...
+[20150127021909] [13728] [ptlipc.c] [143] [_tShmInit] info:shmat main shm ...
+[20150127021909] [13728] [ptlipc.c] [152] [_tShmInit] info:Initial shm success!
+[20150127021909] [13728] [ptlipc.c] [154] [_tShmInit] info:Get config value ...
+[20150127021909] [13728] [ptlipc.c] [161] [_tShmInit] info:TestConfigName[/home/yl/toolapp/etc/test.json]!
+[20150127021909] [13728] [ptlipc.c] [167] [_tShmInit] info:BaseMaxNum[100000]!
+[20150127021909] [13728] [ptlipc.c] [173] [_tShmInit] info:PhyNum[3000]!
+[20150127021909] [13728] [ptlipc.c] [179] [_tShmInit] info:TermNum[4000]!
+[20150127021909] [13728] [ptlipc.c] [185] [_tShmInit] info:LogicNum[3000]!
+[20150127021909] [13728] [ptlipc.c] [199] [_tShmInit] info:BaseCount[1]!
+[20150127021909] [13728] [ptlipc.c] [201] [_tShmInit] info:Initial msgtype shm....
+[20150127021909] [13728] [ptlipc.c] [217] [_tShmInit] info:Initial base shm....
+[20150127021909] [13728] [ptlipc.c] [232] [_tShmInit] info:Initial all shm filish
+[20150127021909] [13728] [ptlipc.c] [379] [_tSemInit] info:Initial msg sem ...
+[20150127021909] [13728] [ptlipc.c] [400] [_tSemInit] info:Initial base sem ...
+[20150127021909] [13728] [ptlipc.c] [421] [_tSemInit] info:Initial boot sem ...
+[20150127021909] [13728] [ptlipc.c] [442] [_tSemInit] info:Initial all sem filish!
+[20150127021909] [13728] [ptlcm.c] [122] [nLoadParam] info:服务器的ip地址: [172.16.80.109]
+[20150127021909] [13728] [ptlcm.c] [135] [nLoadParam] info:服务器的监听端口: [1727] 
+[20150127021909] [13728] [ptlcm.c] [142] [nLoadParam] info:虚拟终端数: [4000] 
+[20150127021909] [13728] [ptlcm.c] [154] [nLoadParam] info:虚拟物理服务器数: [3000] 
+[20150127021909] [13728] [ptlcm.c] [160] [nLoadParam] info:虚拟逻辑服务器数: [3000] 
+[20150127021909] [13728] [ptlcm.c] [182] [nLoadParam] info:测试时间: [5.0000h] 
+[20150127021909] [13728] [ptlcm.c] [191] [nLoadParam] info:生成连接的间隔时间: [20000s] 
+[20150127021909] [13728] [ptlcm.c] [319] [nMsgInit] info:Test Msg conut is :[4]
+[20150127021909] [13728] [ptlcm.c] [320] [nMsgInit] info:To Test msg add callback fun!!!
+[20150127021909] [13728] [ptlgen.c] [1088] [MsgTimerCBInit] info:msg [3] cb is 1b9806a3
+[20150127021909] [13728] [ptlgen.c] [1096] [MsgTimerCBInit] info:msg [15] cb is 1b980bc0
+[20150127021909] [13728] [ptlgen.c] [1092] [MsgTimerCBInit] info:msg [9] cb is 1b980abb
+[20150127021909] [13728] [ptlipc.c] [479] [_tSemRm] info:remove all sem filish!
+[20150127021909] [13728] [ptlipc.c] [274] [_tShmRm] info:remove all shm success!
+[20150127021909] [13729] [ptlipc.c] [130] [_tShmInit] info:Initial main shm ...
+[20150127021909] [13729] [ptlipc.c] [143] [_tShmInit] info:shmat main shm ...
+[20150127021909] [13729] [ptlipc.c] [152] [_tShmInit] info:Initial shm success!
+[20150127021909] [13729] [ptlipc.c] [154] [_tShmInit] info:Get config value ...
+[20150127021909] [13729] [ptlipc.c] [161] [_tShmInit] info:TestConfigName[/home/yl/toolapp/etc/test.json]!
+[20150127021909] [13729] [ptlipc.c] [167] [_tShmInit] info:BaseMaxNum[100000]!
+[20150127021909] [13729] [ptlipc.c] [173] [_tShmInit] info:PhyNum[3000]!
+[20150127021909] [13729] [ptlipc.c] [179] [_tShmInit] info:TermNum[4000]!
+[20150127021909] [13729] [ptlipc.c] [185] [_tShmInit] info:LogicNum[3000]!
+[20150127021909] [13729] [ptlipc.c] [199] [_tShmInit] info:BaseCount[1]!
+[20150127021909] [13729] [ptlipc.c] [201] [_tShmInit] info:Initial msgtype shm....
+[20150127021909] [13729] [ptlipc.c] [217] [_tShmInit] info:Initial base shm....
+[20150127021909] [13729] [ptlipc.c] [232] [_tShmInit] info:Initial all shm filish
+[20150127021909] [13729] [ptlipc.c] [379] [_tSemInit] info:Initial msg sem ...
+[20150127021909] [13729] [ptlipc.c] [400] [_tSemInit] info:Initial base sem ...
+[20150127021909] [13729] [ptlipc.c] [421] [_tSemInit] info:Initial boot sem ...
+[20150127021909] [13729] [ptlipc.c] [442] [_tSemInit] info:Initial all sem filish!
+[20150127021909] [13729] [ptlcm.c] [122] [nLoadParam] info:服务器的ip地址: [172.16.80.109]
+[20150127021909] [13729] [ptlcm.c] [135] [nLoadParam] info:服务器的监听端口: [1727] 
+[20150127021909] [13729] [ptlcm.c] [142] [nLoadParam] info:虚拟终端数: [4000] 
+[20150127021909] [13729] [ptlcm.c] [154] [nLoadParam] info:虚拟物理服务器数: [3000] 
+[20150127021909] [13729] [ptlcm.c] [160] [nLoadParam] info:虚拟逻辑服务器数: [3000] 
+[20150127021909] [13729] [ptlcm.c] [182] [nLoadParam] info:测试时间: [5.0000h] 
+[20150127021909] [13729] [ptlcm.c] [191] [nLoadParam] info:生成连接的间隔时间: [20000s] 
+[20150127021909] [13729] [ptlcm.c] [319] [nMsgInit] info:Test Msg conut is :[4]
+[20150127021909] [13729] [ptlcm.c] [320] [nMsgInit] info:To Test msg add callback fun!!!
+[20150127021909] [13729] [ptlgen.c] [1088] [MsgTimerCBInit] info:msg [3] cb is bb00d6a3
+[20150127021909] [13729] [ptlgen.c] [1096] [MsgTimerCBInit] info:msg [15] cb is bb00dbc0
+[20150127021909] [13729] [ptlgen.c] [1092] [MsgTimerCBInit] info:msg [9] cb is bb00dabb
+[20150127021909] [13729] [ptlipc.c] [479] [_tSemRm] info:remove all sem filish!
+[20150127021909] [13729] [ptlipc.c] [274] [_tShmRm] info:remove all shm success!
+[20150127021910] [13730] [ptlipc.c] [130] [_tShmInit] info:Initial main shm ...
+[20150127021910] [13730] [ptlipc.c] [143] [_tShmInit] info:shmat main shm ...
+[20150127021910] [13730] [ptlipc.c] [152] [_tShmInit] info:Initial shm success!
+[20150127021910] [13730] [ptlipc.c] [154] [_tShmInit] info:Get config value ...
+[20150127021910] [13730] [ptlipc.c] [161] [_tShmInit] info:TestConfigName[/home/yl/toolapp/etc/test.json]!
+[20150127021910] [13730] [ptlipc.c] [167] [_tShmInit] info:BaseMaxNum[100000]!
+[20150127021910] [13730] [ptlipc.c] [173] [_tShmInit] info:PhyNum[3000]!
+[20150127021910] [13730] [ptlipc.c] [179] [_tShmInit] info:TermNum[4000]!
+[20150127021910] [13730] [ptlipc.c] [185] [_tShmInit] info:LogicNum[3000]!
+[20150127021910] [13730] [ptlipc.c] [199] [_tShmInit] info:BaseCount[1]!
+[20150127021910] [13730] [ptlipc.c] [201] [_tShmInit] info:Initial msgtype shm....
+[20150127021910] [13730] [ptlipc.c] [217] [_tShmInit] info:Initial base shm....
+[20150127021910] [13730] [ptlipc.c] [232] [_tShmInit] info:Initial all shm filish
+[20150127021910] [13730] [ptlipc.c] [379] [_tSemInit] info:Initial msg sem ...
+[20150127021910] [13730] [ptlipc.c] [400] [_tSemInit] info:Initial base sem ...
+[20150127021910] [13730] [ptlipc.c] [421] [_tSemInit] info:Initial boot sem ...
+[20150127021910] [13730] [ptlipc.c] [442] [_tSemInit] info:Initial all sem filish!
+[20150127021910] [13730] [ptlcm.c] [122] [nLoadParam] info:服务器的ip地址: [172.16.80.109]
+[20150127021910] [13730] [ptlcm.c] [135] [nLoadParam] info:服务器的监听端口: [1727] 
+[20150127021910] [13730] [ptlcm.c] [142] [nLoadParam] info:虚拟终端数: [4000] 
+[20150127021910] [13730] [ptlcm.c] [154] [nLoadParam] info:虚拟物理服务器数: [3000] 
+[20150127021910] [13730] [ptlcm.c] [160] [nLoadParam] info:虚拟逻辑服务器数: [3000] 
+[20150127021910] [13730] [ptlcm.c] [182] [nLoadParam] info:测试时间: [5.0000h] 
+[20150127021910] [13730] [ptlcm.c] [191] [nLoadParam] info:生成连接的间隔时间: [20000s] 
+[20150127021910] [13730] [ptlcm.c] [319] [nMsgInit] info:Test Msg conut is :[4]
+[20150127021910] [13730] [ptlcm.c] [320] [nMsgInit] info:To Test msg add callback fun!!!
+[20150127021910] [13730] [ptlgen.c] [1088] [MsgTimerCBInit] info:msg [3] cb is 70ccb6a3
+[20150127021910] [13730] [ptlgen.c] [1096] [MsgTimerCBInit] info:msg [15] cb is 70ccbbc0
+[20150127021910] [13730] [ptlgen.c] [1092] [MsgTimerCBInit] info:msg [9] cb is 70ccbabb
+[20150127021910] [13730] [ptlipc.c] [479] [_tSemRm] info:remove all sem filish!
+[20150127021910] [13730] [ptlipc.c] [274] [_tShmRm] info:remove all shm success!
+[20150127021910] [13731] [ptlipc.c] [130] [_tShmInit] info:Initial main shm ...
+[20150127021910] [13731] [ptlipc.c] [143] [_tShmInit] info:shmat main shm ...
+[20150127021910] [13731] [ptlipc.c] [152] [_tShmInit] info:Initial shm success!
+[20150127021910] [13731] [ptlipc.c] [154] [_tShmInit] info:Get config value ...
+[20150127021910] [13731] [ptlipc.c] [161] [_tShmInit] info:TestConfigName[/home/yl/toolapp/etc/test.json]!
+[20150127021910] [13731] [ptlipc.c] [167] [_tShmInit] info:BaseMaxNum[100000]!
+[20150127021910] [13731] [ptlipc.c] [173] [_tShmInit] info:PhyNum[3000]!
+[20150127021910] [13731] [ptlipc.c] [179] [_tShmInit] info:TermNum[4000]!
+[20150127021910] [13731] [ptlipc.c] [185] [_tShmInit] info:LogicNum[3000]!
+[20150127021910] [13731] [ptlipc.c] [199] [_tShmInit] info:BaseCount[1]!
+[20150127021910] [13731] [ptlipc.c] [201] [_tShmInit] info:Initial msgtype shm....
+[20150127021910] [13731] [ptlipc.c] [217] [_tShmInit] info:Initial base shm....
+[20150127021910] [13731] [ptlipc.c] [232] [_tShmInit] info:Initial all shm filish
+[20150127021910] [13731] [ptlipc.c] [379] [_tSemInit] info:Initial msg sem ...
+[20150127021910] [13731] [ptlipc.c] [400] [_tSemInit] info:Initial base sem ...
+[20150127021910] [13731] [ptlipc.c] [421] [_tSemInit] info:Initial boot sem ...
+[20150127021910] [13731] [ptlipc.c] [442] [_tSemInit] info:Initial all sem filish!
+[20150127021910] [13731] [ptlcm.c] [122] [nLoadParam] info:服务器的ip地址: [172.16.80.109]
+[20150127021910] [13731] [ptlcm.c] [135] [nLoadParam] info:服务器的监听端口: [1727] 
+[20150127021910] [13731] [ptlcm.c] [142] [nLoadParam] info:虚拟终端数: [4000] 
+[20150127021910] [13731] [ptlcm.c] [154] [nLoadParam] info:虚拟物理服务器数: [3000] 
+[20150127021910] [13731] [ptlcm.c] [160] [nLoadParam] info:虚拟逻辑服务器数: [3000] 
+[20150127021910] [13731] [ptlcm.c] [182] [nLoadParam] info:测试时间: [5.0000h] 
+[20150127021910] [13731] [ptlcm.c] [191] [nLoadParam] info:生成连接的间隔时间: [20000s] 
+[20150127021910] [13731] [ptlcm.c] [319] [nMsgInit] info:Test Msg conut is :[4]
+[20150127021910] [13731] [ptlcm.c] [320] [nMsgInit] info:To Test msg add callback fun!!!
+[20150127021910] [13731] [ptlgen.c] [1088] [MsgTimerCBInit] info:msg [3] cb is 20ddf6a3
+[20150127021910] [13731] [ptlgen.c] [1096] [MsgTimerCBInit] info:msg [15] cb is 20ddfbc0
+[20150127021910] [13731] [ptlgen.c] [1092] [MsgTimerCBInit] info:msg [9] cb is 20ddfabb
+[20150127021910] [13731] [ptlipc.c] [479] [_tSemRm] info:remove all sem filish!
+[20150127021910] [13731] [ptlipc.c] [274] [_tShmRm] info:remove all shm success!
+[20150127021911] [13732] [ptlipc.c] [130] [_tShmInit] info:Initial main shm ...
+[20150127021911] [13732] [ptlipc.c] [143] [_tShmInit] info:shmat main shm ...
+[20150127021911] [13732] [ptlipc.c] [152] [_tShmInit] info:Initial shm success!
+[20150127021911] [13732] [ptlipc.c] [154] [_tShmInit] info:Get config value ...
+[20150127021911] [13732] [ptlipc.c] [161] [_tShmInit] info:TestConfigName[/home/yl/toolapp/etc/test.json]!
+[20150127021911] [13732] [ptlipc.c] [167] [_tShmInit] info:BaseMaxNum[100000]!
+[20150127021911] [13732] [ptlipc.c] [173] [_tShmInit] info:PhyNum[3000]!
+[20150127021911] [13732] [ptlipc.c] [179] [_tShmInit] info:TermNum[4000]!
+[20150127021911] [13732] [ptlipc.c] [185] [_tShmInit] info:LogicNum[3000]!
+[20150127021911] [13732] [ptlipc.c] [199] [_tShmInit] info:BaseCount[1]!
+[20150127021911] [13732] [ptlipc.c] [201] [_tShmInit] info:Initial msgtype shm....
+[20150127021911] [13732] [ptlipc.c] [217] [_tShmInit] info:Initial base shm....
+[20150127021911] [13732] [ptlipc.c] [232] [_tShmInit] info:Initial all shm filish
+[20150127021911] [13732] [ptlipc.c] [379] [_tSemInit] info:Initial msg sem ...
+[20150127021911] [13732] [ptlipc.c] [400] [_tSemInit] info:Initial base sem ...
+[20150127021911] [13732] [ptlipc.c] [421] [_tSemInit] info:Initial boot sem ...
+[20150127021911] [13732] [ptlipc.c] [442] [_tSemInit] info:Initial all sem filish!
+[20150127021911] [13732] [ptlcm.c] [122] [nLoadParam] info:服务器的ip地址: [172.16.80.109]
+[20150127021911] [13732] [ptlcm.c] [135] [nLoadParam] info:服务器的监听端口: [1727] 
+[20150127021911] [13732] [ptlcm.c] [142] [nLoadParam] info:虚拟终端数: [4000] 
+[20150127021911] [13732] [ptlcm.c] [154] [nLoadParam] info:虚拟物理服务器数: [3000] 
+[20150127021911] [13732] [ptlcm.c] [160] [nLoadParam] info:虚拟逻辑服务器数: [3000] 
+[20150127021911] [13732] [ptlcm.c] [182] [nLoadParam] info:测试时间: [5.0000h] 
+[20150127021911] [13732] [ptlcm.c] [191] [nLoadParam] info:生成连接的间隔时间: [20000s] 
+[20150127021911] [13732] [ptlcm.c] [319] [nMsgInit] info:Test Msg conut is :[4]
+[20150127021911] [13732] [ptlcm.c] [320] [nMsgInit] info:To Test msg add callback fun!!!
+[20150127021911] [13732] [ptlgen.c] [1088] [MsgTimerCBInit] info:msg [3] cb is 831766a3
+[20150127021911] [13732] [ptlgen.c] [1096] [MsgTimerCBInit] info:msg [15] cb is 83176bc0
+[20150127021911] [13732] [ptlgen.c] [1092] [MsgTimerCBInit] info:msg [9] cb is 83176abb
+[20150127021911] [13732] [ptlipc.c] [479] [_tSemRm] info:remove all sem filish!
+[20150127021911] [13732] [ptlipc.c] [274] [_tShmRm] info:remove all shm success!
+[20150127021911] [13733] [ptlipc.c] [130] [_tShmInit] info:Initial main shm ...
+[20150127021911] [13733] [ptlipc.c] [143] [_tShmInit] info:shmat main shm ...
+[20150127021911] [13733] [ptlipc.c] [152] [_tShmInit] info:Initial shm success!
+[20150127021911] [13733] [ptlipc.c] [154] [_tShmInit] info:Get config value ...
+[20150127021911] [13733] [ptlipc.c] [161] [_tShmInit] info:TestConfigName[/home/yl/toolapp/etc/test.json]!
+[20150127021911] [13733] [ptlipc.c] [167] [_tShmInit] info:BaseMaxNum[100000]!
+[20150127021911] [13733] [ptlipc.c] [173] [_tShmInit] info:PhyNum[3000]!
+[20150127021911] [13733] [ptlipc.c] [179] [_tShmInit] info:TermNum[4000]!
+[20150127021911] [13733] [ptlipc.c] [185] [_tShmInit] info:LogicNum[3000]!
+[20150127021911] [13733] [ptlipc.c] [199] [_tShmInit] info:BaseCount[1]!
+[20150127021911] [13733] [ptlipc.c] [201] [_tShmInit] info:Initial msgtype shm....
+[20150127021911] [13733] [ptlipc.c] [217] [_tShmInit] info:Initial base shm....
+[20150127021911] [13733] [ptlipc.c] [232] [_tShmInit] info:Initial all shm filish
+[20150127021911] [13733] [ptlipc.c] [379] [_tSemInit] info:Initial msg sem ...
+[20150127021911] [13733] [ptlipc.c] [400] [_tSemInit] info:Initial base sem ...
+[20150127021911] [13733] [ptlipc.c] [421] [_tSemInit] info:Initial boot sem ...
+[20150127021911] [13733] [ptlipc.c] [442] [_tSemInit] info:Initial all sem filish!
+[20150127021911] [13733] [ptlcm.c] [122] [nLoadParam] info:服务器的ip地址: [172.16.80.109]
+[20150127021911] [13733] [ptlcm.c] [135] [nLoadParam] info:服务器的监听端口: [1727] 
+[20150127021911] [13733] [ptlcm.c] [142] [nLoadParam] info:虚拟终端数: [4000] 
+[20150127021911] [13733] [ptlcm.c] [154] [nLoadParam] info:虚拟物理服务器数: [3000] 
+[20150127021911] [13733] [ptlcm.c] [160] [nLoadParam] info:虚拟逻辑服务器数: [3000] 
+[20150127021911] [13733] [ptlcm.c] [182] [nLoadParam] info:测试时间: [5.0000h] 
+[20150127021911] [13733] [ptlcm.c] [191] [nLoadParam] info:生成连接的间隔时间: [20000s] 
+[20150127021911] [13733] [ptlcm.c] [319] [nMsgInit] info:Test Msg conut is :[4]
+[20150127021911] [13733] [ptlcm.c] [320] [nMsgInit] info:To Test msg add callback fun!!!
+[20150127021911] [13733] [ptlgen.c] [1088] [MsgTimerCBInit] info:msg [3] cb is 25bc06a3
+[20150127021911] [13733] [ptlgen.c] [1096] [MsgTimerCBInit] info:msg [15] cb is 25bc0bc0
+[20150127021911] [13733] [ptlgen.c] [1092] [MsgTimerCBInit] info:msg [9] cb is 25bc0abb
+[20150127021911] [13733] [ptlipc.c] [479] [_tSemRm] info:remove all sem filish!
+[20150127021911] [13733] [ptlipc.c] [274] [_tShmRm] info:remove all shm success!
+[20150127021912] [13734] [ptlipc.c] [130] [_tShmInit] info:Initial main shm ...
+[20150127021912] [13734] [ptlipc.c] [143] [_tShmInit] info:shmat main shm ...
+[20150127021912] [13734] [ptlipc.c] [152] [_tShmInit] info:Initial shm success!
+[20150127021912] [13734] [ptlipc.c] [154] [_tShmInit] info:Get config value ...
+[20150127021912] [13734] [ptlipc.c] [161] [_tShmInit] info:TestConfigName[/home/yl/toolapp/etc/test.json]!
+[20150127021912] [13734] [ptlipc.c] [167] [_tShmInit] info:BaseMaxNum[100000]!
+[20150127021912] [13734] [ptlipc.c] [173] [_tShmInit] info:PhyNum[3000]!
+[20150127021912] [13734] [ptlipc.c] [179] [_tShmInit] info:TermNum[4000]!
+[20150127021912] [13734] [ptlipc.c] [185] [_tShmInit] info:LogicNum[3000]!
+[20150127021912] [13734] [ptlipc.c] [199] [_tShmInit] info:BaseCount[1]!
+[20150127021912] [13734] [ptlipc.c] [201] [_tShmInit] info:Initial msgtype shm....
+[20150127021912] [13734] [ptlipc.c] [217] [_tShmInit] info:Initial base shm....
+[20150127021912] [13734] [ptlipc.c] [232] [_tShmInit] info:Initial all shm filish
+[20150127021912] [13734] [ptlipc.c] [379] [_tSemInit] info:Initial msg sem ...
+[20150127021912] [13734] [ptlipc.c] [400] [_tSemInit] info:Initial base sem ...
+[20150127021912] [13734] [ptlipc.c] [421] [_tSemInit] info:Initial boot sem ...
+[20150127021912] [13734] [ptlipc.c] [442] [_tSemInit] info:Initial all sem filish!
+[20150127021912] [13734] [ptlcm.c] [122] [nLoadParam] info:服务器的ip地址: [172.16.80.109]
+[20150127021912] [13734] [ptlcm.c] [135] [nLoadParam] info:服务器的监听端口: [1727] 
+[20150127021912] [13734] [ptlcm.c] [142] [nLoadParam] info:虚拟终端数: [4000] 
+[20150127021912] [13734] [ptlcm.c] [154] [nLoadParam] info:虚拟物理服务器数: [3000] 
+[20150127021912] [13734] [ptlcm.c] [160] [nLoadParam] info:虚拟逻辑服务器数: [3000] 
+[20150127021912] [13734] [ptlcm.c] [182] [nLoadParam] info:测试时间: [5.0000h] 
+[20150127021912] [13734] [ptlcm.c] [191] [nLoadParam] info:生成连接的间隔时间: [20000s] 
+[20150127021912] [13734] [ptlcm.c] [319] [nMsgInit] info:Test Msg conut is :[4]
+[20150127021912] [13734] [ptlcm.c] [320] [nMsgInit] info:To Test msg add callback fun!!!
+[20150127021912] [13734] [ptlgen.c] [1088] [MsgTimerCBInit] info:msg [3] cb is 5fe286a3
+[20150127021912] [13734] [ptlgen.c] [1096] [MsgTimerCBInit] info:msg [15] cb is 5fe28bc0
+[20150127021912] [13734] [ptlgen.c] [1092] [MsgTimerCBInit] info:msg [9] cb is 5fe28abb
+[20150127021912] [13734] [ptlipc.c] [479] [_tSemRm] info:remove all sem filish!
+[20150127021912] [13734] [ptlipc.c] [274] [_tShmRm] info:remove all shm success!
+[20150127021912] [13735] [ptlipc.c] [130] [_tShmInit] info:Initial main shm ...
+[20150127021912] [13735] [ptlipc.c] [143] [_tShmInit] info:shmat main shm ...
+[20150127021912] [13735] [ptlipc.c] [152] [_tShmInit] info:Initial shm success!
+[20150127021912] [13735] [ptlipc.c] [154] [_tShmInit] info:Get config value ...
+[20150127021912] [13735] [ptlipc.c] [161] [_tShmInit] info:TestConfigName[/home/yl/toolapp/etc/test.json]!
+[20150127021912] [13735] [ptlipc.c] [167] [_tShmInit] info:BaseMaxNum[100000]!
+[20150127021912] [13735] [ptlipc.c] [173] [_tShmInit] info:PhyNum[3000]!
+[20150127021912] [13735] [ptlipc.c] [179] [_tShmInit] info:TermNum[4000]!
+[20150127021912] [13735] [ptlipc.c] [185] [_tShmInit] info:LogicNum[3000]!
+[20150127021912] [13735] [ptlipc.c] [199] [_tShmInit] info:BaseCount[1]!
+[20150127021912] [13735] [ptlipc.c] [201] [_tShmInit] info:Initial msgtype shm....
+[20150127021912] [13735] [ptlipc.c] [217] [_tShmInit] info:Initial base shm....
+[20150127021912] [13735] [ptlipc.c] [232] [_tShmInit] info:Initial all shm filish
+[20150127021912] [13735] [ptlipc.c] [379] [_tSemInit] info:Initial msg sem ...
+[20150127021912] [13735] [ptlipc.c] [400] [_tSemInit] info:Initial base sem ...
+[20150127021912] [13735] [ptlipc.c] [421] [_tSemInit] info:Initial boot sem ...
+[20150127021912] [13735] [ptlipc.c] [442] [_tSemInit] info:Initial all sem filish!
+[20150127021912] [13735] [ptlcm.c] [122] [nLoadParam] info:服务器的ip地址: [172.16.80.109]
+[20150127021912] [13735] [ptlcm.c] [135] [nLoadParam] info:服务器的监听端口: [1727] 
+[20150127021912] [13735] [ptlcm.c] [142] [nLoadParam] info:虚拟终端数: [4000] 
+[20150127021912] [13735] [ptlcm.c] [154] [nLoadParam] info:虚拟物理服务器数: [3000] 
+[20150127021912] [13735] [ptlcm.c] [160] [nLoadParam] info:虚拟逻辑服务器数: [3000] 
+[20150127021912] [13735] [ptlcm.c] [182] [nLoadParam] info:测试时间: [5.0000h] 
+[20150127021912] [13735] [ptlcm.c] [191] [nLoadParam] info:生成连接的间隔时间: [20000s] 
+[20150127021912] [13735] [ptlcm.c] [319] [nMsgInit] info:Test Msg conut is :[4]
+[20150127021912] [13735] [ptlcm.c] [320] [nMsgInit] info:To Test msg add callback fun!!!
+[20150127021912] [13735] [ptlgen.c] [1088] [MsgTimerCBInit] info:msg [3] cb is d6f036a3
+[20150127021912] [13735] [ptlgen.c] [1096] [MsgTimerCBInit] info:msg [15] cb is d6f03bc0
+[20150127021912] [13735] [ptlgen.c] [1092] [MsgTimerCBInit] info:msg [9] cb is d6f03abb
+[20150127021912] [13735] [ptlipc.c] [479] [_tSemRm] info:remove all sem filish!
+[20150127021912] [13735] [ptlipc.c] [274] [_tShmRm] info:remove all shm success!
+[20150127021912] [13736] [ptlipc.c] [130] [_tShmInit] info:Initial main shm ...
+[20150127021912] [13736] [ptlipc.c] [143] [_tShmInit] info:shmat main shm ...
+[20150127021912] [13736] [ptlipc.c] [152] [_tShmInit] info:Initial shm success!
+[20150127021912] [13736] [ptlipc.c] [154] [_tShmInit] info:Get config value ...
+[20150127021912] [13736] [ptlipc.c] [161] [_tShmInit] info:TestConfigName[/home/yl/toolapp/etc/test.json]!
+[20150127021912] [13736] [ptlipc.c] [167] [_tShmInit] info:BaseMaxNum[100000]!
+[20150127021912] [13736] [ptlipc.c] [173] [_tShmInit] info:PhyNum[3000]!
+[20150127021912] [13736] [ptlipc.c] [179] [_tShmInit] info:TermNum[4000]!
+[20150127021912] [13736] [ptlipc.c] [185] [_tShmInit] info:LogicNum[3000]!
+[20150127021912] [13736] [ptlipc.c] [199] [_tShmInit] info:BaseCount[1]!
+[20150127021912] [13736] [ptlipc.c] [201] [_tShmInit] info:Initial msgtype shm....
+[20150127021912] [13736] [ptlipc.c] [217] [_tShmInit] info:Initial base shm....
+[20150127021912] [13736] [ptlipc.c] [232] [_tShmInit] info:Initial all shm filish
+[20150127021912] [13736] [ptlipc.c] [379] [_tSemInit] info:Initial msg sem ...
+[20150127021912] [13736] [ptlipc.c] [400] [_tSemInit] info:Initial base sem ...
+[20150127021912] [13736] [ptlipc.c] [421] [_tSemInit] info:Initial boot sem ...
+[20150127021912] [13736] [ptlipc.c] [442] [_tSemInit] info:Initial all sem filish!
+[20150127021912] [13736] [ptlcm.c] [122] [nLoadParam] info:服务器的ip地址: [172.16.80.109]
+[20150127021912] [13736] [ptlcm.c] [135] [nLoadParam] info:服务器的监听端口: [1727] 
+[20150127021912] [13736] [ptlcm.c] [142] [nLoadParam] info:虚拟终端数: [4000] 
+[20150127021912] [13736] [ptlcm.c] [154] [nLoadParam] info:虚拟物理服务器数: [3000] 
+[20150127021912] [13736] [ptlcm.c] [160] [nLoadParam] info:虚拟逻辑服务器数: [3000] 
+[20150127021912] [13736] [ptlcm.c] [182] [nLoadParam] info:测试时间: [5.0000h] 
+[20150127021912] [13736] [ptlcm.c] [191] [nLoadParam] info:生成连接的间隔时间: [20000s] 
+[20150127021912] [13736] [ptlcm.c] [319] [nMsgInit] info:Test Msg conut is :[4]
+[20150127021912] [13736] [ptlcm.c] [320] [nMsgInit] info:To Test msg add callback fun!!!
+[20150127021912] [13736] [ptlgen.c] [1088] [MsgTimerCBInit] info:msg [3] cb is bdc6f6a3
+[20150127021912] [13736] [ptlgen.c] [1096] [MsgTimerCBInit] info:msg [15] cb is bdc6fbc0
+[20150127021912] [13736] [ptlgen.c] [1092] [MsgTimerCBInit] info:msg [9] cb is bdc6fabb
+[20150127021912] [13736] [ptlipc.c] [479] [_tSemRm] info:remove all sem filish!
+[20150127021912] [13736] [ptlipc.c] [274] [_tShmRm] info:remove all shm success!
+[20150127021913] [13737] [ptlipc.c] [130] [_tShmInit] info:Initial main shm ...
+[20150127021913] [13737] [ptlipc.c] [143] [_tShmInit] info:shmat main shm ...
+[20150127021913] [13737] [ptlipc.c] [152] [_tShmInit] info:Initial shm success!
+[20150127021913] [13737] [ptlipc.c] [154] [_tShmInit] info:Get config value ...
+[20150127021913] [13737] [ptlipc.c] [161] [_tShmInit] info:TestConfigName[/home/yl/toolapp/etc/test.json]!
+[20150127021913] [13737] [ptlipc.c] [167] [_tShmInit] info:BaseMaxNum[100000]!
+[20150127021913] [13737] [ptlipc.c] [173] [_tShmInit] info:PhyNum[3000]!
+[20150127021913] [13737] [ptlipc.c] [179] [_tShmInit] info:TermNum[4000]!
+[20150127021913] [13737] [ptlipc.c] [185] [_tShmInit] info:LogicNum[3000]!
+[20150127021913] [13737] [ptlipc.c] [199] [_tShmInit] info:BaseCount[1]!
+[20150127021913] [13737] [ptlipc.c] [201] [_tShmInit] info:Initial msgtype shm....
+[20150127021913] [13737] [ptlipc.c] [217] [_tShmInit] info:Initial base shm....
+[20150127021913] [13737] [ptlipc.c] [232] [_tShmInit] info:Initial all shm filish
+[20150127021913] [13737] [ptlipc.c] [379] [_tSemInit] info:Initial msg sem ...
+[20150127021913] [13737] [ptlipc.c] [400] [_tSemInit] info:Initial base sem ...
+[20150127021913] [13737] [ptlipc.c] [421] [_tSemInit] info:Initial boot sem ...
+[20150127021913] [13737] [ptlipc.c] [442] [_tSemInit] info:Initial all sem filish!
+[20150127021913] [13737] [ptlcm.c] [122] [nLoadParam] info:服务器的ip地址: [172.16.80.109]
+[20150127021913] [13737] [ptlcm.c] [135] [nLoadParam] info:服务器的监听端口: [1727] 
+[20150127021913] [13737] [ptlcm.c] [142] [nLoadParam] info:虚拟终端数: [4000] 
+[20150127021913] [13737] [ptlcm.c] [154] [nLoadParam] info:虚拟物理服务器数: [3000] 
+[20150127021913] [13737] [ptlcm.c] [160] [nLoadParam] info:虚拟逻辑服务器数: [3000] 
+[20150127021913] [13737] [ptlcm.c] [182] [nLoadParam] info:测试时间: [5.0000h] 
+[20150127021913] [13737] [ptlcm.c] [191] [nLoadParam] info:生成连接的间隔时间: [20000s] 
+[20150127021913] [13737] [ptlcm.c] [319] [nMsgInit] info:Test Msg conut is :[4]
+[20150127021913] [13737] [ptlcm.c] [320] [nMsgInit] info:To Test msg add callback fun!!!
+[20150127021913] [13737] [ptlgen.c] [1088] [MsgTimerCBInit] info:msg [3] cb is 4f6336a3
+[20150127021913] [13737] [ptlgen.c] [1096] [MsgTimerCBInit] info:msg [15] cb is 4f633bc0
+[20150127021913] [13737] [ptlgen.c] [1092] [MsgTimerCBInit] info:msg [9] cb is 4f633abb
+[20150127021913] [13737] [ptlipc.c] [479] [_tSemRm] info:remove all sem filish!
+[20150127021913] [13737] [ptlipc.c] [274] [_tShmRm] info:remove all shm success!
+[20150127021914] [13738] [ptlipc.c] [130] [_tShmInit] info:Initial main shm ...
+[20150127021914] [13738] [ptlipc.c] [143] [_tShmInit] info:shmat main shm ...
+[20150127021914] [13738] [ptlipc.c] [152] [_tShmInit] info:Initial shm success!
+[20150127021914] [13738] [ptlipc.c] [154] [_tShmInit] info:Get config value ...
+[20150127021914] [13738] [ptlipc.c] [161] [_tShmInit] info:TestConfigName[/home/yl/toolapp/etc/test.json]!
+[20150127021914] [13738] [ptlipc.c] [167] [_tShmInit] info:BaseMaxNum[100000]!
+[20150127021914] [13738] [ptlipc.c] [173] [_tShmInit] info:PhyNum[3000]!
+[20150127021914] [13738] [ptlipc.c] [179] [_tShmInit] info:TermNum[4000]!
+[20150127021914] [13738] [ptlipc.c] [185] [_tShmInit] info:LogicNum[3000]!
+[20150127021914] [13738] [ptlipc.c] [199] [_tShmInit] info:BaseCount[1]!
+[20150127021914] [13738] [ptlipc.c] [201] [_tShmInit] info:Initial msgtype shm....
+[20150127021914] [13738] [ptlipc.c] [217] [_tShmInit] info:Initial base shm....
+[20150127021914] [13738] [ptlipc.c] [232] [_tShmInit] info:Initial all shm filish
+[20150127021914] [13738] [ptlipc.c] [379] [_tSemInit] info:Initial msg sem ...
+[20150127021914] [13738] [ptlipc.c] [400] [_tSemInit] info:Initial base sem ...
+[20150127021914] [13738] [ptlipc.c] [421] [_tSemInit] info:Initial boot sem ...
+[20150127021914] [13738] [ptlipc.c] [442] [_tSemInit] info:Initial all sem filish!
+[20150127021914] [13738] [ptlcm.c] [122] [nLoadParam] info:服务器的ip地址: [172.16.80.109]
+[20150127021914] [13738] [ptlcm.c] [135] [nLoadParam] info:服务器的监听端口: [1727] 
+[20150127021914] [13738] [ptlcm.c] [142] [nLoadParam] info:虚拟终端数: [4000] 
+[20150127021914] [13738] [ptlcm.c] [154] [nLoadParam] info:虚拟物理服务器数: [3000] 
+[20150127021914] [13738] [ptlcm.c] [160] [nLoadParam] info:虚拟逻辑服务器数: [3000] 
+[20150127021914] [13738] [ptlcm.c] [182] [nLoadParam] info:测试时间: [5.0000h] 
+[20150127021914] [13738] [ptlcm.c] [191] [nLoadParam] info:生成连接的间隔时间: [20000s] 
+[20150127021914] [13738] [ptlcm.c] [319] [nMsgInit] info:Test Msg conut is :[4]
+[20150127021914] [13738] [ptlcm.c] [320] [nMsgInit] info:To Test msg add callback fun!!!
+[20150127021914] [13738] [ptlgen.c] [1088] [MsgTimerCBInit] info:msg [3] cb is 84b686a3
+[20150127021914] [13738] [ptlgen.c] [1096] [MsgTimerCBInit] info:msg [15] cb is 84b68bc0
+[20150127021914] [13738] [ptlgen.c] [1092] [MsgTimerCBInit] info:msg [9] cb is 84b68abb
+[20150127021914] [13738] [ptlipc.c] [479] [_tSemRm] info:remove all sem filish!
+[20150127021914] [13738] [ptlipc.c] [274] [_tShmRm] info:remove all shm success!
+[20150127021915] [13739] [ptlipc.c] [130] [_tShmInit] info:Initial main shm ...
+[20150127021915] [13739] [ptlipc.c] [143] [_tShmInit] info:shmat main shm ...
+[20150127021915] [13739] [ptlipc.c] [152] [_tShmInit] info:Initial shm success!
+[20150127021915] [13739] [ptlipc.c] [154] [_tShmInit] info:Get config value ...
+[20150127021915] [13739] [ptlipc.c] [161] [_tShmInit] info:TestConfigName[/home/yl/toolapp/etc/test.json]!
+[20150127021915] [13739] [ptlipc.c] [167] [_tShmInit] info:BaseMaxNum[100000]!
+[20150127021915] [13739] [ptlipc.c] [173] [_tShmInit] info:PhyNum[3000]!
+[20150127021915] [13739] [ptlipc.c] [179] [_tShmInit] info:TermNum[4000]!
+[20150127021915] [13739] [ptlipc.c] [185] [_tShmInit] info:LogicNum[3000]!
+[20150127021915] [13739] [ptlipc.c] [199] [_tShmInit] info:BaseCount[1]!
+[20150127021915] [13739] [ptlipc.c] [201] [_tShmInit] info:Initial msgtype shm....
+[20150127021915] [13739] [ptlipc.c] [217] [_tShmInit] info:Initial base shm....
+[20150127021915] [13739] [ptlipc.c] [232] [_tShmInit] info:Initial all shm filish
+[20150127021915] [13739] [ptlipc.c] [379] [_tSemInit] info:Initial msg sem ...
+[20150127021915] [13739] [ptlipc.c] [400] [_tSemInit] info:Initial base sem ...
+[20150127021915] [13739] [ptlipc.c] [421] [_tSemInit] info:Initial boot sem ...
+[20150127021915] [13739] [ptlipc.c] [442] [_tSemInit] info:Initial all sem filish!
+[20150127021915] [13739] [ptlcm.c] [122] [nLoadParam] info:服务器的ip地址: [172.16.80.109]
+[20150127021915] [13739] [ptlcm.c] [135] [nLoadParam] info:服务器的监听端口: [1727] 
+[20150127021915] [13739] [ptlcm.c] [142] [nLoadParam] info:虚拟终端数: [4000] 
+[20150127021915] [13739] [ptlcm.c] [154] [nLoadParam] info:虚拟物理服务器数: [3000] 
+[20150127021915] [13739] [ptlcm.c] [160] [nLoadParam] info:虚拟逻辑服务器数: [3000] 
+[20150127021915] [13739] [ptlcm.c] [182] [nLoadParam] info:测试时间: [5.0000h] 
+[20150127021915] [13739] [ptlcm.c] [191] [nLoadParam] info:生成连接的间隔时间: [20000s] 
+[20150127021915] [13739] [ptlcm.c] [319] [nMsgInit] info:Test Msg conut is :[4]
+[20150127021915] [13739] [ptlcm.c] [320] [nMsgInit] info:To Test msg add callback fun!!!
+[20150127021915] [13739] [ptlgen.c] [1088] [MsgTimerCBInit] info:msg [3] cb is 41c56a3
+[20150127021915] [13739] [ptlgen.c] [1096] [MsgTimerCBInit] info:msg [15] cb is 41c5bc0
+[20150127021915] [13739] [ptlgen.c] [1092] [MsgTimerCBInit] info:msg [9] cb is 41c5abb
+[20150127021915] [13739] [ptlipc.c] [479] [_tSemRm] info:remove all sem filish!
+[20150127021915] [13739] [ptlipc.c] [274] [_tShmRm] info:remove all shm success!
+[20150127021915] [13740] [ptlipc.c] [130] [_tShmInit] info:Initial main shm ...
+[20150127021915] [13740] [ptlipc.c] [143] [_tShmInit] info:shmat main shm ...
+[20150127021915] [13740] [ptlipc.c] [152] [_tShmInit] info:Initial shm success!
+[20150127021915] [13740] [ptlipc.c] [154] [_tShmInit] info:Get config value ...
+[20150127021915] [13740] [ptlipc.c] [161] [_tShmInit] info:TestConfigName[/home/yl/toolapp/etc/test.json]!
+[20150127021915] [13740] [ptlipc.c] [167] [_tShmInit] info:BaseMaxNum[100000]!
+[20150127021915] [13740] [ptlipc.c] [173] [_tShmInit] info:PhyNum[3000]!
+[20150127021915] [13740] [ptlipc.c] [179] [_tShmInit] info:TermNum[4000]!
+[20150127021915] [13740] [ptlipc.c] [185] [_tShmInit] info:LogicNum[3000]!
+[20150127021915] [13740] [ptlipc.c] [199] [_tShmInit] info:BaseCount[1]!
+[20150127021915] [13740] [ptlipc.c] [201] [_tShmInit] info:Initial msgtype shm....
+[20150127021915] [13740] [ptlipc.c] [217] [_tShmInit] info:Initial base shm....
+[20150127021915] [13740] [ptlipc.c] [232] [_tShmInit] info:Initial all shm filish
+[20150127021915] [13740] [ptlipc.c] [379] [_tSemInit] info:Initial msg sem ...
+[20150127021915] [13740] [ptlipc.c] [400] [_tSemInit] info:Initial base sem ...
+[20150127021915] [13740] [ptlipc.c] [421] [_tSemInit] info:Initial boot sem ...
+[20150127021915] [13740] [ptlipc.c] [442] [_tSemInit] info:Initial all sem filish!
+[20150127021915] [13740] [ptlcm.c] [122] [nLoadParam] info:服务器的ip地址: [172.16.80.109]
+[20150127021915] [13740] [ptlcm.c] [135] [nLoadParam] info:服务器的监听端口: [1727] 
+[20150127021915] [13740] [ptlcm.c] [142] [nLoadParam] info:虚拟终端数: [4000] 
+[20150127021915] [13740] [ptlcm.c] [154] [nLoadParam] info:虚拟物理服务器数: [3000] 
+[20150127021915] [13740] [ptlcm.c] [160] [nLoadParam] info:虚拟逻辑服务器数: [3000] 
+[20150127021915] [13740] [ptlcm.c] [182] [nLoadParam] info:测试时间: [5.0000h] 
+[20150127021915] [13740] [ptlcm.c] [191] [nLoadParam] info:生成连接的间隔时间: [20000s] 
+[20150127021915] [13740] [ptlcm.c] [319] [nMsgInit] info:Test Msg conut is :[4]
+[20150127021915] [13740] [ptlcm.c] [320] [nMsgInit] info:To Test msg add callback fun!!!
+[20150127021915] [13740] [ptlgen.c] [1088] [MsgTimerCBInit] info:msg [3] cb is 9a8446a3
+[20150127021915] [13740] [ptlgen.c] [1096] [MsgTimerCBInit] info:msg [15] cb is 9a844bc0
+[20150127021915] [13740] [ptlgen.c] [1092] [MsgTimerCBInit] info:msg [9] cb is 9a844abb
+[20150127021915] [13740] [ptlipc.c] [479] [_tSemRm] info:remove all sem filish!
+[20150127021915] [13740] [ptlipc.c] [274] [_tShmRm] info:remove all shm success!
+[20150127021916] [13741] [ptlipc.c] [130] [_tShmInit] info:Initial main shm ...
+[20150127021916] [13741] [ptlipc.c] [143] [_tShmInit] info:shmat main shm ...
+[20150127021916] [13741] [ptlipc.c] [152] [_tShmInit] info:Initial shm success!
+[20150127021916] [13741] [ptlipc.c] [154] [_tShmInit] info:Get config value ...
+[20150127021916] [13741] [ptlipc.c] [161] [_tShmInit] info:TestConfigName[/home/yl/toolapp/etc/test.json]!
+[20150127021916] [13741] [ptlipc.c] [167] [_tShmInit] info:BaseMaxNum[100000]!
+[20150127021916] [13741] [ptlipc.c] [173] [_tShmInit] info:PhyNum[3000]!
+[20150127021916] [13741] [ptlipc.c] [179] [_tShmInit] info:TermNum[4000]!
+[20150127021916] [13741] [ptlipc.c] [185] [_tShmInit] info:LogicNum[3000]!
+[20150127021916] [13741] [ptlipc.c] [199] [_tShmInit] info:BaseCount[1]!
+[20150127021916] [13741] [ptlipc.c] [201] [_tShmInit] info:Initial msgtype shm....
+[20150127021916] [13741] [ptlipc.c] [217] [_tShmInit] info:Initial base shm....
+[20150127021916] [13741] [ptlipc.c] [232] [_tShmInit] info:Initial all shm filish
+[20150127021916] [13741] [ptlipc.c] [379] [_tSemInit] info:Initial msg sem ...
+[20150127021916] [13741] [ptlipc.c] [400] [_tSemInit] info:Initial base sem ...
+[20150127021916] [13741] [ptlipc.c] [421] [_tSemInit] info:Initial boot sem ...
+[20150127021916] [13741] [ptlipc.c] [442] [_tSemInit] info:Initial all sem filish!
+[20150127021916] [13741] [ptlcm.c] [122] [nLoadParam] info:服务器的ip地址: [172.16.80.109]
+[20150127021916] [13741] [ptlcm.c] [135] [nLoadParam] info:服务器的监听端口: [1727] 
+[20150127021916] [13741] [ptlcm.c] [142] [nLoadParam] info:虚拟终端数: [4000] 
+[20150127021916] [13741] [ptlcm.c] [154] [nLoadParam] info:虚拟物理服务器数: [3000] 
+[20150127021916] [13741] [ptlcm.c] [160] [nLoadParam] info:虚拟逻辑服务器数: [3000] 
+[20150127021916] [13741] [ptlcm.c] [182] [nLoadParam] info:测试时间: [5.0000h] 
+[20150127021916] [13741] [ptlcm.c] [191] [nLoadParam] info:生成连接的间隔时间: [20000s] 
+[20150127021916] [13741] [ptlcm.c] [319] [nMsgInit] info:Test Msg conut is :[4]
+[20150127021916] [13741] [ptlcm.c] [320] [nMsgInit] info:To Test msg add callback fun!!!
+[20150127021916] [13741] [ptlgen.c] [1088] [MsgTimerCBInit] info:msg [3] cb is 1c0b6a3
+[20150127021916] [13741] [ptlgen.c] [1096] [MsgTimerCBInit] info:msg [15] cb is 1c0bbc0
+[20150127021916] [13741] [ptlgen.c] [1092] [MsgTimerCBInit] info:msg [9] cb is 1c0babb
+[20150127021916] [13741] [ptlipc.c] [479] [_tSemRm] info:remove all sem filish!
+[20150127021916] [13741] [ptlipc.c] [274] [_tShmRm] info:remove all shm success!
+[20150127021916] [13743] [ptlipc.c] [130] [_tShmInit] info:Initial main shm ...
+[20150127021916] [13743] [ptlipc.c] [143] [_tShmInit] info:shmat main shm ...
+[20150127021916] [13743] [ptlipc.c] [152] [_tShmInit] info:Initial shm success!
+[20150127021916] [13743] [ptlipc.c] [154] [_tShmInit] info:Get config value ...
+[20150127021916] [13743] [ptlipc.c] [161] [_tShmInit] info:TestConfigName[/home/yl/toolapp/etc/test.json]!
+[20150127021916] [13743] [ptlipc.c] [167] [_tShmInit] info:BaseMaxNum[100000]!
+[20150127021916] [13743] [ptlipc.c] [173] [_tShmInit] info:PhyNum[3000]!
+[20150127021916] [13743] [ptlipc.c] [179] [_tShmInit] info:TermNum[4000]!
+[20150127021916] [13743] [ptlipc.c] [185] [_tShmInit] info:LogicNum[3000]!
+[20150127021916] [13743] [ptlipc.c] [199] [_tShmInit] info:BaseCount[1]!
+[20150127021916] [13743] [ptlipc.c] [201] [_tShmInit] info:Initial msgtype shm....
+[20150127021916] [13743] [ptlipc.c] [217] [_tShmInit] info:Initial base shm....
+[20150127021916] [13743] [ptlipc.c] [232] [_tShmInit] info:Initial all shm filish
+[20150127021916] [13743] [ptlipc.c] [379] [_tSemInit] info:Initial msg sem ...
+[20150127021916] [13743] [ptlipc.c] [400] [_tSemInit] info:Initial base sem ...
+[20150127021916] [13743] [ptlipc.c] [421] [_tSemInit] info:Initial boot sem ...
+[20150127021916] [13743] [ptlipc.c] [442] [_tSemInit] info:Initial all sem filish!
+[20150127021916] [13743] [ptlcm.c] [122] [nLoadParam] info:服务器的ip地址: [172.16.80.109]
+[20150127021916] [13743] [ptlcm.c] [135] [nLoadParam] info:服务器的监听端口: [1727] 
+[20150127021916] [13743] [ptlcm.c] [142] [nLoadParam] info:虚拟终端数: [4000] 
+[20150127021916] [13743] [ptlcm.c] [154] [nLoadParam] info:虚拟物理服务器数: [3000] 
+[20150127021916] [13743] [ptlcm.c] [160] [nLoadParam] info:虚拟逻辑服务器数: [3000] 
+[20150127021916] [13743] [ptlcm.c] [182] [nLoadParam] info:测试时间: [5.0000h] 
+[20150127021916] [13743] [ptlcm.c] [191] [nLoadParam] info:生成连接的间隔时间: [20000s] 
+[20150127021916] [13743] [ptlcm.c] [319] [nMsgInit] info:Test Msg conut is :[4]
+[20150127021916] [13743] [ptlcm.c] [320] [nMsgInit] info:To Test msg add callback fun!!!
+[20150127021916] [13743] [ptlgen.c] [1088] [MsgTimerCBInit] info:msg [3] cb is bdde96a3
+[20150127021916] [13743] [ptlgen.c] [1096] [MsgTimerCBInit] info:msg [15] cb is bdde9bc0
+[20150127021916] [13743] [ptlgen.c] [1092] [MsgTimerCBInit] info:msg [9] cb is bdde9abb
+[20150127021916] [13743] [ptlipc.c] [479] [_tSemRm] info:remove all sem filish!
+[20150127021916] [13743] [ptlipc.c] [274] [_tShmRm] info:remove all shm success!
+[20150127021916] [13744] [ptlipc.c] [130] [_tShmInit] info:Initial main shm ...
+[20150127021916] [13744] [ptlipc.c] [143] [_tShmInit] info:shmat main shm ...
+[20150127021916] [13744] [ptlipc.c] [152] [_tShmInit] info:Initial shm success!
+[20150127021916] [13744] [ptlipc.c] [154] [_tShmInit] info:Get config value ...
+[20150127021916] [13744] [ptlipc.c] [161] [_tShmInit] info:TestConfigName[/home/yl/toolapp/etc/test.json]!
+[20150127021916] [13744] [ptlipc.c] [167] [_tShmInit] info:BaseMaxNum[100000]!
+[20150127021916] [13744] [ptlipc.c] [173] [_tShmInit] info:PhyNum[3000]!
+[20150127021916] [13744] [ptlipc.c] [179] [_tShmInit] info:TermNum[4000]!
+[20150127021916] [13744] [ptlipc.c] [185] [_tShmInit] info:LogicNum[3000]!
+[20150127021916] [13744] [ptlipc.c] [199] [_tShmInit] info:BaseCount[1]!
+[20150127021916] [13744] [ptlipc.c] [201] [_tShmInit] info:Initial msgtype shm....
+[20150127021916] [13744] [ptlipc.c] [217] [_tShmInit] info:Initial base shm....
+[20150127021916] [13744] [ptlipc.c] [232] [_tShmInit] info:Initial all shm filish
+[20150127021916] [13744] [ptlipc.c] [379] [_tSemInit] info:Initial msg sem ...
+[20150127021916] [13744] [ptlipc.c] [400] [_tSemInit] info:Initial base sem ...
+[20150127021916] [13744] [ptlipc.c] [421] [_tSemInit] info:Initial boot sem ...
+[20150127021916] [13744] [ptlipc.c] [442] [_tSemInit] info:Initial all sem filish!
+[20150127021916] [13744] [ptlcm.c] [122] [nLoadParam] info:服务器的ip地址: [172.16.80.109]
+[20150127021916] [13744] [ptlcm.c] [135] [nLoadParam] info:服务器的监听端口: [1727] 
+[20150127021916] [13744] [ptlcm.c] [142] [nLoadParam] info:虚拟终端数: [4000] 
+[20150127021916] [13744] [ptlcm.c] [154] [nLoadParam] info:虚拟物理服务器数: [3000] 
+[20150127021916] [13744] [ptlcm.c] [160] [nLoadParam] info:虚拟逻辑服务器数: [3000] 
+[20150127021916] [13744] [ptlcm.c] [182] [nLoadParam] info:测试时间: [5.0000h] 
+[20150127021916] [13744] [ptlcm.c] [191] [nLoadParam] info:生成连接的间隔时间: [20000s] 
+[20150127021916] [13744] [ptlcm.c] [319] [nMsgInit] info:Test Msg conut is :[4]
+[20150127021916] [13744] [ptlcm.c] [320] [nMsgInit] info:To Test msg add callback fun!!!
+[20150127021916] [13744] [ptlgen.c] [1088] [MsgTimerCBInit] info:msg [3] cb is 808576a3
+[20150127021916] [13744] [ptlgen.c] [1096] [MsgTimerCBInit] info:msg [15] cb is 80857bc0
+[20150127021916] [13744] [ptlgen.c] [1092] [MsgTimerCBInit] info:msg [9] cb is 80857abb
+[20150127021916] [13744] [ptlipc.c] [479] [_tSemRm] info:remove all sem filish!
+[20150127021916] [13744] [ptlipc.c] [274] [_tShmRm] info:remove all shm success!
+[20150127021917] [13745] [ptlipc.c] [130] [_tShmInit] info:Initial main shm ...
+[20150127021917] [13745] [ptlipc.c] [143] [_tShmInit] info:shmat main shm ...
+[20150127021917] [13745] [ptlipc.c] [152] [_tShmInit] info:Initial shm success!
+[20150127021917] [13745] [ptlipc.c] [154] [_tShmInit] info:Get config value ...
+[20150127021917] [13745] [ptlipc.c] [161] [_tShmInit] info:TestConfigName[/home/yl/toolapp/etc/test.json]!
+[20150127021917] [13745] [ptlipc.c] [167] [_tShmInit] info:BaseMaxNum[100000]!
+[20150127021917] [13745] [ptlipc.c] [173] [_tShmInit] info:PhyNum[3000]!
+[20150127021917] [13745] [ptlipc.c] [179] [_tShmInit] info:TermNum[4000]!
+[20150127021917] [13745] [ptlipc.c] [185] [_tShmInit] info:LogicNum[3000]!
+[20150127021917] [13745] [ptlipc.c] [199] [_tShmInit] info:BaseCount[1]!
+[20150127021917] [13745] [ptlipc.c] [201] [_tShmInit] info:Initial msgtype shm....
+[20150127021917] [13745] [ptlipc.c] [217] [_tShmInit] info:Initial base shm....
+[20150127021917] [13745] [ptlipc.c] [232] [_tShmInit] info:Initial all shm filish
+[20150127021917] [13745] [ptlipc.c] [379] [_tSemInit] info:Initial msg sem ...
+[20150127021917] [13745] [ptlipc.c] [400] [_tSemInit] info:Initial base sem ...
+[20150127021917] [13745] [ptlipc.c] [421] [_tSemInit] info:Initial boot sem ...
+[20150127021917] [13745] [ptlipc.c] [442] [_tSemInit] info:Initial all sem filish!
+[20150127021917] [13745] [ptlcm.c] [122] [nLoadParam] info:服务器的ip地址: [172.16.80.109]
+[20150127021917] [13745] [ptlcm.c] [135] [nLoadParam] info:服务器的监听端口: [1727] 
+[20150127021917] [13745] [ptlcm.c] [142] [nLoadParam] info:虚拟终端数: [4000] 
+[20150127021917] [13745] [ptlcm.c] [154] [nLoadParam] info:虚拟物理服务器数: [3000] 
+[20150127021917] [13745] [ptlcm.c] [160] [nLoadParam] info:虚拟逻辑服务器数: [3000] 
+[20150127021917] [13745] [ptlcm.c] [182] [nLoadParam] info:测试时间: [5.0000h] 
+[20150127021917] [13745] [ptlcm.c] [191] [nLoadParam] info:生成连接的间隔时间: [20000s] 
+[20150127021917] [13745] [ptlcm.c] [319] [nMsgInit] info:Test Msg conut is :[4]
+[20150127021917] [13745] [ptlcm.c] [320] [nMsgInit] info:To Test msg add callback fun!!!
+[20150127021917] [13745] [ptlgen.c] [1088] [MsgTimerCBInit] info:msg [3] cb is 59fa56a3
+[20150127021917] [13745] [ptlgen.c] [1096] [MsgTimerCBInit] info:msg [15] cb is 59fa5bc0
+[20150127021917] [13745] [ptlgen.c] [1092] [MsgTimerCBInit] info:msg [9] cb is 59fa5abb
+[20150127021917] [13745] [ptlipc.c] [479] [_tSemRm] info:remove all sem filish!
+[20150127021917] [13745] [ptlipc.c] [274] [_tShmRm] info:remove all shm success!
+[20150127021917] [13746] [ptlipc.c] [130] [_tShmInit] info:Initial main shm ...
+[20150127021917] [13746] [ptlipc.c] [143] [_tShmInit] info:shmat main shm ...
+[20150127021917] [13746] [ptlipc.c] [152] [_tShmInit] info:Initial shm success!
+[20150127021917] [13746] [ptlipc.c] [154] [_tShmInit] info:Get config value ...
+[20150127021917] [13746] [ptlipc.c] [161] [_tShmInit] info:TestConfigName[/home/yl/toolapp/etc/test.json]!
+[20150127021917] [13746] [ptlipc.c] [167] [_tShmInit] info:BaseMaxNum[100000]!
+[20150127021917] [13746] [ptlipc.c] [173] [_tShmInit] info:PhyNum[3000]!
+[20150127021917] [13746] [ptlipc.c] [179] [_tShmInit] info:TermNum[4000]!
+[20150127021917] [13746] [ptlipc.c] [185] [_tShmInit] info:LogicNum[3000]!
+[20150127021917] [13746] [ptlipc.c] [199] [_tShmInit] info:BaseCount[1]!
+[20150127021917] [13746] [ptlipc.c] [201] [_tShmInit] info:Initial msgtype shm....
+[20150127021917] [13746] [ptlipc.c] [217] [_tShmInit] info:Initial base shm....
+[20150127021917] [13746] [ptlipc.c] [232] [_tShmInit] info:Initial all shm filish
+[20150127021917] [13746] [ptlipc.c] [379] [_tSemInit] info:Initial msg sem ...
+[20150127021917] [13746] [ptlipc.c] [400] [_tSemInit] info:Initial base sem ...
+[20150127021917] [13746] [ptlipc.c] [421] [_tSemInit] info:Initial boot sem ...
+[20150127021917] [13746] [ptlipc.c] [442] [_tSemInit] info:Initial all sem filish!
+[20150127021917] [13746] [ptlcm.c] [122] [nLoadParam] info:服务器的ip地址: [172.16.80.109]
+[20150127021917] [13746] [ptlcm.c] [135] [nLoadParam] info:服务器的监听端口: [1727] 
+[20150127021917] [13746] [ptlcm.c] [142] [nLoadParam] info:虚拟终端数: [4000] 
+[20150127021917] [13746] [ptlcm.c] [154] [nLoadParam] info:虚拟物理服务器数: [3000] 
+[20150127021917] [13746] [ptlcm.c] [160] [nLoadParam] info:虚拟逻辑服务器数: [3000] 
+[20150127021917] [13746] [ptlcm.c] [182] [nLoadParam] info:测试时间: [5.0000h] 
+[20150127021917] [13746] [ptlcm.c] [191] [nLoadParam] info:生成连接的间隔时间: [20000s] 
+[20150127021917] [13746] [ptlcm.c] [319] [nMsgInit] info:Test Msg conut is :[4]
+[20150127021917] [13746] [ptlcm.c] [320] [nMsgInit] info:To Test msg add callback fun!!!
+[20150127021917] [13746] [ptlgen.c] [1088] [MsgTimerCBInit] info:msg [3] cb is 15c0b6a3
+[20150127021917] [13746] [ptlgen.c] [1096] [MsgTimerCBInit] info:msg [15] cb is 15c0bbc0
+[20150127021917] [13746] [ptlgen.c] [1092] [MsgTimerCBInit] info:msg [9] cb is 15c0babb
+[20150127021917] [13746] [ptlipc.c] [479] [_tSemRm] info:remove all sem filish!
+[20150127021917] [13746] [ptlipc.c] [274] [_tShmRm] info:remove all shm success!
+[20150127021917] [13747] [ptlipc.c] [130] [_tShmInit] info:Initial main shm ...
+[20150127021917] [13747] [ptlipc.c] [143] [_tShmInit] info:shmat main shm ...
+[20150127021917] [13747] [ptlipc.c] [152] [_tShmInit] info:Initial shm success!
+[20150127021917] [13747] [ptlipc.c] [154] [_tShmInit] info:Get config value ...
+[20150127021917] [13747] [ptlipc.c] [161] [_tShmInit] info:TestConfigName[/home/yl/toolapp/etc/test.json]!
+[20150127021917] [13747] [ptlipc.c] [167] [_tShmInit] info:BaseMaxNum[100000]!
+[20150127021917] [13747] [ptlipc.c] [173] [_tShmInit] info:PhyNum[3000]!
+[20150127021917] [13747] [ptlipc.c] [179] [_tShmInit] info:TermNum[4000]!
+[20150127021917] [13747] [ptlipc.c] [185] [_tShmInit] info:LogicNum[3000]!
+[20150127021917] [13747] [ptlipc.c] [199] [_tShmInit] info:BaseCount[1]!
+[20150127021917] [13747] [ptlipc.c] [201] [_tShmInit] info:Initial msgtype shm....
+[20150127021917] [13747] [ptlipc.c] [217] [_tShmInit] info:Initial base shm....
+[20150127021917] [13747] [ptlipc.c] [232] [_tShmInit] info:Initial all shm filish
+[20150127021917] [13747] [ptlipc.c] [379] [_tSemInit] info:Initial msg sem ...
+[20150127021917] [13747] [ptlipc.c] [400] [_tSemInit] info:Initial base sem ...
+[20150127021917] [13747] [ptlipc.c] [421] [_tSemInit] info:Initial boot sem ...
+[20150127021917] [13747] [ptlipc.c] [442] [_tSemInit] info:Initial all sem filish!
+[20150127021917] [13747] [ptlcm.c] [122] [nLoadParam] info:服务器的ip地址: [172.16.80.109]
+[20150127021917] [13747] [ptlcm.c] [135] [nLoadParam] info:服务器的监听端口: [1727] 
+[20150127021917] [13747] [ptlcm.c] [142] [nLoadParam] info:虚拟终端数: [4000] 
+[20150127021917] [13747] [ptlcm.c] [154] [nLoadParam] info:虚拟物理服务器数: [3000] 
+[20150127021917] [13747] [ptlcm.c] [160] [nLoadParam] info:虚拟逻辑服务器数: [3000] 
+[20150127021917] [13747] [ptlcm.c] [182] [nLoadParam] info:测试时间: [5.0000h] 
+[20150127021917] [13747] [ptlcm.c] [191] [nLoadParam] info:生成连接的间隔时间: [20000s] 
+[20150127021917] [13747] [ptlcm.c] [319] [nMsgInit] info:Test Msg conut is :[4]
+[20150127021917] [13747] [ptlcm.c] [320] [nMsgInit] info:To Test msg add callback fun!!!
+[20150127021917] [13747] [ptlgen.c] [1088] [MsgTimerCBInit] info:msg [3] cb is 88cc46a3
+[20150127021917] [13747] [ptlgen.c] [1096] [MsgTimerCBInit] info:msg [15] cb is 88cc4bc0
+[20150127021917] [13747] [ptlgen.c] [1092] [MsgTimerCBInit] info:msg [9] cb is 88cc4abb
+[20150127021917] [13747] [ptlipc.c] [479] [_tSemRm] info:remove all sem filish!
+[20150127021917] [13747] [ptlipc.c] [274] [_tShmRm] info:remove all shm success!
+[20150127021918] [13748] [ptlipc.c] [130] [_tShmInit] info:Initial main shm ...
+[20150127021918] [13748] [ptlipc.c] [143] [_tShmInit] info:shmat main shm ...
+[20150127021918] [13748] [ptlipc.c] [152] [_tShmInit] info:Initial shm success!
+[20150127021918] [13748] [ptlipc.c] [154] [_tShmInit] info:Get config value ...
+[20150127021918] [13748] [ptlipc.c] [161] [_tShmInit] info:TestConfigName[/home/yl/toolapp/etc/test.json]!
+[20150127021918] [13748] [ptlipc.c] [167] [_tShmInit] info:BaseMaxNum[100000]!
+[20150127021918] [13748] [ptlipc.c] [173] [_tShmInit] info:PhyNum[3000]!
+[20150127021918] [13748] [ptlipc.c] [179] [_tShmInit] info:TermNum[4000]!
+[20150127021918] [13748] [ptlipc.c] [185] [_tShmInit] info:LogicNum[3000]!
+[20150127021918] [13748] [ptlipc.c] [199] [_tShmInit] info:BaseCount[1]!
+[20150127021918] [13748] [ptlipc.c] [201] [_tShmInit] info:Initial msgtype shm....
+[20150127021918] [13748] [ptlipc.c] [217] [_tShmInit] info:Initial base shm....
+[20150127021918] [13748] [ptlipc.c] [232] [_tShmInit] info:Initial all shm filish
+[20150127021918] [13748] [ptlipc.c] [379] [_tSemInit] info:Initial msg sem ...
+[20150127021918] [13748] [ptlipc.c] [400] [_tSemInit] info:Initial base sem ...
+[20150127021918] [13748] [ptlipc.c] [421] [_tSemInit] info:Initial boot sem ...
+[20150127021918] [13748] [ptlipc.c] [442] [_tSemInit] info:Initial all sem filish!
+[20150127021918] [13748] [ptlcm.c] [122] [nLoadParam] info:服务器的ip地址: [172.16.80.109]
+[20150127021918] [13748] [ptlcm.c] [135] [nLoadParam] info:服务器的监听端口: [1727] 
+[20150127021918] [13748] [ptlcm.c] [142] [nLoadParam] info:虚拟终端数: [4000] 
+[20150127021918] [13748] [ptlcm.c] [154] [nLoadParam] info:虚拟物理服务器数: [3000] 
+[20150127021918] [13748] [ptlcm.c] [160] [nLoadParam] info:虚拟逻辑服务器数: [3000] 
+[20150127021918] [13748] [ptlcm.c] [182] [nLoadParam] info:测试时间: [5.0000h] 
+[20150127021918] [13748] [ptlcm.c] [191] [nLoadParam] info:生成连接的间隔时间: [20000s] 
+[20150127021918] [13748] [ptlcm.c] [319] [nMsgInit] info:Test Msg conut is :[4]
+[20150127021918] [13748] [ptlcm.c] [320] [nMsgInit] info:To Test msg add callback fun!!!
+[20150127021918] [13748] [ptlgen.c] [1088] [MsgTimerCBInit] info:msg [3] cb is b46b36a3
+[20150127021918] [13748] [ptlgen.c] [1096] [MsgTimerCBInit] info:msg [15] cb is b46b3bc0
+[20150127021918] [13748] [ptlgen.c] [1092] [MsgTimerCBInit] info:msg [9] cb is b46b3abb
+[20150127021918] [13748] [ptlipc.c] [479] [_tSemRm] info:remove all sem filish!
+[20150127021918] [13748] [ptlipc.c] [274] [_tShmRm] info:remove all shm success!
+[20150127021918] [13749] [ptlipc.c] [130] [_tShmInit] info:Initial main shm ...
+[20150127021918] [13749] [ptlipc.c] [143] [_tShmInit] info:shmat main shm ...
+[20150127021918] [13749] [ptlipc.c] [152] [_tShmInit] info:Initial shm success!
+[20150127021918] [13749] [ptlipc.c] [154] [_tShmInit] info:Get config value ...
+[20150127021918] [13749] [ptlipc.c] [161] [_tShmInit] info:TestConfigName[/home/yl/toolapp/etc/test.json]!
+[20150127021918] [13749] [ptlipc.c] [167] [_tShmInit] info:BaseMaxNum[100000]!
+[20150127021918] [13749] [ptlipc.c] [173] [_tShmInit] info:PhyNum[3000]!
+[20150127021918] [13749] [ptlipc.c] [179] [_tShmInit] info:TermNum[4000]!
+[20150127021918] [13749] [ptlipc.c] [185] [_tShmInit] info:LogicNum[3000]!
+[20150127021918] [13749] [ptlipc.c] [199] [_tShmInit] info:BaseCount[1]!
+[20150127021918] [13749] [ptlipc.c] [201] [_tShmInit] info:Initial msgtype shm....
+[20150127021918] [13749] [ptlipc.c] [217] [_tShmInit] info:Initial base shm....
+[20150127021918] [13749] [ptlipc.c] [232] [_tShmInit] info:Initial all shm filish
+[20150127021918] [13749] [ptlipc.c] [379] [_tSemInit] info:Initial msg sem ...
+[20150127021918] [13749] [ptlipc.c] [400] [_tSemInit] info:Initial base sem ...
+[20150127021918] [13749] [ptlipc.c] [421] [_tSemInit] info:Initial boot sem ...
+[20150127021918] [13749] [ptlipc.c] [442] [_tSemInit] info:Initial all sem filish!
+[20150127021918] [13749] [ptlcm.c] [122] [nLoadParam] info:服务器的ip地址: [172.16.80.109]
+[20150127021918] [13749] [ptlcm.c] [135] [nLoadParam] info:服务器的监听端口: [1727] 
+[20150127021918] [13749] [ptlcm.c] [142] [nLoadParam] info:虚拟终端数: [4000] 
+[20150127021918] [13749] [ptlcm.c] [154] [nLoadParam] info:虚拟物理服务器数: [3000] 
+[20150127021918] [13749] [ptlcm.c] [160] [nLoadParam] info:虚拟逻辑服务器数: [3000] 
+[20150127021918] [13749] [ptlcm.c] [182] [nLoadParam] info:测试时间: [5.0000h] 
+[20150127021918] [13749] [ptlcm.c] [191] [nLoadParam] info:生成连接的间隔时间: [20000s] 
+[20150127021918] [13749] [ptlcm.c] [319] [nMsgInit] info:Test Msg conut is :[4]
+[20150127021918] [13749] [ptlcm.c] [320] [nMsgInit] info:To Test msg add callback fun!!!
+[20150127021918] [13749] [ptlgen.c] [1088] [MsgTimerCBInit] info:msg [3] cb is 2f4066a3
+[20150127021918] [13749] [ptlgen.c] [1096] [MsgTimerCBInit] info:msg [15] cb is 2f406bc0
+[20150127021918] [13749] [ptlgen.c] [1092] [MsgTimerCBInit] info:msg [9] cb is 2f406abb
+[20150127021918] [13749] [ptlipc.c] [479] [_tSemRm] info:remove all sem filish!
+[20150127021918] [13749] [ptlipc.c] [274] [_tShmRm] info:remove all shm success!
+[20150127021919] [13750] [ptlipc.c] [130] [_tShmInit] info:Initial main shm ...
+[20150127021919] [13750] [ptlipc.c] [143] [_tShmInit] info:shmat main shm ...
+[20150127021919] [13750] [ptlipc.c] [152] [_tShmInit] info:Initial shm success!
+[20150127021919] [13750] [ptlipc.c] [154] [_tShmInit] info:Get config value ...
+[20150127021919] [13750] [ptlipc.c] [161] [_tShmInit] info:TestConfigName[/home/yl/toolapp/etc/test.json]!
+[20150127021919] [13750] [ptlipc.c] [167] [_tShmInit] info:BaseMaxNum[100000]!
+[20150127021919] [13750] [ptlipc.c] [173] [_tShmInit] info:PhyNum[3000]!
+[20150127021919] [13750] [ptlipc.c] [179] [_tShmInit] info:TermNum[4000]!
+[20150127021919] [13750] [ptlipc.c] [185] [_tShmInit] info:LogicNum[3000]!
+[20150127021919] [13750] [ptlipc.c] [199] [_tShmInit] info:BaseCount[1]!
+[20150127021919] [13750] [ptlipc.c] [201] [_tShmInit] info:Initial msgtype shm....
+[20150127021919] [13750] [ptlipc.c] [217] [_tShmInit] info:Initial base shm....
+[20150127021919] [13750] [ptlipc.c] [232] [_tShmInit] info:Initial all shm filish
+[20150127021919] [13750] [ptlipc.c] [379] [_tSemInit] info:Initial msg sem ...
+[20150127021919] [13750] [ptlipc.c] [400] [_tSemInit] info:Initial base sem ...
+[20150127021919] [13750] [ptlipc.c] [421] [_tSemInit] info:Initial boot sem ...
+[20150127021919] [13750] [ptlipc.c] [442] [_tSemInit] info:Initial all sem filish!
+[20150127021919] [13750] [ptlcm.c] [122] [nLoadParam] info:服务器的ip地址: [172.16.80.109]
+[20150127021919] [13750] [ptlcm.c] [135] [nLoadParam] info:服务器的监听端口: [1727] 
+[20150127021919] [13750] [ptlcm.c] [142] [nLoadParam] info:虚拟终端数: [4000] 
+[20150127021919] [13750] [ptlcm.c] [154] [nLoadParam] info:虚拟物理服务器数: [3000] 
+[20150127021919] [13750] [ptlcm.c] [160] [nLoadParam] info:虚拟逻辑服务器数: [3000] 
+[20150127021919] [13750] [ptlcm.c] [182] [nLoadParam] info:测试时间: [5.0000h] 
+[20150127021919] [13750] [ptlcm.c] [191] [nLoadParam] info:生成连接的间隔时间: [20000s] 
+[20150127021919] [13750] [ptlcm.c] [319] [nMsgInit] info:Test Msg conut is :[4]
+[20150127021919] [13750] [ptlcm.c] [320] [nMsgInit] info:To Test msg add callback fun!!!
+[20150127021919] [13750] [ptlgen.c] [1088] [MsgTimerCBInit] info:msg [3] cb is c20f16a3
+[20150127021919] [13750] [ptlgen.c] [1096] [MsgTimerCBInit] info:msg [15] cb is c20f1bc0
+[20150127021919] [13750] [ptlgen.c] [1092] [MsgTimerCBInit] info:msg [9] cb is c20f1abb
+[20150127021919] [13750] [ptlipc.c] [479] [_tSemRm] info:remove all sem filish!
+[20150127021919] [13750] [ptlipc.c] [274] [_tShmRm] info:remove all shm success!
+[20150127021920] [13751] [ptlipc.c] [130] [_tShmInit] info:Initial main shm ...
+[20150127021920] [13751] [ptlipc.c] [143] [_tShmInit] info:shmat main shm ...
+[20150127021920] [13751] [ptlipc.c] [152] [_tShmInit] info:Initial shm success!
+[20150127021920] [13751] [ptlipc.c] [154] [_tShmInit] info:Get config value ...
+[20150127021920] [13751] [ptlipc.c] [161] [_tShmInit] info:TestConfigName[/home/yl/toolapp/etc/test.json]!
+[20150127021920] [13751] [ptlipc.c] [167] [_tShmInit] info:BaseMaxNum[100000]!
+[20150127021920] [13751] [ptlipc.c] [173] [_tShmInit] info:PhyNum[3000]!
+[20150127021920] [13751] [ptlipc.c] [179] [_tShmInit] info:TermNum[4000]!
+[20150127021920] [13751] [ptlipc.c] [185] [_tShmInit] info:LogicNum[3000]!
+[20150127021920] [13751] [ptlipc.c] [199] [_tShmInit] info:BaseCount[1]!
+[20150127021920] [13751] [ptlipc.c] [201] [_tShmInit] info:Initial msgtype shm....
+[20150127021920] [13751] [ptlipc.c] [217] [_tShmInit] info:Initial base shm....
+[20150127021920] [13751] [ptlipc.c] [232] [_tShmInit] info:Initial all shm filish
+[20150127021920] [13751] [ptlipc.c] [379] [_tSemInit] info:Initial msg sem ...
+[20150127021920] [13751] [ptlipc.c] [400] [_tSemInit] info:Initial base sem ...
+[20150127021920] [13751] [ptlipc.c] [421] [_tSemInit] info:Initial boot sem ...
+[20150127021920] [13751] [ptlipc.c] [442] [_tSemInit] info:Initial all sem filish!
+[20150127021920] [13751] [ptlcm.c] [122] [nLoadParam] info:服务器的ip地址: [172.16.80.109]
+[20150127021920] [13751] [ptlcm.c] [135] [nLoadParam] info:服务器的监听端口: [1727] 
+[20150127021920] [13751] [ptlcm.c] [142] [nLoadParam] info:虚拟终端数: [4000] 
+[20150127021920] [13751] [ptlcm.c] [154] [nLoadParam] info:虚拟物理服务器数: [3000] 
+[20150127021920] [13751] [ptlcm.c] [160] [nLoadParam] info:虚拟逻辑服务器数: [3000] 
+[20150127021920] [13751] [ptlcm.c] [182] [nLoadParam] info:测试时间: [5.0000h] 
+[20150127021920] [13751] [ptlcm.c] [191] [nLoadParam] info:生成连接的间隔时间: [20000s] 
+[20150127021920] [13751] [ptlcm.c] [319] [nMsgInit] info:Test Msg conut is :[4]
+[20150127021920] [13751] [ptlcm.c] [320] [nMsgInit] info:To Test msg add callback fun!!!
+[20150127021920] [13751] [ptlgen.c] [1088] [MsgTimerCBInit] info:msg [3] cb is 726ff6a3
+[20150127021920] [13751] [ptlgen.c] [1096] [MsgTimerCBInit] info:msg [15] cb is 726ffbc0
+[20150127021920] [13751] [ptlgen.c] [1092] [MsgTimerCBInit] info:msg [9] cb is 726ffabb
+[20150127021920] [13751] [ptlipc.c] [479] [_tSemRm] info:remove all sem filish!
+[20150127021920] [13751] [ptlipc.c] [274] [_tShmRm] info:remove all shm success!
+[20150127021920] [13752] [ptlipc.c] [130] [_tShmInit] info:Initial main shm ...
+[20150127021920] [13752] [ptlipc.c] [143] [_tShmInit] info:shmat main shm ...
+[20150127021920] [13752] [ptlipc.c] [152] [_tShmInit] info:Initial shm success!
+[20150127021920] [13752] [ptlipc.c] [154] [_tShmInit] info:Get config value ...
+[20150127021920] [13752] [ptlipc.c] [161] [_tShmInit] info:TestConfigName[/home/yl/toolapp/etc/test.json]!
+[20150127021920] [13752] [ptlipc.c] [167] [_tShmInit] info:BaseMaxNum[100000]!
+[20150127021920] [13752] [ptlipc.c] [173] [_tShmInit] info:PhyNum[3000]!
+[20150127021920] [13752] [ptlipc.c] [179] [_tShmInit] info:TermNum[4000]!
+[20150127021920] [13752] [ptlipc.c] [185] [_tShmInit] info:LogicNum[3000]!
+[20150127021920] [13752] [ptlipc.c] [199] [_tShmInit] info:BaseCount[1]!
+[20150127021920] [13752] [ptlipc.c] [201] [_tShmInit] info:Initial msgtype shm....
+[20150127021920] [13752] [ptlipc.c] [217] [_tShmInit] info:Initial base shm....
+[20150127021920] [13752] [ptlipc.c] [232] [_tShmInit] info:Initial all shm filish
+[20150127021920] [13752] [ptlipc.c] [379] [_tSemInit] info:Initial msg sem ...
+[20150127021920] [13752] [ptlipc.c] [400] [_tSemInit] info:Initial base sem ...
+[20150127021920] [13752] [ptlipc.c] [421] [_tSemInit] info:Initial boot sem ...
+[20150127021920] [13752] [ptlipc.c] [442] [_tSemInit] info:Initial all sem filish!
+[20150127021920] [13752] [ptlcm.c] [122] [nLoadParam] info:服务器的ip地址: [172.16.80.109]
+[20150127021920] [13752] [ptlcm.c] [135] [nLoadParam] info:服务器的监听端口: [1727] 
+[20150127021920] [13752] [ptlcm.c] [142] [nLoadParam] info:虚拟终端数: [4000] 
+[20150127021920] [13752] [ptlcm.c] [154] [nLoadParam] info:虚拟物理服务器数: [3000] 
+[20150127021920] [13752] [ptlcm.c] [160] [nLoadParam] info:虚拟逻辑服务器数: [3000] 
+[20150127021920] [13752] [ptlcm.c] [182] [nLoadParam] info:测试时间: [5.0000h] 
+[20150127021920] [13752] [ptlcm.c] [191] [nLoadParam] info:生成连接的间隔时间: [20000s] 
+[20150127021920] [13752] [ptlcm.c] [319] [nMsgInit] info:Test Msg conut is :[4]
+[20150127021920] [13752] [ptlcm.c] [320] [nMsgInit] info:To Test msg add callback fun!!!
+[20150127021920] [13752] [ptlgen.c] [1088] [MsgTimerCBInit] info:msg [3] cb is b181d6a3
+[20150127021920] [13752] [ptlgen.c] [1096] [MsgTimerCBInit] info:msg [15] cb is b181dbc0
+[20150127021920] [13752] [ptlgen.c] [1092] [MsgTimerCBInit] info:msg [9] cb is b181dabb
+[20150127021920] [13752] [ptlipc.c] [479] [_tSemRm] info:remove all sem filish!
+[20150127021920] [13752] [ptlipc.c] [274] [_tShmRm] info:remove all shm success!
+[20150127021920] [13753] [ptlipc.c] [130] [_tShmInit] info:Initial main shm ...
+[20150127021920] [13753] [ptlipc.c] [143] [_tShmInit] info:shmat main shm ...
+[20150127021920] [13753] [ptlipc.c] [152] [_tShmInit] info:Initial shm success!
+[20150127021920] [13753] [ptlipc.c] [154] [_tShmInit] info:Get config value ...
+[20150127021920] [13753] [ptlipc.c] [161] [_tShmInit] info:TestConfigName[/home/yl/toolapp/etc/test.json]!
+[20150127021920] [13753] [ptlipc.c] [167] [_tShmInit] info:BaseMaxNum[100000]!
+[20150127021920] [13753] [ptlipc.c] [173] [_tShmInit] info:PhyNum[3000]!
+[20150127021920] [13753] [ptlipc.c] [179] [_tShmInit] info:TermNum[4000]!
+[20150127021920] [13753] [ptlipc.c] [185] [_tShmInit] info:LogicNum[3000]!
+[20150127021920] [13753] [ptlipc.c] [199] [_tShmInit] info:BaseCount[1]!
+[20150127021920] [13753] [ptlipc.c] [201] [_tShmInit] info:Initial msgtype shm....
+[20150127021920] [13753] [ptlipc.c] [217] [_tShmInit] info:Initial base shm....
+[20150127021920] [13753] [ptlipc.c] [232] [_tShmInit] info:Initial all shm filish
+[20150127021920] [13753] [ptlipc.c] [379] [_tSemInit] info:Initial msg sem ...
+[20150127021920] [13753] [ptlipc.c] [400] [_tSemInit] info:Initial base sem ...
+[20150127021920] [13753] [ptlipc.c] [421] [_tSemInit] info:Initial boot sem ...
+[20150127021920] [13753] [ptlipc.c] [442] [_tSemInit] info:Initial all sem filish!
+[20150127021920] [13753] [ptlcm.c] [122] [nLoadParam] info:服务器的ip地址: [172.16.80.109]
+[20150127021920] [13753] [ptlcm.c] [135] [nLoadParam] info:服务器的监听端口: [1727] 
+[20150127021920] [13753] [ptlcm.c] [142] [nLoadParam] info:虚拟终端数: [4000] 
+[20150127021920] [13753] [ptlcm.c] [154] [nLoadParam] info:虚拟物理服务器数: [3000] 
+[20150127021920] [13753] [ptlcm.c] [160] [nLoadParam] info:虚拟逻辑服务器数: [3000] 
+[20150127021920] [13753] [ptlcm.c] [182] [nLoadParam] info:测试时间: [5.0000h] 
+[20150127021920] [13753] [ptlcm.c] [191] [nLoadParam] info:生成连接的间隔时间: [20000s] 
+[20150127021920] [13753] [ptlcm.c] [319] [nMsgInit] info:Test Msg conut is :[4]
+[20150127021920] [13753] [ptlcm.c] [320] [nMsgInit] info:To Test msg add callback fun!!!
+[20150127021920] [13753] [ptlgen.c] [1088] [MsgTimerCBInit] info:msg [3] cb is 3ecd6a3
+[20150127021920] [13753] [ptlgen.c] [1096] [MsgTimerCBInit] info:msg [15] cb is 3ecdbc0
+[20150127021920] [13753] [ptlgen.c] [1092] [MsgTimerCBInit] info:msg [9] cb is 3ecdabb
+[20150127021920] [13753] [ptlipc.c] [479] [_tSemRm] info:remove all sem filish!
+[20150127021920] [13753] [ptlipc.c] [274] [_tShmRm] info:remove all shm success!
+[20150127021921] [13754] [ptlipc.c] [130] [_tShmInit] info:Initial main shm ...
+[20150127021921] [13754] [ptlipc.c] [143] [_tShmInit] info:shmat main shm ...
+[20150127021921] [13754] [ptlipc.c] [152] [_tShmInit] info:Initial shm success!
+[20150127021921] [13754] [ptlipc.c] [154] [_tShmInit] info:Get config value ...
+[20150127021921] [13754] [ptlipc.c] [161] [_tShmInit] info:TestConfigName[/home/yl/toolapp/etc/test.json]!
+[20150127021921] [13754] [ptlipc.c] [167] [_tShmInit] info:BaseMaxNum[100000]!
+[20150127021921] [13754] [ptlipc.c] [173] [_tShmInit] info:PhyNum[3000]!
+[20150127021921] [13754] [ptlipc.c] [179] [_tShmInit] info:TermNum[4000]!
+[20150127021921] [13754] [ptlipc.c] [185] [_tShmInit] info:LogicNum[3000]!
+[20150127021921] [13754] [ptlipc.c] [199] [_tShmInit] info:BaseCount[1]!
+[20150127021921] [13754] [ptlipc.c] [201] [_tShmInit] info:Initial msgtype shm....
+[20150127021921] [13754] [ptlipc.c] [217] [_tShmInit] info:Initial base shm....
+[20150127021921] [13754] [ptlipc.c] [232] [_tShmInit] info:Initial all shm filish
+[20150127021921] [13754] [ptlipc.c] [379] [_tSemInit] info:Initial msg sem ...
+[20150127021921] [13754] [ptlipc.c] [400] [_tSemInit] info:Initial base sem ...
+[20150127021921] [13754] [ptlipc.c] [421] [_tSemInit] info:Initial boot sem ...
+[20150127021921] [13754] [ptlipc.c] [442] [_tSemInit] info:Initial all sem filish!
+[20150127021921] [13754] [ptlcm.c] [122] [nLoadParam] info:服务器的ip地址: [172.16.80.109]
+[20150127021921] [13754] [ptlcm.c] [135] [nLoadParam] info:服务器的监听端口: [1727] 
+[20150127021921] [13754] [ptlcm.c] [142] [nLoadParam] info:虚拟终端数: [4000] 
+[20150127021921] [13754] [ptlcm.c] [154] [nLoadParam] info:虚拟物理服务器数: [3000] 
+[20150127021921] [13754] [ptlcm.c] [160] [nLoadParam] info:虚拟逻辑服务器数: [3000] 
+[20150127021921] [13754] [ptlcm.c] [182] [nLoadParam] info:测试时间: [5.0000h] 
+[20150127021921] [13754] [ptlcm.c] [191] [nLoadParam] info:生成连接的间隔时间: [20000s] 
+[20150127021921] [13754] [ptlcm.c] [319] [nMsgInit] info:Test Msg conut is :[4]
+[20150127021921] [13754] [ptlcm.c] [320] [nMsgInit] info:To Test msg add callback fun!!!
+[20150127021921] [13754] [ptlgen.c] [1088] [MsgTimerCBInit] info:msg [3] cb is 9c67a6a3
+[20150127021921] [13754] [ptlgen.c] [1096] [MsgTimerCBInit] info:msg [15] cb is 9c67abc0
+[20150127021921] [13754] [ptlgen.c] [1092] [MsgTimerCBInit] info:msg [9] cb is 9c67aabb
+[20150127021921] [13754] [ptlipc.c] [479] [_tSemRm] info:remove all sem filish!
+[20150127021921] [13754] [ptlipc.c] [274] [_tShmRm] info:remove all shm success!
+[20150127021921] [13755] [ptlipc.c] [130] [_tShmInit] info:Initial main shm ...
+[20150127021921] [13755] [ptlipc.c] [143] [_tShmInit] info:shmat main shm ...
+[20150127021921] [13755] [ptlipc.c] [152] [_tShmInit] info:Initial shm success!
+[20150127021921] [13755] [ptlipc.c] [154] [_tShmInit] info:Get config value ...
+[20150127021921] [13755] [ptlipc.c] [161] [_tShmInit] info:TestConfigName[/home/yl/toolapp/etc/test.json]!
+[20150127021921] [13755] [ptlipc.c] [167] [_tShmInit] info:BaseMaxNum[100000]!
+[20150127021921] [13755] [ptlipc.c] [173] [_tShmInit] info:PhyNum[3000]!
+[20150127021921] [13755] [ptlipc.c] [179] [_tShmInit] info:TermNum[4000]!
+[20150127021921] [13755] [ptlipc.c] [185] [_tShmInit] info:LogicNum[3000]!
+[20150127021921] [13755] [ptlipc.c] [199] [_tShmInit] info:BaseCount[1]!
+[20150127021921] [13755] [ptlipc.c] [201] [_tShmInit] info:Initial msgtype shm....
+[20150127021921] [13755] [ptlipc.c] [217] [_tShmInit] info:Initial base shm....
+[20150127021921] [13755] [ptlipc.c] [232] [_tShmInit] info:Initial all shm filish
+[20150127021921] [13755] [ptlipc.c] [379] [_tSemInit] info:Initial msg sem ...
+[20150127021921] [13755] [ptlipc.c] [400] [_tSemInit] info:Initial base sem ...
+[20150127021921] [13755] [ptlipc.c] [421] [_tSemInit] info:Initial boot sem ...
+[20150127021921] [13755] [ptlipc.c] [442] [_tSemInit] info:Initial all sem filish!
+[20150127021921] [13755] [ptlcm.c] [122] [nLoadParam] info:服务器的ip地址: [172.16.80.109]
+[20150127021921] [13755] [ptlcm.c] [135] [nLoadParam] info:服务器的监听端口: [1727] 
+[20150127021921] [13755] [ptlcm.c] [142] [nLoadParam] info:虚拟终端数: [4000] 
+[20150127021921] [13755] [ptlcm.c] [154] [nLoadParam] info:虚拟物理服务器数: [3000] 
+[20150127021921] [13755] [ptlcm.c] [160] [nLoadParam] info:虚拟逻辑服务器数: [3000] 
+[20150127021921] [13755] [ptlcm.c] [182] [nLoadParam] info:测试时间: [5.0000h] 
+[20150127021921] [13755] [ptlcm.c] [191] [nLoadParam] info:生成连接的间隔时间: [20000s] 
+[20150127021921] [13755] [ptlcm.c] [319] [nMsgInit] info:Test Msg conut is :[4]
+[20150127021921] [13755] [ptlcm.c] [320] [nMsgInit] info:To Test msg add callback fun!!!
+[20150127021921] [13755] [ptlgen.c] [1088] [MsgTimerCBInit] info:msg [3] cb is 246d36a3
+[20150127021921] [13755] [ptlgen.c] [1096] [MsgTimerCBInit] info:msg [15] cb is 246d3bc0
+[20150127021921] [13755] [ptlgen.c] [1092] [MsgTimerCBInit] info:msg [9] cb is 246d3abb
+[20150127021921] [13755] [ptlipc.c] [479] [_tSemRm] info:remove all sem filish!
+[20150127021921] [13755] [ptlipc.c] [274] [_tShmRm] info:remove all shm success!
+[20150127021922] [13756] [ptlipc.c] [130] [_tShmInit] info:Initial main shm ...
+[20150127021922] [13756] [ptlipc.c] [143] [_tShmInit] info:shmat main shm ...
+[20150127021922] [13756] [ptlipc.c] [152] [_tShmInit] info:Initial shm success!
+[20150127021922] [13756] [ptlipc.c] [154] [_tShmInit] info:Get config value ...
+[20150127021922] [13756] [ptlipc.c] [161] [_tShmInit] info:TestConfigName[/home/yl/toolapp/etc/test.json]!
+[20150127021922] [13756] [ptlipc.c] [167] [_tShmInit] info:BaseMaxNum[100000]!
+[20150127021922] [13756] [ptlipc.c] [173] [_tShmInit] info:PhyNum[3000]!
+[20150127021922] [13756] [ptlipc.c] [179] [_tShmInit] info:TermNum[4000]!
+[20150127021922] [13756] [ptlipc.c] [185] [_tShmInit] info:LogicNum[3000]!
+[20150127021922] [13756] [ptlipc.c] [199] [_tShmInit] info:BaseCount[1]!
+[20150127021922] [13756] [ptlipc.c] [201] [_tShmInit] info:Initial msgtype shm....
+[20150127021922] [13756] [ptlipc.c] [217] [_tShmInit] info:Initial base shm....
+[20150127021922] [13756] [ptlipc.c] [232] [_tShmInit] info:Initial all shm filish
+[20150127021922] [13756] [ptlipc.c] [379] [_tSemInit] info:Initial msg sem ...
+[20150127021922] [13756] [ptlipc.c] [400] [_tSemInit] info:Initial base sem ...
+[20150127021922] [13756] [ptlipc.c] [421] [_tSemInit] info:Initial boot sem ...
+[20150127021922] [13756] [ptlipc.c] [442] [_tSemInit] info:Initial all sem filish!
+[20150127021922] [13756] [ptlcm.c] [122] [nLoadParam] info:服务器的ip地址: [172.16.80.109]
+[20150127021922] [13756] [ptlcm.c] [135] [nLoadParam] info:服务器的监听端口: [1727] 
+[20150127021922] [13756] [ptlcm.c] [142] [nLoadParam] info:虚拟终端数: [4000] 
+[20150127021922] [13756] [ptlcm.c] [154] [nLoadParam] info:虚拟物理服务器数: [3000] 
+[20150127021922] [13756] [ptlcm.c] [160] [nLoadParam] info:虚拟逻辑服务器数: [3000] 
+[20150127021922] [13756] [ptlcm.c] [182] [nLoadParam] info:测试时间: [5.0000h] 
+[20150127021922] [13756] [ptlcm.c] [191] [nLoadParam] info:生成连接的间隔时间: [20000s] 
+[20150127021922] [13756] [ptlcm.c] [319] [nMsgInit] info:Test Msg conut is :[4]
+[20150127021922] [13756] [ptlcm.c] [320] [nMsgInit] info:To Test msg add callback fun!!!
+[20150127021922] [13756] [ptlgen.c] [1088] [MsgTimerCBInit] info:msg [3] cb is df1236a3
+[20150127021922] [13756] [ptlgen.c] [1096] [MsgTimerCBInit] info:msg [15] cb is df123bc0
+[20150127021922] [13756] [ptlgen.c] [1092] [MsgTimerCBInit] info:msg [9] cb is df123abb
+[20150127021922] [13756] [ptlipc.c] [479] [_tSemRm] info:remove all sem filish!
+[20150127021922] [13756] [ptlipc.c] [274] [_tShmRm] info:remove all shm success!
+[20150127021922] [13757] [ptlipc.c] [130] [_tShmInit] info:Initial main shm ...
+[20150127021922] [13757] [ptlipc.c] [143] [_tShmInit] info:shmat main shm ...
+[20150127021922] [13757] [ptlipc.c] [152] [_tShmInit] info:Initial shm success!
+[20150127021922] [13757] [ptlipc.c] [154] [_tShmInit] info:Get config value ...
+[20150127021922] [13757] [ptlipc.c] [161] [_tShmInit] info:TestConfigName[/home/yl/toolapp/etc/test.json]!
+[20150127021922] [13757] [ptlipc.c] [167] [_tShmInit] info:BaseMaxNum[100000]!
+[20150127021922] [13757] [ptlipc.c] [173] [_tShmInit] info:PhyNum[3000]!
+[20150127021922] [13757] [ptlipc.c] [179] [_tShmInit] info:TermNum[4000]!
+[20150127021922] [13757] [ptlipc.c] [185] [_tShmInit] info:LogicNum[3000]!
+[20150127021922] [13757] [ptlipc.c] [199] [_tShmInit] info:BaseCount[1]!
+[20150127021922] [13757] [ptlipc.c] [201] [_tShmInit] info:Initial msgtype shm....
+[20150127021922] [13757] [ptlipc.c] [217] [_tShmInit] info:Initial base shm....
+[20150127021922] [13757] [ptlipc.c] [232] [_tShmInit] info:Initial all shm filish
+[20150127021922] [13757] [ptlipc.c] [379] [_tSemInit] info:Initial msg sem ...
+[20150127021922] [13757] [ptlipc.c] [400] [_tSemInit] info:Initial base sem ...
+[20150127021922] [13757] [ptlipc.c] [421] [_tSemInit] info:Initial boot sem ...
+[20150127021922] [13757] [ptlipc.c] [442] [_tSemInit] info:Initial all sem filish!
+[20150127021922] [13757] [ptlcm.c] [122] [nLoadParam] info:服务器的ip地址: [172.16.80.109]
+[20150127021922] [13757] [ptlcm.c] [135] [nLoadParam] info:服务器的监听端口: [1727] 
+[20150127021922] [13757] [ptlcm.c] [142] [nLoadParam] info:虚拟终端数: [4000] 
+[20150127021922] [13757] [ptlcm.c] [154] [nLoadParam] info:虚拟物理服务器数: [3000] 
+[20150127021922] [13757] [ptlcm.c] [160] [nLoadParam] info:虚拟逻辑服务器数: [3000] 
+[20150127021922] [13757] [ptlcm.c] [182] [nLoadParam] info:测试时间: [5.0000h] 
+[20150127021922] [13757] [ptlcm.c] [191] [nLoadParam] info:生成连接的间隔时间: [20000s] 
+[20150127021922] [13757] [ptlcm.c] [319] [nMsgInit] info:Test Msg conut is :[4]
+[20150127021922] [13757] [ptlcm.c] [320] [nMsgInit] info:To Test msg add callback fun!!!
+[20150127021922] [13757] [ptlgen.c] [1088] [MsgTimerCBInit] info:msg [3] cb is 88cb56a3
+[20150127021922] [13757] [ptlgen.c] [1096] [MsgTimerCBInit] info:msg [15] cb is 88cb5bc0
+[20150127021922] [13757] [ptlgen.c] [1092] [MsgTimerCBInit] info:msg [9] cb is 88cb5abb
+[20150127021922] [13757] [ptlipc.c] [479] [_tSemRm] info:remove all sem filish!
+[20150127021922] [13757] [ptlipc.c] [274] [_tShmRm] info:remove all shm success!
+[20150127021923] [13758] [ptlipc.c] [130] [_tShmInit] info:Initial main shm ...
+[20150127021923] [13758] [ptlipc.c] [143] [_tShmInit] info:shmat main shm ...
+[20150127021923] [13758] [ptlipc.c] [152] [_tShmInit] info:Initial shm success!
+[20150127021923] [13758] [ptlipc.c] [154] [_tShmInit] info:Get config value ...
+[20150127021923] [13758] [ptlipc.c] [161] [_tShmInit] info:TestConfigName[/home/yl/toolapp/etc/test.json]!
+[20150127021923] [13758] [ptlipc.c] [167] [_tShmInit] info:BaseMaxNum[100000]!
+[20150127021923] [13758] [ptlipc.c] [173] [_tShmInit] info:PhyNum[3000]!
+[20150127021923] [13758] [ptlipc.c] [179] [_tShmInit] info:TermNum[4000]!
+[20150127021923] [13758] [ptlipc.c] [185] [_tShmInit] info:LogicNum[3000]!
+[20150127021923] [13758] [ptlipc.c] [199] [_tShmInit] info:BaseCount[1]!
+[20150127021923] [13758] [ptlipc.c] [201] [_tShmInit] info:Initial msgtype shm....
+[20150127021923] [13758] [ptlipc.c] [217] [_tShmInit] info:Initial base shm....
+[20150127021923] [13758] [ptlipc.c] [232] [_tShmInit] info:Initial all shm filish
+[20150127021923] [13758] [ptlipc.c] [379] [_tSemInit] info:Initial msg sem ...
+[20150127021923] [13758] [ptlipc.c] [400] [_tSemInit] info:Initial base sem ...
+[20150127021923] [13758] [ptlipc.c] [421] [_tSemInit] info:Initial boot sem ...
+[20150127021923] [13758] [ptlipc.c] [442] [_tSemInit] info:Initial all sem filish!
+[20150127021923] [13758] [ptlcm.c] [122] [nLoadParam] info:服务器的ip地址: [172.16.80.109]
+[20150127021923] [13758] [ptlcm.c] [135] [nLoadParam] info:服务器的监听端口: [1727] 
+[20150127021923] [13758] [ptlcm.c] [142] [nLoadParam] info:虚拟终端数: [4000] 
+[20150127021923] [13758] [ptlcm.c] [154] [nLoadParam] info:虚拟物理服务器数: [3000] 
+[20150127021923] [13758] [ptlcm.c] [160] [nLoadParam] info:虚拟逻辑服务器数: [3000] 
+[20150127021923] [13758] [ptlcm.c] [182] [nLoadParam] info:测试时间: [5.0000h] 
+[20150127021923] [13758] [ptlcm.c] [191] [nLoadParam] info:生成连接的间隔时间: [20000s] 
+[20150127021923] [13758] [ptlcm.c] [319] [nMsgInit] info:Test Msg conut is :[4]
+[20150127021923] [13758] [ptlcm.c] [320] [nMsgInit] info:To Test msg add callback fun!!!
+[20150127021923] [13758] [ptlgen.c] [1088] [MsgTimerCBInit] info:msg [3] cb is 945946a3
+[20150127021923] [13758] [ptlgen.c] [1096] [MsgTimerCBInit] info:msg [15] cb is 94594bc0
+[20150127021923] [13758] [ptlgen.c] [1092] [MsgTimerCBInit] info:msg [9] cb is 94594abb
+[20150127021923] [13758] [ptlipc.c] [479] [_tSemRm] info:remove all sem filish!
+[20150127021923] [13758] [ptlipc.c] [274] [_tShmRm] info:remove all shm success!
+[20150127021923] [13759] [ptlipc.c] [130] [_tShmInit] info:Initial main shm ...
+[20150127021923] [13759] [ptlipc.c] [143] [_tShmInit] info:shmat main shm ...
+[20150127021923] [13759] [ptlipc.c] [152] [_tShmInit] info:Initial shm success!
+[20150127021923] [13759] [ptlipc.c] [154] [_tShmInit] info:Get config value ...
+[20150127021923] [13759] [ptlipc.c] [161] [_tShmInit] info:TestConfigName[/home/yl/toolapp/etc/test.json]!
+[20150127021923] [13759] [ptlipc.c] [167] [_tShmInit] info:BaseMaxNum[100000]!
+[20150127021923] [13759] [ptlipc.c] [173] [_tShmInit] info:PhyNum[3000]!
+[20150127021923] [13759] [ptlipc.c] [179] [_tShmInit] info:TermNum[4000]!
+[20150127021923] [13759] [ptlipc.c] [185] [_tShmInit] info:LogicNum[3000]!
+[20150127021923] [13759] [ptlipc.c] [199] [_tShmInit] info:BaseCount[1]!
+[20150127021923] [13759] [ptlipc.c] [201] [_tShmInit] info:Initial msgtype shm....
+[20150127021923] [13759] [ptlipc.c] [217] [_tShmInit] info:Initial base shm....
+[20150127021923] [13759] [ptlipc.c] [232] [_tShmInit] info:Initial all shm filish
+[20150127021923] [13759] [ptlipc.c] [379] [_tSemInit] info:Initial msg sem ...
+[20150127021923] [13759] [ptlipc.c] [400] [_tSemInit] info:Initial base sem ...
+[20150127021923] [13759] [ptlipc.c] [421] [_tSemInit] info:Initial boot sem ...
+[20150127021923] [13759] [ptlipc.c] [442] [_tSemInit] info:Initial all sem filish!
+[20150127021923] [13759] [ptlcm.c] [122] [nLoadParam] info:服务器的ip地址: [172.16.80.109]
+[20150127021923] [13759] [ptlcm.c] [135] [nLoadParam] info:服务器的监听端口: [1727] 
+[20150127021923] [13759] [ptlcm.c] [142] [nLoadParam] info:虚拟终端数: [4000] 
+[20150127021923] [13759] [ptlcm.c] [154] [nLoadParam] info:虚拟物理服务器数: [3000] 
+[20150127021923] [13759] [ptlcm.c] [160] [nLoadParam] info:虚拟逻辑服务器数: [3000] 
+[20150127021923] [13759] [ptlcm.c] [182] [nLoadParam] info:测试时间: [5.0000h] 
+[20150127021923] [13759] [ptlcm.c] [191] [nLoadParam] info:生成连接的间隔时间: [20000s] 
+[20150127021923] [13759] [ptlcm.c] [319] [nMsgInit] info:Test Msg conut is :[4]
+[20150127021923] [13759] [ptlcm.c] [320] [nMsgInit] info:To Test msg add callback fun!!!
+[20150127021923] [13759] [ptlgen.c] [1088] [MsgTimerCBInit] info:msg [3] cb is 20a526a3
+[20150127021923] [13759] [ptlgen.c] [1096] [MsgTimerCBInit] info:msg [15] cb is 20a52bc0
+[20150127021923] [13759] [ptlgen.c] [1092] [MsgTimerCBInit] info:msg [9] cb is 20a52abb
+[20150127021923] [13759] [ptlipc.c] [479] [_tSemRm] info:remove all sem filish!
+[20150127021923] [13759] [ptlipc.c] [274] [_tShmRm] info:remove all shm success!
+[20150127021924] [13760] [ptlipc.c] [130] [_tShmInit] info:Initial main shm ...
+[20150127021924] [13760] [ptlipc.c] [143] [_tShmInit] info:shmat main shm ...
+[20150127021924] [13760] [ptlipc.c] [152] [_tShmInit] info:Initial shm success!
+[20150127021924] [13760] [ptlipc.c] [154] [_tShmInit] info:Get config value ...
+[20150127021924] [13760] [ptlipc.c] [161] [_tShmInit] info:TestConfigName[/home/yl/toolapp/etc/test.json]!
+[20150127021924] [13760] [ptlipc.c] [167] [_tShmInit] info:BaseMaxNum[100000]!
+[20150127021924] [13760] [ptlipc.c] [173] [_tShmInit] info:PhyNum[3000]!
+[20150127021924] [13760] [ptlipc.c] [179] [_tShmInit] info:TermNum[4000]!
+[20150127021924] [13760] [ptlipc.c] [185] [_tShmInit] info:LogicNum[3000]!
+[20150127021924] [13760] [ptlipc.c] [199] [_tShmInit] info:BaseCount[1]!
+[20150127021924] [13760] [ptlipc.c] [201] [_tShmInit] info:Initial msgtype shm....
+[20150127021924] [13760] [ptlipc.c] [217] [_tShmInit] info:Initial base shm....
+[20150127021924] [13760] [ptlipc.c] [232] [_tShmInit] info:Initial all shm filish
+[20150127021924] [13760] [ptlipc.c] [379] [_tSemInit] info:Initial msg sem ...
+[20150127021924] [13760] [ptlipc.c] [400] [_tSemInit] info:Initial base sem ...
+[20150127021924] [13760] [ptlipc.c] [421] [_tSemInit] info:Initial boot sem ...
+[20150127021924] [13760] [ptlipc.c] [442] [_tSemInit] info:Initial all sem filish!
+[20150127021924] [13760] [ptlcm.c] [122] [nLoadParam] info:服务器的ip地址: [172.16.80.109]
+[20150127021924] [13760] [ptlcm.c] [135] [nLoadParam] info:服务器的监听端口: [1727] 
+[20150127021924] [13760] [ptlcm.c] [142] [nLoadParam] info:虚拟终端数: [4000] 
+[20150127021924] [13760] [ptlcm.c] [154] [nLoadParam] info:虚拟物理服务器数: [3000] 
+[20150127021924] [13760] [ptlcm.c] [160] [nLoadParam] info:虚拟逻辑服务器数: [3000] 
+[20150127021924] [13760] [ptlcm.c] [182] [nLoadParam] info:测试时间: [5.0000h] 
+[20150127021924] [13760] [ptlcm.c] [191] [nLoadParam] info:生成连接的间隔时间: [20000s] 
+[20150127021924] [13760] [ptlcm.c] [319] [nMsgInit] info:Test Msg conut is :[4]
+[20150127021924] [13760] [ptlcm.c] [320] [nMsgInit] info:To Test msg add callback fun!!!
+[20150127021924] [13760] [ptlgen.c] [1088] [MsgTimerCBInit] info:msg [3] cb is 14f3b6a3
+[20150127021924] [13760] [ptlgen.c] [1096] [MsgTimerCBInit] info:msg [15] cb is 14f3bbc0
+[20150127021924] [13760] [ptlgen.c] [1092] [MsgTimerCBInit] info:msg [9] cb is 14f3babb
+[20150127021924] [13760] [ptlipc.c] [479] [_tSemRm] info:remove all sem filish!
+[20150127021924] [13760] [ptlipc.c] [274] [_tShmRm] info:remove all shm success!
+[20150127021924] [13761] [ptlipc.c] [130] [_tShmInit] info:Initial main shm ...
+[20150127021924] [13761] [ptlipc.c] [143] [_tShmInit] info:shmat main shm ...
+[20150127021924] [13761] [ptlipc.c] [152] [_tShmInit] info:Initial shm success!
+[20150127021924] [13761] [ptlipc.c] [154] [_tShmInit] info:Get config value ...
+[20150127021924] [13761] [ptlipc.c] [161] [_tShmInit] info:TestConfigName[/home/yl/toolapp/etc/test.json]!
+[20150127021924] [13761] [ptlipc.c] [167] [_tShmInit] info:BaseMaxNum[100000]!
+[20150127021924] [13761] [ptlipc.c] [173] [_tShmInit] info:PhyNum[3000]!
+[20150127021924] [13761] [ptlipc.c] [179] [_tShmInit] info:TermNum[4000]!
+[20150127021924] [13761] [ptlipc.c] [185] [_tShmInit] info:LogicNum[3000]!
+[20150127021924] [13761] [ptlipc.c] [199] [_tShmInit] info:BaseCount[1]!
+[20150127021924] [13761] [ptlipc.c] [201] [_tShmInit] info:Initial msgtype shm....
+[20150127021924] [13761] [ptlipc.c] [217] [_tShmInit] info:Initial base shm....
+[20150127021924] [13761] [ptlipc.c] [232] [_tShmInit] info:Initial all shm filish
+[20150127021924] [13761] [ptlipc.c] [379] [_tSemInit] info:Initial msg sem ...
+[20150127021924] [13761] [ptlipc.c] [400] [_tSemInit] info:Initial base sem ...
+[20150127021924] [13761] [ptlipc.c] [421] [_tSemInit] info:Initial boot sem ...
+[20150127021924] [13761] [ptlipc.c] [442] [_tSemInit] info:Initial all sem filish!
+[20150127021924] [13761] [ptlcm.c] [122] [nLoadParam] info:服务器的ip地址: [172.16.80.109]
+[20150127021924] [13761] [ptlcm.c] [135] [nLoadParam] info:服务器的监听端口: [1727] 
+[20150127021924] [13761] [ptlcm.c] [142] [nLoadParam] info:虚拟终端数: [4000] 
+[20150127021924] [13761] [ptlcm.c] [154] [nLoadParam] info:虚拟物理服务器数: [3000] 
+[20150127021924] [13761] [ptlcm.c] [160] [nLoadParam] info:虚拟逻辑服务器数: [3000] 
+[20150127021924] [13761] [ptlcm.c] [182] [nLoadParam] info:测试时间: [5.0000h] 
+[20150127021924] [13761] [ptlcm.c] [191] [nLoadParam] info:生成连接的间隔时间: [20000s] 
+[20150127021924] [13761] [ptlcm.c] [319] [nMsgInit] info:Test Msg conut is :[4]
+[20150127021924] [13761] [ptlcm.c] [320] [nMsgInit] info:To Test msg add callback fun!!!
+[20150127021924] [13761] [ptlgen.c] [1088] [MsgTimerCBInit] info:msg [3] cb is 86aa06a3
+[20150127021924] [13761] [ptlgen.c] [1096] [MsgTimerCBInit] info:msg [15] cb is 86aa0bc0
+[20150127021924] [13761] [ptlgen.c] [1092] [MsgTimerCBInit] info:msg [9] cb is 86aa0abb
+[20150127021924] [13761] [ptlipc.c] [479] [_tSemRm] info:remove all sem filish!
+[20150127021924] [13761] [ptlipc.c] [274] [_tShmRm] info:remove all shm success!
+[20150127021924] [13762] [ptlipc.c] [130] [_tShmInit] info:Initial main shm ...
+[20150127021924] [13762] [ptlipc.c] [143] [_tShmInit] info:shmat main shm ...
+[20150127021924] [13762] [ptlipc.c] [152] [_tShmInit] info:Initial shm success!
+[20150127021924] [13762] [ptlipc.c] [154] [_tShmInit] info:Get config value ...
+[20150127021924] [13762] [ptlipc.c] [161] [_tShmInit] info:TestConfigName[/home/yl/toolapp/etc/test.json]!
+[20150127021924] [13762] [ptlipc.c] [167] [_tShmInit] info:BaseMaxNum[100000]!
+[20150127021924] [13762] [ptlipc.c] [173] [_tShmInit] info:PhyNum[3000]!
+[20150127021924] [13762] [ptlipc.c] [179] [_tShmInit] info:TermNum[4000]!
+[20150127021924] [13762] [ptlipc.c] [185] [_tShmInit] info:LogicNum[3000]!
+[20150127021924] [13762] [ptlipc.c] [199] [_tShmInit] info:BaseCount[1]!
+[20150127021924] [13762] [ptlipc.c] [201] [_tShmInit] info:Initial msgtype shm....
+[20150127021924] [13762] [ptlipc.c] [217] [_tShmInit] info:Initial base shm....
+[20150127021924] [13762] [ptlipc.c] [232] [_tShmInit] info:Initial all shm filish
+[20150127021924] [13762] [ptlipc.c] [379] [_tSemInit] info:Initial msg sem ...
+[20150127021924] [13762] [ptlipc.c] [400] [_tSemInit] info:Initial base sem ...
+[20150127021924] [13762] [ptlipc.c] [421] [_tSemInit] info:Initial boot sem ...
+[20150127021924] [13762] [ptlipc.c] [442] [_tSemInit] info:Initial all sem filish!
+[20150127021924] [13762] [ptlcm.c] [122] [nLoadParam] info:服务器的ip地址: [172.16.80.109]
+[20150127021924] [13762] [ptlcm.c] [135] [nLoadParam] info:服务器的监听端口: [1727] 
+[20150127021924] [13762] [ptlcm.c] [142] [nLoadParam] info:虚拟终端数: [4000] 
+[20150127021924] [13762] [ptlcm.c] [154] [nLoadParam] info:虚拟物理服务器数: [3000] 
+[20150127021924] [13762] [ptlcm.c] [160] [nLoadParam] info:虚拟逻辑服务器数: [3000] 
+[20150127021924] [13762] [ptlcm.c] [182] [nLoadParam] info:测试时间: [5.0000h] 
+[20150127021924] [13762] [ptlcm.c] [191] [nLoadParam] info:生成连接的间隔时间: [20000s] 
+[20150127021924] [13762] [ptlcm.c] [319] [nMsgInit] info:Test Msg conut is :[4]
+[20150127021924] [13762] [ptlcm.c] [320] [nMsgInit] info:To Test msg add callback fun!!!
+[20150127021924] [13762] [ptlgen.c] [1088] [MsgTimerCBInit] info:msg [3] cb is af3e46a3
+[20150127021924] [13762] [ptlgen.c] [1096] [MsgTimerCBInit] info:msg [15] cb is af3e4bc0
+[20150127021924] [13762] [ptlgen.c] [1092] [MsgTimerCBInit] info:msg [9] cb is af3e4abb
+[20150127021924] [13762] [ptlipc.c] [479] [_tSemRm] info:remove all sem filish!
+[20150127021924] [13762] [ptlipc.c] [274] [_tShmRm] info:remove all shm success!
+[20150127021925] [13763] [ptlipc.c] [130] [_tShmInit] info:Initial main shm ...
+[20150127021925] [13763] [ptlipc.c] [143] [_tShmInit] info:shmat main shm ...
+[20150127021925] [13763] [ptlipc.c] [152] [_tShmInit] info:Initial shm success!
+[20150127021925] [13763] [ptlipc.c] [154] [_tShmInit] info:Get config value ...
+[20150127021925] [13763] [ptlipc.c] [161] [_tShmInit] info:TestConfigName[/home/yl/toolapp/etc/test.json]!
+[20150127021925] [13763] [ptlipc.c] [167] [_tShmInit] info:BaseMaxNum[100000]!
+[20150127021925] [13763] [ptlipc.c] [173] [_tShmInit] info:PhyNum[3000]!
+[20150127021925] [13763] [ptlipc.c] [179] [_tShmInit] info:TermNum[4000]!
+[20150127021925] [13763] [ptlipc.c] [185] [_tShmInit] info:LogicNum[3000]!
+[20150127021925] [13763] [ptlipc.c] [199] [_tShmInit] info:BaseCount[1]!
+[20150127021925] [13763] [ptlipc.c] [201] [_tShmInit] info:Initial msgtype shm....
+[20150127021925] [13763] [ptlipc.c] [217] [_tShmInit] info:Initial base shm....
+[20150127021925] [13763] [ptlipc.c] [232] [_tShmInit] info:Initial all shm filish
+[20150127021925] [13763] [ptlipc.c] [379] [_tSemInit] info:Initial msg sem ...
+[20150127021925] [13763] [ptlipc.c] [400] [_tSemInit] info:Initial base sem ...
+[20150127021925] [13763] [ptlipc.c] [421] [_tSemInit] info:Initial boot sem ...
+[20150127021925] [13763] [ptlipc.c] [442] [_tSemInit] info:Initial all sem filish!
+[20150127021925] [13763] [ptlcm.c] [122] [nLoadParam] info:服务器的ip地址: [172.16.80.109]
+[20150127021925] [13763] [ptlcm.c] [135] [nLoadParam] info:服务器的监听端口: [1727] 
+[20150127021925] [13763] [ptlcm.c] [142] [nLoadParam] info:虚拟终端数: [4000] 
+[20150127021925] [13763] [ptlcm.c] [154] [nLoadParam] info:虚拟物理服务器数: [3000] 
+[20150127021925] [13763] [ptlcm.c] [160] [nLoadParam] info:虚拟逻辑服务器数: [3000] 
+[20150127021925] [13763] [ptlcm.c] [182] [nLoadParam] info:测试时间: [5.0000h] 
+[20150127021925] [13763] [ptlcm.c] [191] [nLoadParam] info:生成连接的间隔时间: [20000s] 
+[20150127021925] [13763] [ptlcm.c] [319] [nMsgInit] info:Test Msg conut is :[4]
+[20150127021925] [13763] [ptlcm.c] [320] [nMsgInit] info:To Test msg add callback fun!!!
+[20150127021925] [13763] [ptlgen.c] [1088] [MsgTimerCBInit] info:msg [3] cb is e955e6a3
+[20150127021925] [13763] [ptlgen.c] [1096] [MsgTimerCBInit] info:msg [15] cb is e955ebc0
+[20150127021925] [13763] [ptlgen.c] [1092] [MsgTimerCBInit] info:msg [9] cb is e955eabb
+[20150127021925] [13763] [ptlipc.c] [479] [_tSemRm] info:remove all sem filish!
+[20150127021925] [13763] [ptlipc.c] [274] [_tShmRm] info:remove all shm success!
+[20150127021925] [13764] [ptlipc.c] [130] [_tShmInit] info:Initial main shm ...
+[20150127021925] [13764] [ptlipc.c] [143] [_tShmInit] info:shmat main shm ...
+[20150127021925] [13764] [ptlipc.c] [152] [_tShmInit] info:Initial shm success!
+[20150127021925] [13764] [ptlipc.c] [154] [_tShmInit] info:Get config value ...
+[20150127021925] [13764] [ptlipc.c] [161] [_tShmInit] info:TestConfigName[/home/yl/toolapp/etc/test.json]!
+[20150127021925] [13764] [ptlipc.c] [167] [_tShmInit] info:BaseMaxNum[100000]!
+[20150127021925] [13764] [ptlipc.c] [173] [_tShmInit] info:PhyNum[3000]!
+[20150127021925] [13764] [ptlipc.c] [179] [_tShmInit] info:TermNum[4000]!
+[20150127021925] [13764] [ptlipc.c] [185] [_tShmInit] info:LogicNum[3000]!
+[20150127021925] [13764] [ptlipc.c] [199] [_tShmInit] info:BaseCount[1]!
+[20150127021925] [13764] [ptlipc.c] [201] [_tShmInit] info:Initial msgtype shm....
+[20150127021925] [13764] [ptlipc.c] [217] [_tShmInit] info:Initial base shm....
+[20150127021925] [13764] [ptlipc.c] [232] [_tShmInit] info:Initial all shm filish
+[20150127021925] [13764] [ptlipc.c] [379] [_tSemInit] info:Initial msg sem ...
+[20150127021925] [13764] [ptlipc.c] [400] [_tSemInit] info:Initial base sem ...
+[20150127021925] [13764] [ptlipc.c] [421] [_tSemInit] info:Initial boot sem ...
+[20150127021925] [13764] [ptlipc.c] [442] [_tSemInit] info:Initial all sem filish!
+[20150127021925] [13764] [ptlcm.c] [122] [nLoadParam] info:服务器的ip地址: [172.16.80.109]
+[20150127021925] [13764] [ptlcm.c] [135] [nLoadParam] info:服务器的监听端口: [1727] 
+[20150127021925] [13764] [ptlcm.c] [142] [nLoadParam] info:虚拟终端数: [4000] 
+[20150127021925] [13764] [ptlcm.c] [154] [nLoadParam] info:虚拟物理服务器数: [3000] 
+[20150127021925] [13764] [ptlcm.c] [160] [nLoadParam] info:虚拟逻辑服务器数: [3000] 
+[20150127021925] [13764] [ptlcm.c] [182] [nLoadParam] info:测试时间: [5.0000h] 
+[20150127021925] [13764] [ptlcm.c] [191] [nLoadParam] info:生成连接的间隔时间: [20000s] 
+[20150127021925] [13764] [ptlcm.c] [319] [nMsgInit] info:Test Msg conut is :[4]
+[20150127021925] [13764] [ptlcm.c] [320] [nMsgInit] info:To Test msg add callback fun!!!
+[20150127021925] [13764] [ptlgen.c] [1088] [MsgTimerCBInit] info:msg [3] cb is 1cf656a3
+[20150127021925] [13764] [ptlgen.c] [1096] [MsgTimerCBInit] info:msg [15] cb is 1cf65bc0
+[20150127021925] [13764] [ptlgen.c] [1092] [MsgTimerCBInit] info:msg [9] cb is 1cf65abb
+[20150127021925] [13764] [ptlipc.c] [479] [_tSemRm] info:remove all sem filish!
+[20150127021925] [13764] [ptlipc.c] [274] [_tShmRm] info:remove all shm success!
+[20150127021926] [13765] [ptlipc.c] [130] [_tShmInit] info:Initial main shm ...
+[20150127021926] [13765] [ptlipc.c] [143] [_tShmInit] info:shmat main shm ...
+[20150127021926] [13765] [ptlipc.c] [152] [_tShmInit] info:Initial shm success!
+[20150127021926] [13765] [ptlipc.c] [154] [_tShmInit] info:Get config value ...
+[20150127021926] [13765] [ptlipc.c] [161] [_tShmInit] info:TestConfigName[/home/yl/toolapp/etc/test.json]!
+[20150127021926] [13765] [ptlipc.c] [167] [_tShmInit] info:BaseMaxNum[100000]!
+[20150127021926] [13765] [ptlipc.c] [173] [_tShmInit] info:PhyNum[3000]!
+[20150127021926] [13765] [ptlipc.c] [179] [_tShmInit] info:TermNum[4000]!
+[20150127021926] [13765] [ptlipc.c] [185] [_tShmInit] info:LogicNum[3000]!
+[20150127021926] [13765] [ptlipc.c] [199] [_tShmInit] info:BaseCount[1]!
+[20150127021926] [13765] [ptlipc.c] [201] [_tShmInit] info:Initial msgtype shm....
+[20150127021926] [13765] [ptlipc.c] [217] [_tShmInit] info:Initial base shm....
+[20150127021926] [13765] [ptlipc.c] [232] [_tShmInit] info:Initial all shm filish
+[20150127021926] [13765] [ptlipc.c] [379] [_tSemInit] info:Initial msg sem ...
+[20150127021926] [13765] [ptlipc.c] [400] [_tSemInit] info:Initial base sem ...
+[20150127021926] [13765] [ptlipc.c] [421] [_tSemInit] info:Initial boot sem ...
+[20150127021926] [13765] [ptlipc.c] [442] [_tSemInit] info:Initial all sem filish!
+[20150127021926] [13765] [ptlcm.c] [122] [nLoadParam] info:服务器的ip地址: [172.16.80.109]
+[20150127021926] [13765] [ptlcm.c] [135] [nLoadParam] info:服务器的监听端口: [1727] 
+[20150127021926] [13765] [ptlcm.c] [142] [nLoadParam] info:虚拟终端数: [4000] 
+[20150127021926] [13765] [ptlcm.c] [154] [nLoadParam] info:虚拟物理服务器数: [3000] 
+[20150127021926] [13765] [ptlcm.c] [160] [nLoadParam] info:虚拟逻辑服务器数: [3000] 
+[20150127021926] [13765] [ptlcm.c] [182] [nLoadParam] info:测试时间: [5.0000h] 
+[20150127021926] [13765] [ptlcm.c] [191] [nLoadParam] info:生成连接的间隔时间: [20000s] 
+[20150127021926] [13765] [ptlcm.c] [319] [nMsgInit] info:Test Msg conut is :[4]
+[20150127021926] [13765] [ptlcm.c] [320] [nMsgInit] info:To Test msg add callback fun!!!
+[20150127021926] [13765] [ptlgen.c] [1088] [MsgTimerCBInit] info:msg [3] cb is e2bae6a3
+[20150127021926] [13765] [ptlgen.c] [1096] [MsgTimerCBInit] info:msg [15] cb is e2baebc0
+[20150127021926] [13765] [ptlgen.c] [1092] [MsgTimerCBInit] info:msg [9] cb is e2baeabb
+[20150127021926] [13765] [ptlipc.c] [479] [_tSemRm] info:remove all sem filish!
+[20150127021926] [13765] [ptlipc.c] [274] [_tShmRm] info:remove all shm success!
+[20150127021927] [13766] [ptlipc.c] [130] [_tShmInit] info:Initial main shm ...
+[20150127021927] [13766] [ptlipc.c] [143] [_tShmInit] info:shmat main shm ...
+[20150127021927] [13766] [ptlipc.c] [152] [_tShmInit] info:Initial shm success!
+[20150127021927] [13766] [ptlipc.c] [154] [_tShmInit] info:Get config value ...
+[20150127021927] [13766] [ptlipc.c] [161] [_tShmInit] info:TestConfigName[/home/yl/toolapp/etc/test.json]!
+[20150127021927] [13766] [ptlipc.c] [167] [_tShmInit] info:BaseMaxNum[100000]!
+[20150127021927] [13766] [ptlipc.c] [173] [_tShmInit] info:PhyNum[3000]!
+[20150127021927] [13766] [ptlipc.c] [179] [_tShmInit] info:TermNum[4000]!
+[20150127021927] [13766] [ptlipc.c] [185] [_tShmInit] info:LogicNum[3000]!
+[20150127021927] [13766] [ptlipc.c] [199] [_tShmInit] info:BaseCount[1]!
+[20150127021927] [13766] [ptlipc.c] [201] [_tShmInit] info:Initial msgtype shm....
+[20150127021927] [13766] [ptlipc.c] [217] [_tShmInit] info:Initial base shm....
+[20150127021927] [13766] [ptlipc.c] [232] [_tShmInit] info:Initial all shm filish
+[20150127021927] [13766] [ptlipc.c] [379] [_tSemInit] info:Initial msg sem ...
+[20150127021927] [13766] [ptlipc.c] [400] [_tSemInit] info:Initial base sem ...
+[20150127021927] [13766] [ptlipc.c] [421] [_tSemInit] info:Initial boot sem ...
+[20150127021927] [13766] [ptlipc.c] [442] [_tSemInit] info:Initial all sem filish!
+[20150127021927] [13766] [ptlcm.c] [122] [nLoadParam] info:服务器的ip地址: [172.16.80.109]
+[20150127021927] [13766] [ptlcm.c] [135] [nLoadParam] info:服务器的监听端口: [1727] 
+[20150127021927] [13766] [ptlcm.c] [142] [nLoadParam] info:虚拟终端数: [4000] 
+[20150127021927] [13766] [ptlcm.c] [154] [nLoadParam] info:虚拟物理服务器数: [3000] 
+[20150127021927] [13766] [ptlcm.c] [160] [nLoadParam] info:虚拟逻辑服务器数: [3000] 
+[20150127021927] [13766] [ptlcm.c] [182] [nLoadParam] info:测试时间: [5.0000h] 
+[20150127021927] [13766] [ptlcm.c] [191] [nLoadParam] info:生成连接的间隔时间: [20000s] 
+[20150127021927] [13766] [ptlcm.c] [319] [nMsgInit] info:Test Msg conut is :[4]
+[20150127021927] [13766] [ptlcm.c] [320] [nMsgInit] info:To Test msg add callback fun!!!
+[20150127021927] [13766] [ptlgen.c] [1088] [MsgTimerCBInit] info:msg [3] cb is 146ee6a3
+[20150127021927] [13766] [ptlgen.c] [1096] [MsgTimerCBInit] info:msg [15] cb is 146eebc0
+[20150127021927] [13766] [ptlgen.c] [1092] [MsgTimerCBInit] info:msg [9] cb is 146eeabb
+[20150127021927] [13766] [ptlipc.c] [479] [_tSemRm] info:remove all sem filish!
+[20150127021927] [13766] [ptlipc.c] [274] [_tShmRm] info:remove all shm success!
+[20150127021927] [13767] [ptlipc.c] [130] [_tShmInit] info:Initial main shm ...
+[20150127021927] [13767] [ptlipc.c] [143] [_tShmInit] info:shmat main shm ...
+[20150127021927] [13767] [ptlipc.c] [152] [_tShmInit] info:Initial shm success!
+[20150127021927] [13767] [ptlipc.c] [154] [_tShmInit] info:Get config value ...
+[20150127021927] [13767] [ptlipc.c] [161] [_tShmInit] info:TestConfigName[/home/yl/toolapp/etc/test.json]!
+[20150127021927] [13767] [ptlipc.c] [167] [_tShmInit] info:BaseMaxNum[100000]!
+[20150127021927] [13767] [ptlipc.c] [173] [_tShmInit] info:PhyNum[3000]!
+[20150127021927] [13767] [ptlipc.c] [179] [_tShmInit] info:TermNum[4000]!
+[20150127021927] [13767] [ptlipc.c] [185] [_tShmInit] info:LogicNum[3000]!
+[20150127021927] [13767] [ptlipc.c] [199] [_tShmInit] info:BaseCount[1]!
+[20150127021927] [13767] [ptlipc.c] [201] [_tShmInit] info:Initial msgtype shm....
+[20150127021927] [13767] [ptlipc.c] [217] [_tShmInit] info:Initial base shm....
+[20150127021927] [13767] [ptlipc.c] [232] [_tShmInit] info:Initial all shm filish
+[20150127021927] [13767] [ptlipc.c] [379] [_tSemInit] info:Initial msg sem ...
+[20150127021927] [13767] [ptlipc.c] [400] [_tSemInit] info:Initial base sem ...
+[20150127021927] [13767] [ptlipc.c] [421] [_tSemInit] info:Initial boot sem ...
+[20150127021927] [13767] [ptlipc.c] [442] [_tSemInit] info:Initial all sem filish!
+[20150127021927] [13767] [ptlcm.c] [122] [nLoadParam] info:服务器的ip地址: [172.16.80.109]
+[20150127021927] [13767] [ptlcm.c] [135] [nLoadParam] info:服务器的监听端口: [1727] 
+[20150127021927] [13767] [ptlcm.c] [142] [nLoadParam] info:虚拟终端数: [4000] 
+[20150127021927] [13767] [ptlcm.c] [154] [nLoadParam] info:虚拟物理服务器数: [3000] 
+[20150127021927] [13767] [ptlcm.c] [160] [nLoadParam] info:虚拟逻辑服务器数: [3000] 
+[20150127021927] [13767] [ptlcm.c] [182] [nLoadParam] info:测试时间: [5.0000h] 
+[20150127021927] [13767] [ptlcm.c] [191] [nLoadParam] info:生成连接的间隔时间: [20000s] 
+[20150127021927] [13767] [ptlcm.c] [319] [nMsgInit] info:Test Msg conut is :[4]
+[20150127021927] [13767] [ptlcm.c] [320] [nMsgInit] info:To Test msg add callback fun!!!
+[20150127021927] [13767] [ptlgen.c] [1088] [MsgTimerCBInit] info:msg [3] cb is 6ad296a3
+[20150127021927] [13767] [ptlgen.c] [1096] [MsgTimerCBInit] info:msg [15] cb is 6ad29bc0
+[20150127021927] [13767] [ptlgen.c] [1092] [MsgTimerCBInit] info:msg [9] cb is 6ad29abb
+[20150127021927] [13767] [ptlipc.c] [479] [_tSemRm] info:remove all sem filish!
+[20150127021927] [13767] [ptlipc.c] [274] [_tShmRm] info:remove all shm success!
+[20150127021928] [13768] [ptlipc.c] [130] [_tShmInit] info:Initial main shm ...
+[20150127021928] [13768] [ptlipc.c] [143] [_tShmInit] info:shmat main shm ...
+[20150127021928] [13768] [ptlipc.c] [152] [_tShmInit] info:Initial shm success!
+[20150127021928] [13768] [ptlipc.c] [154] [_tShmInit] info:Get config value ...
+[20150127021928] [13768] [ptlipc.c] [161] [_tShmInit] info:TestConfigName[/home/yl/toolapp/etc/test.json]!
+[20150127021928] [13768] [ptlipc.c] [167] [_tShmInit] info:BaseMaxNum[100000]!
+[20150127021928] [13768] [ptlipc.c] [173] [_tShmInit] info:PhyNum[3000]!
+[20150127021928] [13768] [ptlipc.c] [179] [_tShmInit] info:TermNum[4000]!
+[20150127021928] [13768] [ptlipc.c] [185] [_tShmInit] info:LogicNum[3000]!
+[20150127021928] [13768] [ptlipc.c] [199] [_tShmInit] info:BaseCount[1]!
+[20150127021928] [13768] [ptlipc.c] [201] [_tShmInit] info:Initial msgtype shm....
+[20150127021928] [13768] [ptlipc.c] [217] [_tShmInit] info:Initial base shm....
+[20150127021928] [13768] [ptlipc.c] [232] [_tShmInit] info:Initial all shm filish
+[20150127021928] [13768] [ptlipc.c] [379] [_tSemInit] info:Initial msg sem ...
+[20150127021928] [13768] [ptlipc.c] [400] [_tSemInit] info:Initial base sem ...
+[20150127021928] [13768] [ptlipc.c] [421] [_tSemInit] info:Initial boot sem ...
+[20150127021928] [13768] [ptlipc.c] [442] [_tSemInit] info:Initial all sem filish!
+[20150127021928] [13768] [ptlcm.c] [122] [nLoadParam] info:服务器的ip地址: [172.16.80.109]
+[20150127021928] [13768] [ptlcm.c] [135] [nLoadParam] info:服务器的监听端口: [1727] 
+[20150127021928] [13768] [ptlcm.c] [142] [nLoadParam] info:虚拟终端数: [4000] 
+[20150127021928] [13768] [ptlcm.c] [154] [nLoadParam] info:虚拟物理服务器数: [3000] 
+[20150127021928] [13768] [ptlcm.c] [160] [nLoadParam] info:虚拟逻辑服务器数: [3000] 
+[20150127021928] [13768] [ptlcm.c] [182] [nLoadParam] info:测试时间: [5.0000h] 
+[20150127021928] [13768] [ptlcm.c] [191] [nLoadParam] info:生成连接的间隔时间: [20000s] 
+[20150127021928] [13768] [ptlcm.c] [319] [nMsgInit] info:Test Msg conut is :[4]
+[20150127021928] [13768] [ptlcm.c] [320] [nMsgInit] info:To Test msg add callback fun!!!
+[20150127021928] [13768] [ptlgen.c] [1088] [MsgTimerCBInit] info:msg [3] cb is e372d6a3
+[20150127021928] [13768] [ptlgen.c] [1096] [MsgTimerCBInit] info:msg [15] cb is e372dbc0
+[20150127021928] [13768] [ptlgen.c] [1092] [MsgTimerCBInit] info:msg [9] cb is e372dabb
+[20150127021928] [13768] [ptlipc.c] [479] [_tSemRm] info:remove all sem filish!
+[20150127021928] [13768] [ptlipc.c] [274] [_tShmRm] info:remove all shm success!
+[20150127024259] [14989] [ptlipc.c] [130] [_tShmInit] info:Initial main shm ...
+[20150127024259] [14989] [ptlipc.c] [143] [_tShmInit] info:shmat main shm ...
+[20150127024259] [14989] [ptlipc.c] [152] [_tShmInit] info:Initial shm success!
+[20150127024259] [14989] [ptlipc.c] [154] [_tShmInit] info:Get config value ...
+[20150127024259] [14989] [ptlipc.c] [161] [_tShmInit] info:TestConfigName[/home/yl/toolapp/etc/test.json]!
+[20150127024259] [14989] [ptlipc.c] [167] [_tShmInit] info:BaseMaxNum[100000]!
+[20150127024259] [14989] [ptlipc.c] [173] [_tShmInit] info:PhyNum[3000]!
+[20150127024259] [14989] [ptlipc.c] [179] [_tShmInit] info:TermNum[4000]!
+[20150127024259] [14989] [ptlipc.c] [185] [_tShmInit] info:LogicNum[3000]!
+[20150127024259] [14989] [ptlipc.c] [199] [_tShmInit] info:BaseCount[1]!
+[20150127024259] [14989] [ptlipc.c] [201] [_tShmInit] info:Initial msgtype shm....
+[20150127024259] [14989] [ptlipc.c] [217] [_tShmInit] info:Initial base shm....
+[20150127024259] [14989] [ptlipc.c] [232] [_tShmInit] info:Initial all shm filish
+[20150127024259] [14989] [ptlipc.c] [379] [_tSemInit] info:Initial msg sem ...
+[20150127024259] [14989] [ptlipc.c] [400] [_tSemInit] info:Initial base sem ...
+[20150127024259] [14989] [ptlipc.c] [421] [_tSemInit] info:Initial boot sem ...
+[20150127024259] [14989] [ptlipc.c] [442] [_tSemInit] info:Initial all sem filish!
+[20150127024259] [14989] [ptlcm.c] [122] [nLoadParam] info:服务器的ip地址: [172.16.80.109]
+[20150127024259] [14989] [ptlcm.c] [135] [nLoadParam] info:服务器的监听端口: [1727] 
+[20150127024259] [14989] [ptlcm.c] [142] [nLoadParam] info:虚拟终端数: [4000] 
+[20150127024259] [14989] [ptlcm.c] [154] [nLoadParam] info:虚拟物理服务器数: [3000] 
+[20150127024259] [14989] [ptlcm.c] [160] [nLoadParam] info:虚拟逻辑服务器数: [3000] 
+[20150127024259] [14989] [ptlcm.c] [182] [nLoadParam] info:测试时间: [5.0000h] 
+[20150127024259] [14989] [ptlcm.c] [191] [nLoadParam] info:生成连接的间隔时间: [20000s] 
+[20150127024259] [14989] [ptlcm.c] [319] [nMsgInit] info:Test Msg conut is :[4]
+[20150127024259] [14989] [ptlcm.c] [320] [nMsgInit] info:To Test msg add callback fun!!!
+[20150127024259] [14989] [ptlgen.c] [1088] [MsgTimerCBInit] info:msg [3] cb is 2638d6a3
+[20150127024259] [14989] [ptlgen.c] [1096] [MsgTimerCBInit] info:msg [15] cb is 2638dbc0
+[20150127024259] [14989] [ptlgen.c] [1092] [MsgTimerCBInit] info:msg [9] cb is 2638dabb
+[20150127024259] [14989] [ptlipc.c] [479] [_tSemRm] info:remove all sem filish!
+[20150127024259] [14989] [ptlipc.c] [274] [_tShmRm] info:remove all shm success!

@@ -1,0 +1,115 @@
+#Tuxedo Env
+export TUXDIR=/hdis/hdis_dux/dux 
+export PATH=$TUXDIR/bin:$PATH:.
+export TUXCONFIG=$MKHOME/etc/dux.ini
+
+#### core dump setting ####
+# Set core file max size(blocks)
+ulimit -c 1048576
+# Set stack mas size(kbytes)
+ulimit -s 102400
+# for aix
+export CORE_NAMING=YES;
+
+#Oracle Env
+export ORACLE_BASE=/oracle/product/10.2.0.4
+export ORACLE_HOME=$ORACLE_BASE 
+export SHLIB_PATH=$ORACLE_HOME/lib:$SHLIB_PATH
+export LIBPATH=$ORACLE_HOME/lib:$LIBPATH
+export LD_LIBRARY_PATH=$ORACLE_HOME/lib:$LD_LIBRARY_PATH:$MKHOME/lib
+export PATH=$ORACLE_HOME/bin:$PATH
+export ORACLE_SID=htdb 
+
+#App Env
+export PATH=$PATH:$MKHOME/bin:$MKHOME/sbin:$MKHOME/run:.
+export APP_PROFILE=$MKHOME/etc/app.cfg
+export DB_USER=istxndb 
+export DB_PASSWORD=istxndb 
+
+export shmKey=10122 
+export shmKeyFile=$MKHOME/etc/shmKeyFile 
+export shmFtpFile=$MKHOME/etc/shmFtpFile
+export MAX_DATA_BLOCK_SIZE=20000
+
+#univer edition keys
+export DBKEY_INDEX=002
+export ZMKEY_INDEX=060 
+
+#HSM ENV
+export HSMHOME=/hdis/hdis_txn/txnapp 
+export HSM_REQ_MSQKEY=10142 
+export HSM_RSP_MSQKEY=10152 
+export HSM_REQ_MSQKEY1=10142 
+export HSM_RSP_MSQKEY1=10152 
+export SJL_MEM_KEY=10132 
+export MSQ_RCV_TIMEOUT=3
+export BANK_INDEX1=001
+export BANK_INDEX2=002
+export BANK_INDEX3=001
+export BANK_INDEX4=001
+export BANK_INDEX5=102
+export HSM_CARDFILE_FLAG=0
+
+
+#set GBK
+export LANG=ZN.CH
+export NLS_LANG=American_America.ZHS16GBK
+
+
+
+#Be care, you should set following env in redhat for thread reason
+export LD_ASSUME_KERNEL=2.6.18
+
+export DEV_DIR=/app/paydev1
+export DEV_USER=paydev1
+export RELEASE_DIR=$DEV_DIR/release
+
+export SWT_DIR=/app/payswt1
+export SWT_USER=payswt1
+export SWT_SHM_BUF=2661
+export HSM_IP_ADDR=192.168.1.150
+export HSM_PORT=2500
+export SWT_IPC_KEY=42569
+
+export BAT_DIR=/app/paybat1
+export BAT_USER=paybat1
+export BAT_SHM_BUF=2660
+export BAT_IPC_KEY=42568
+
+export COM_DIR=/app/paycom1
+export COM_USER=paycom1
+export COM_IPC_KEY=42567
+
+#Domain IP addr. and port
+export SWT_IP=192.168.1.150
+export BAT_IP=192.168.1.150
+export COM_IP=192.168.1.150
+
+export MAX_SLEEP_SECOND=60
+
+#Other env set
+alias rm='rm -i'
+alias l='ls -l'
+alias la='ls -la'
+alias sqlci='sqlplus $DB_USER/$DB_PASSWORD'
+alias cds='cd $MKHOME/src'
+alias cdh='cd $MKHOME/include'
+alias cdd='cd $MKHOME'
+alias cdm='cd $MKHOME/mak'
+alias cdb='cd $MKHOME/bin'
+alias cdr='cd $MKHOME/run'
+alias cde='cd $MKHOME/etc'
+alias cdsb='cd $MKHOME/sbin'
+alias cdl='cd $HOME/log'
+alias cdt='cd $MKHOME/src/Txn'
+alias cddb='cd $MKHOME/db/TblCrt'
+alias log='cd $MKHOME/log'
+
+alias findc='find . -name "*.c"|xargs grep'
+alias findh='find . -name "*.h"|xargs grep'
+export PS1='$PWD>'
+export PS2='#'
+
+export DATATRANSFER_PROFILE=$MKHOME/etc/DataTransfer.cfg
+
+set -o vi

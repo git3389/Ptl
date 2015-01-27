@@ -1,0 +1,22 @@
+{
+	"IP":" 172.16.80.109",
+	"Port":1727,
+	"PhySrvNum":3000,
+	"LogicSrvNum":3000,
+	"TermNum":4000,
+	"MsgType":[
+		{
+			"MsgId":"EV_PFMINFO_CPU",
+			"Timer":5
+		},
+		{
+			"MsgId":"EV_PFMINFO_MSG",
+			"Timer":5
+		},
+		{
+			"MsgId":"EV_PFMINFO_MEM",
+			"Timer":5
+		}
+	],
+	"TestTime":5
+}

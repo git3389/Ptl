@@ -1,0 +1,33 @@
+{
+	"IP":" 172.16.80.109",
+	"Port":8888,
+	"PhySrvNum":10,
+	"LogicSrvNum":100,
+	"TermNum":100,
+	"MsgType":[
+		{
+			"MsgId":"EV_REG_REQ"
+		},
+		{
+			"MsgId":"EV_SHOULD_CONNSRV_MSG",
+			"Timer":10
+		},
+		{
+			"MsgId":"EV_PFMINFO_CPU",
+			"Timer":2
+		},
+		{
+			"MsgId":"EV_PFMINFO_MSG",
+			"Timer":2
+		},
+		{
+			"MsgId":"EV_PFMINFO_MSG",
+			"Timer":2
+		},
+		{
+			"MsgId":"EV_DEV_ONLINE",
+			"Timer":2
+		}
+	],
+	"TestTime":1
+}

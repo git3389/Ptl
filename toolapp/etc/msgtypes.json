@@ -1,0 +1,44 @@
+{
+    "ComMsg": [
+        {
+            "MsgId": "EV_REG_REQ"
+        },
+        {
+            "MsgId": "EV_LOGOUT_REQ"
+        },
+        {
+            "MsgId": "EV_HEARTBEAT_REQ",
+            "Timer": 30
+        }
+    ],
+    "TermMsg": [
+        {
+            "MsgId": "EV_PFMINFO_MSG",
+            "Timer": 30
+        }
+    ],
+    "PHYMsg": [
+        {
+            "MsgId": "EV_PFMINFO_CPU",
+            "Timer": 30
+        },
+        {
+            "MsgId": "EV_PFMINFO_MEM",
+            "Timer": 30
+        },
+        {
+            "MsgId": "EV_PFMINFO_NETCARD",
+            "Timer": 30
+        },
+        {
+            "MsgId": "EV_PFMINFO_DISK",
+            "Timer": 30
+        }
+    ],
+    "LogicMsg": [
+        {
+            "MsgId": "EV_DEV_ONLINE",
+            "Timer": 30
+        }
+    ]
+}

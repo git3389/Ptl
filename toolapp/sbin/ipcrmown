@@ -1,0 +1,23 @@
+#!/bin/bash
+
+if [ $# == 0 ]
+then
+	echo "usage: ${0##*/} <owner>" && exit 4
+fi
+ipcs -m | grep $1 | awk '{print $2}' > m.tmp
+ipcs -s | grep $1 | awk '{print $2}' > s.tmp
+
+while read i
+do
+	echo "del Shared Memory $i"
+	ipcrm -m $i
+done < m.tmp 
+
+while read i
+do
+	echo "del sem $i"
+	ipcrm -s $i
+done < s.tmp 
+
+rm *.tmp -f
+
